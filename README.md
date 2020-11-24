@@ -21,7 +21,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 
 ## Maintainers
-- [K-Kraken](https://github.com/K-Kraken)
+- [bearlike](https://github.com/bearlike)
 - [mahavisvanathan](https://github.com/mahavisvanathan)
 - [dhirajv2000](https://github.com/dhirajv2000)
 
