@@ -21,13 +21,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 1 - Meet and Greet!**
   - **Problem**
-    - Sundar is an employee at google he comes to office at 9.00hrs and leaves office at 17.00hrs.
-    - One day he got a sudden message from a employee that you have to schedule a metting for 1hr. He, Can choose any time between his working hours. But, Sundar is a busy             employee already had several meetings on that day.
+    - Sundar is an employee at Google. He comes to office at 9.00hrs and leaves office at 17.00hrs.
+    - One day he got a sudden message from a employee to schedule a metting for 1hr. He, Can choose any time between his working hours. But, Sundar is a busy             employee already had several meetings on that day.
     - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
   - **Sample Input/Output**
       ```bash
       > Schedule_Time: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
-        [ ["1100","1200"],["1330","1530"] ]
+      > Sample Output: [ ["1100","1200"],["1330","1530"] ]
       ```
   - **NOTE**
     - All times are calculated in 24hrs format.
