@@ -43,20 +43,28 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - **Resources**
     - [Python Lists](https://www.w3schools.com/python/python_lists.asp)
     - [C++ Vectors](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+    
+### **December 2 - The Convo**
+  - **Problem**
+    - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
+    - The keypad contains digits from 2-9 inclusive. You have to write a program to return all the possible letter combinations that the number could represent.
+     
+     ![Alt text](https://github.com/Tarun200/A-December-of-Algorithms-2020/blob/Temporary/src/assets/keypad.jpg)
+    
+    - **Problem note**
+    - Only 2 character combinations are allowed.
+    - First you should display the character corresponding to the first number and then display the character corresponding to the second number(see sample input and output)
+    
+  
+  - **Sample Input/Output**
+      ```bash
+      > Sample Input: 32
+      > Sample Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
+      ```
+   - **Resources**
+    - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
 
-[200~### **December 2 - The Convo
-- **Problem**
-      - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
-          - The keypad contains digits from 2 - 9 inclusive. You have to write a program to return all the possible letter combinations that the number could represent. 
-	      - A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters and only 2 character combinations are allowed, first display the characters corresponding to the first number entered and then display the characters corresponding to the second number. 
-	          -  ![keypad](/src/assets/keypad.jpg)
-		    - **Sample Input/Output**
-		          ```bash
-			        > ("32")
-				        ["da","db","dc","ea","eb","ec","fa","fb","fc"]
-![[(C:\Users\TARUN\A-December-of-Algorithms-2020\src\assets\DOA DECEMBER 2.jpeg)
-
-
+      
 ## Maintainers
 - [bearlike](https://github.com/bearlike)
 - [mahavisvanathan](https://github.com/mahavisvanathan)
