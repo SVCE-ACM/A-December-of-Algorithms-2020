@@ -15,13 +15,15 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## Index
   - [**December 1 - Meet and Greet!**](#december-1---meet-and-greet)
+  - [**December 2 - The Convo!**](#december-2---the-convo)
+  - [**FAQ**](#faq)
 
 
 ## Algorithms
 
 ### December 1 - Meet and Greet!
 
-  #### Problem
+  #### Problem Statement
   - Sundar is an employee at Google. He comes to office at 9.00hrs and leaves office at 17.00hrs.
   - One day he got a sudden message from a employee to schedule a metting for 1hr. He, Can choose any time between his working hours. But, Sundar is a busy employee already had several meetings on that day.
   - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
@@ -48,11 +50,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
 ### December 2 - The Convo!
 
-  #### Problem
+  #### Problem Statement
   - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
-  - The keypad contains digits from 2-9 inclusive. You have to write a program to return all the possible letter combinations that the number could represent.
+  - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.
   
-   ![Alt text](https://github.com/Tarun200/A-December-of-Algorithms-2020/blob/Temporary/src/assets/keypad.jpg)
+   ![Keypad](https://i.imgur.com/O31uZDd.jpg)
  
   #### Note
   - Only 2 character combinations are allowed.
@@ -64,35 +66,22 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
   ```
   
-  #### Note
-  - All times are calculated in 24hrs format.
-  - The working hour and meeting time is constant
-  - The Input time can be taken in the format of integer or string
-  
   #### Resources
   - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
 
-  
-  
-  
-  
-## Maintainers
-- [bearlike](https://github.com/bearlike)
-- [mahavisvanathan](https://github.com/mahavisvanathan)
-- [dhirajv2000](https://github.com/dhirajv2000)
-- [aravindr22](https://github.com/aravindr22)
-- [Tarun200](https://github.com/Tarun200)
+
+
 
 ## Maintainers
 
 <table>
     <thead>
         <tr>
-            <th>Krishnakanth</th>
-            <th>Mahalakshumi</th>
-            <th>Dhiraj</th>
-            <th>Aravind</th>
-            <th>Tarun</th>
+            <th><a href="https://github.com/bearlike">Krishnakanth</a></th>
+            <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>
+            <th><a href="https://github.com/dhirajv2000">Dhiraj V</a></th>
+            <th><a href="https://github.com/aravindr22">Aravind R</a></th>
+            <th><a href="https://github.com/Tarun200">Tarun</a></th>
         </tr>
     </thead>
     <tbody>
@@ -101,19 +90,19 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339?s=86" alt="f"></a></td>
             <td><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=86" alt="f"></a></td>
             <td><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=86" alt="f"></a></td>
-            <td><a href="https://github.com/Tarun200"><img width="64" src="https://avatars3.githubusercontent.com/u/55352559?s=86" alt="f"></a></td>
+            <td><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=86" alt="f"></a></td>
         </tr>
         <tr>
-            <td><a href="https://github.com/bearlike">@bearlike</a></td>
-            <td><a href="https://github.com/mahavisvanathan">@mahavisvanathan</a></td>
-            <td><a href="https://github.com/dhirajv2000">@dhirajv2000</a></td>
-            <td><a href="https://github.com/aravindr22">@aravindr22</a></td>
-            <td><a href="https://github.com/Tarun200">@Tarun200</a></td>
+            <td align="center"> :hammer::construction: </td>
+            <td align="center"> :hammer::construction: </td>
+            <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
+            <td align="center"> :pencil: </td>
         </tr>
     </tbody>
 </table>
 
-FAQ:
+FAQ
 ======
   #### Who can join the Challenge?
   Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
@@ -125,7 +114,7 @@ FAQ:
   Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus its holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
 
   #### What language should I use to code?
-  Anything! New to C? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
+  Anything! New to GoLang? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
   #### Fork? Pull request? What is all that? I don't know how to use GitHub!
   If you are new to Git or GitHub, check out this [small tutorial from our team](https://github.com/ASS-G/Git-Training-Kit) and [GitHub](https://guides.github.com/activities/hello-world/)
@@ -143,7 +132,7 @@ FAQ:
   #### I forked the repository but some problems were added only after that. How do I access those problems?
   Not to worry! Open your nearest terminal or command prompt and navigate over to your forked repository. Enter these commands:
   ```bash
-  git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms-2019.git
+  git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms-2020.git
   git fetch upstream
   git merge upstream/master
   ```
@@ -154,7 +143,7 @@ FAQ:
   This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
 
   #### I'm facing difficulties with/need help understanding a particular question.
-  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms-2019/issues) on this repository and we'll do our best to help you out.
+  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms-2020/issues) on this repository and we'll do our best to help you out.
 
 ###### [[Back to Top]](#----)
 
