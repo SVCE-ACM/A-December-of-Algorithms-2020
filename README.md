@@ -44,13 +44,44 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   #### Resources
   - [Python Lists](https://www.w3schools.com/python/python_lists.asp)
   - [C++ Vectors](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+  
+  
+### December 2 - The Convo!
 
+  #### Problem
+  - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
+  - The keypad contains digits from 2-9 inclusive. You have to write a program to return all the possible letter combinations that the number could represent.
+  
+   ![Alt text](https://github.com/Tarun200/A-December-of-Algorithms-2020/blob/Temporary/src/assets/keypad.jpg)
+ 
+  #### Note
+  - Only 2 character combinations are allowed.
+  - First you should display the character corresponding to the first number and then display the character corresponding to the second number(see sample input and output)
 
+  #### Sample Input/Output
+  ```bash
+  32
+  Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
+  ```
+  
+  #### Note
+  - All times are calculated in 24hrs format.
+  - The working hour and meeting time is constant
+  - The Input time can be taken in the format of integer or string
+  
+  #### Resources
+  - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
+
+  
+  
+  
+  
 ## Maintainers
 - [bearlike](https://github.com/bearlike)
 - [mahavisvanathan](https://github.com/mahavisvanathan)
 - [dhirajv2000](https://github.com/dhirajv2000)
 - [aravindr22](https://github.com/aravindr22)
+- [Tarun200](https://github.com/Tarun200)
 
 ## Maintainers
 
@@ -61,6 +92,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th>Mahalakshumi</th>
             <th>Dhiraj</th>
             <th>Aravind</th>
+            <th>Tarun</th>
         </tr>
     </thead>
     <tbody>
@@ -69,12 +101,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339?s=86" alt="f"></a></td>
             <td><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=86" alt="f"></a></td>
             <td><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=86" alt="f"></a></td>
+            <td><a href="https://github.com/Tarun200"><img width="64" src="https://avatars3.githubusercontent.com/u/55352559?s=86" alt="f"></a></td>
         </tr>
         <tr>
             <td><a href="https://github.com/bearlike">@bearlike</a></td>
             <td><a href="https://github.com/mahavisvanathan">@mahavisvanathan</a></td>
             <td><a href="https://github.com/dhirajv2000">@dhirajv2000</a></td>
             <td><a href="https://github.com/aravindr22">@aravindr22</a></td>
+            <td><a href="https://github.com/Tarun200">@Tarun200</a></td>
         </tr>
     </tbody>
 </table>
