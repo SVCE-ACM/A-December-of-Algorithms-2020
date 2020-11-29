@@ -19,28 +19,31 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## Algorithms
 
-### **December 1 - Meet and Greet!**
-  - **Problem**
-    - Sundar is an employee at Google. He comes to office at 9.00hrs and leaves office at 17.00hrs.
-    - One day he got a sudden message from a employee to schedule a metting for 1hr. He, Can choose any time between his working hours. But, Sundar is a busy             employee already had several meetings on that day.
-    - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
-  - **Sample Input/Output**
-      ```bash
-      > Schedule_Time: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
-      > Sample Output: [ ["1100","1200"],["1330","1530"] ]
-      ```
-  - **Explanation**
-    - He comes to office by 9 the first meeting starts at 9.30 so he can't assign a meeting.
-    - The first meeting overs at 10.00 and the next meeting starts at 12.00.Now, He has 1hr gap. So, he can assign a meeting inbetween that.
-    - Again he has interval of 2hr between 1330 to 1530 so he can assign a meeting at that time.
+### December 1 - Meet and Greet!
 
-  - **NOTE**
-    - All times are calculated in 24hrs format.
-    - The working hour and meeting time is constant
-    - The Input time can be taken in the format of integer or string
-  - **Resources**
-    - [Python Lists](https://www.w3schools.com/python/python_lists.asp)
-    - [C++ Vectors](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+  #### Problem
+  - Sundar is an employee at Google. He comes to office at 9.00hrs and leaves office at 17.00hrs.
+  - One day he got a sudden message from a employee to schedule a metting for 1hr. He, Can choose any time between his working hours. But, Sundar is a busy employee already had several meetings on that day.
+  - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
+    
+  #### Sample Input/Output
+  ```bash
+  Schedule_Time: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
+  Output: [ ["1100","1200"],["1330","1530"] ]
+  ```
+  #### Explanation
+  - He comes to office by 9 the first meeting starts at 9.30 so he can't assign a meeting.
+  - The first meeting overs at 10.00 and the next meeting starts at 12.00.Now, He has 1hr gap. So, he can assign a meeting inbetween that.
+  - Again he has interval of 2hr between 1330 to 1530 so he can assign a meeting at that time.
+
+  #### Note
+  - All times are calculated in 24hrs format.
+  - The working hour and meeting time is constant
+  - The Input time can be taken in the format of integer or string
+    
+  #### Resources
+  - [Python Lists](https://www.w3schools.com/python/python_lists.asp)
+  - [C++ Vectors](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
 
 
 ## Maintainers
@@ -49,7 +52,32 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [dhirajv2000](https://github.com/dhirajv2000)
 - [aravindr22](https://github.com/aravindr22)
 
+## Maintainers
 
+<table>
+    <thead>
+        <tr>
+            <th>Krishnakanth</th>
+            <th>Mahalakshumi</th>
+            <th>Dhiraj</th>
+            <th>Aravind</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="https://github.com/bearlike"><img width="64" src="https://avatars1.githubusercontent.com/u/39209037?s=86" alt="f"></a></td>
+            <td><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339?s=86" alt="f"></a></td>
+            <td><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=86" alt="f"></a></td>
+            <td><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=86" alt="f"></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/bearlike">@bearlike</a></td>
+            <td><a href="https://github.com/mahavisvanathan">@mahavisvanathan</a></td>
+            <td><a href="https://github.com/dhirajv2000">@dhirajv2000</a></td>
+            <td><a href="https://github.com/aravindr22">@aravindr22</a></td>
+        </tr>
+    </tbody>
+</table>
 
 FAQ:
 ======
