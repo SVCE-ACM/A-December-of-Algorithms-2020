@@ -11,55 +11,59 @@ Welcome to A December of Algorithms (2019). After the overwhelming response from
 ## What Do I Do?
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
-
+----
 
 ## Index
   - [**December 1 - Meet and Greet!**](#december-1---meet-and-greet)
   - [**December 2 - The Convo!**](#december-2---the-convo)
   - [**FAQ**](#faq)
+  - [**Maintainers**](#maintainers)
 
+----
 
 ## Algorithms
 
 ### December 1 - Meet and Greet!
-
+  
   #### Problem Statement
   - Sundar is an employee at Google. He comes to office at 9.00hrs and leaves office at 17.00hrs.
   - One day he got a sudden message from a employee to schedule a metting for 1hr. He, Can choose any time between his working hours. But, Sundar is a busy employee already had several meetings on that day.
   - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
-    
+  
   #### Sample Input/Output
   ```bash
   Schedule_Time: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
   Output: [ ["1100","1200"],["1330","1530"] ]
   ```
+  
   #### Explanation
-  - He comes to office by 9 the first meeting starts at 9.30 so he can't assign a meeting.
-  - The first meeting overs at 10.00 and the next meeting starts at 12.00.Now, He has 1hr gap. So, he can assign a meeting inbetween that.
-  - Again he has interval of 2hr between 1330 to 1530 so he can assign a meeting at that time.
-
+  - He comes to office by `9:00` the first meeting starts at `9:30` so he can't assign a meeting.
+  - The first meeting overs at `10:00` and the next meeting starts at `12:00`. Now, He has 1 hour gap. So, he can assign a meeting in between that.
+  - Again he has interval of 2 hour between `1330` to `1530` so he can assign a meeting at that time.
+  
   #### Note
-  - All times are calculated in 24hrs format.
+  - All times are calculated in 24 hours format.
   - The working hour and meeting time is constant
   - The Input time can be taken in the format of integer or string
-    
+  
   #### Resources
   - [Python Lists](https://www.w3schools.com/python/python_lists.asp)
   - [C++ Vectors](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
   
+  ----
   
 ### December 2 - The Convo!
-
+  
   #### Problem Statement
   - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
   - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.
   
    ![Keypad](https://i.imgur.com/O31uZDd.jpg)
- 
+  
   #### Note
   - Only 2 character combinations are allowed.
-  - First you should display the character corresponding to the first number and then display the character corresponding to the second number(see sample input and output)
-
+  - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
+  
   #### Sample Input/Output
   ```bash
   32
@@ -69,8 +73,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   #### Resources
   - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
 
-
-
+----
 
 ## Maintainers
 
@@ -86,11 +89,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://github.com/bearlike"><img width="64" src="https://avatars1.githubusercontent.com/u/39209037?s=86" alt="f"></a></td>
-            <td><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339?s=86" alt="f"></a></td>
-            <td><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=86" alt="f"></a></td>
-            <td><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=86" alt="f"></a></td>
-            <td><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=86" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/bearlike"><img width="64" src="https://avatars1.githubusercontent.com/u/39209037?s=86" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339?s=86" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=86" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=86" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=86" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
@@ -101,6 +104,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         </tr>
     </tbody>
 </table>
+
+----
 
 FAQ
 ======
