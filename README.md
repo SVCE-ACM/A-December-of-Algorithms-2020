@@ -14,7 +14,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 
 ## Index
-  - [**December 1 - Meet and Greet!**](#december-1---meet-and-greet!)
+  - [**December 1 - Meet and Greet!**](#december-1---meet-and-greet)
 
 
 ## Algorithms
