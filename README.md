@@ -14,7 +14,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ----
 
 ## Index
-  - [**December 1 - The Final Quest**](#december-1---the-final-quest)
+  - [**December 1 - Sherlock's Quest**](#december-1---sherlocks-quest)
   - [**December 2 - The Convo!**](#december-2---the-convo)
   - [**December 3 - Meet and Greet!**](#december-3---meet-and-greet)
   - [**December 4 - Spoiled Or Not**](#december-4---spoiled-or-not)
@@ -26,7 +26,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## Algorithms
 
- ### December 1- The Final Quest
+ ### December 1 - Sherlock's Quest
    #### Problem
    - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has           filled all the rooms except the one he is in with poisonous gas.
    - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is       also a multiple of 3.
