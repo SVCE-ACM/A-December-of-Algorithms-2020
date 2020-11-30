@@ -18,6 +18,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 2 - The Convo!**](#december-2---the-convo)
   - [**December 3 - The Grand Master**](#december-3---the-grand-master)
   - [**December 4 - The Final Quest**](#december-4---the-final-quest)
+  - [**December 5 - Spoiled Or Not**](#december-5---spoiled-or-not)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -91,11 +92,15 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         3
   ```
 
- #### Explanation
+  #### Explanation
   - From the starting position of the Knight (1,1). The Knight can move to either (3,2) or (2,3). We choose (3,2).
   - From (3,2) the Knight can move to (5,1), (1,3), (2,4), (4,4), (5,3), (1,1). We choose (5,3).
   - From (5,3) the Knight moves to (4,5).
   - The Minimum steps required is 3.
+
+  #### Resources
+  - [Graphs in C/CPP/JAVA/PYTHON](https://www.geeksforgeeks.org/graph-and-its-representations/)
+  - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
 ----
 
@@ -123,6 +128,45 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - [Arrays in Python](https://www.geeksforgeeks.org/python-arrays/)
 ----
 
+### **December 5 - Spoiled Or Not**
+
+  #### Problem
+  - You are given with a list of manufacturing dates of each ice cream.
+  - You are given with a list of days for the expiry of each ice cream from the date of manufacute.
+  - On a given date find the number of ice creams spoiled.
+  - You may assume that all the dates are in dd/mm/yyyy format.
+  - If an ice cream expires on the given day then the ice cream is not spoiled.
+  - You may assume that all months have only 30 days.
+
+  #### Sample input and output
+  ```
+    > 3	                // No of ice creams
+    > [10, 01, 2020]    // Mfg date of ice cream 1
+    > [13, 01, 2020]    // Mfg date of ice cream 2
+    > [20, 12, 2019]    // Mfg date of ice cream 3
+    > 20 13 20          //i-th integer is no of days for the i-th ice cream to expire from the date of manufacture. 
+    > [28, 01, 2020] 	// Given date.
+    Output: No of ice creams spoiled: 2
+  ```
+
+  #### Explanation
+  - The expiry dates of each ice cream is:
+  ```
+    - [10, 01, 2020] + 20 days = [30, 01, 2020]	    // Expiry of ice cream 1
+    - [13, 01, 2020] + 13 days = [26, 01, 2020]	    // Expiry of ice cream 2
+    - [20, 12, 2019] + 20 days = [10, 01, 2020]	    // Expiry of ice cream 3
+
+    - On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
+  ```
+  #### Optional Task:
+  - Can you come with a solution which reduces the time complexity to O(n/4).
+
+  #### Resources:
+  - [Python Lists](https://www.geeksforgeeks.org/python-list/)
+  - [Multidimensional Arrays in c/cpp](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)
+  - [Multidimensional Arrays in Java](https://www.programiz.com/java-programming/multidimensional-array)
+
+----
 ## Maintainers
 
 <table>
