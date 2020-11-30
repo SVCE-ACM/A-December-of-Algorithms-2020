@@ -14,11 +14,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ----
 
 ## Index
-  - [**December 1 - Meet and Greet!**](#december-1---meet-and-greet)
+  - [**December 1 - The Final Quest**](#december-1---the-final-quest)
   - [**December 2 - The Convo!**](#december-2---the-convo)
-  - [**December 3 - The Grand Master**](#december-3---the-grand-master)
-  - [**December 4 - The Final Quest**](#december-4---the-final-quest)
-  - [**December 5 - Spoiled Or Not**](#december-5---spoiled-or-not)
+  - [**December 3 - Meet and Greet!**](#december-3---meet-and-greet)
+  - [**December 4 - Spoiled Or Not**](#december-4---spoiled-or-not)
+  - [**December 5 - The Grand Master**](#december-5---the-grand-master)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -26,7 +26,58 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ## Algorithms
 
-### December 1 - Meet and Greet!
+ ### December 1- The Final Quest
+   #### Problem
+   - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has           filled all the rooms except the one he is in with poisonous gas.
+   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is       also a multiple of 3.
+   
+      ![sherlock](/src/assets/sherlock.gif)
+   
+   #### Sample Input/Output
+   ```
+    Room_number: 45
+    Sample_Output: Safe
+    
+    Room_number: 36
+    Sample_Output: Poison! Do no enter
+   ```
+   #### Exaplanation
+   ```
+    45 is a multiple of 3
+    45^2 =2025
+    20+25=45
+   ```
+   - Help Sherlock catch the murderer! The game is a foot!!!
+   
+   #### Resources
+   - [Pow method in Java](https://www.geeksforgeeks.org/math-pow-method-in-java-with-example/)
+   - [Power fucntion in c/c++](https://www.geeksforgeeks.org/power-function-cc/)
+----
+  
+### December 2 - The Convo!
+  
+  #### Problem Statement
+  - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
+  - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.
+  
+    ![Keypad](https://i.imgur.com/O31uZDd.jpg)
+  
+  #### Note
+  - Only 2 character combinations are allowed.
+  - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
+  
+  #### Sample Input/Output
+  ```bash
+  32
+  Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
+  ```
+
+  #### Resources
+  - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
+
+---  
+
+### December 3 - Meet and Greet!
   
   #### Problem Statement
   - Sundar is an employee at Google. He comes to office at 9.00hrs and leaves office at 17.00hrs.
@@ -55,82 +106,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   ----
   
-### December 2 - The Convo!
-  
-  #### Problem Statement
-  - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
-  - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.
-  
-    ![Keypad](https://i.imgur.com/O31uZDd.jpg)
-  
-  #### Note
-  - Only 2 character combinations are allowed.
-  - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
-  
-  #### Sample Input/Output
-  ```bash
-  32
-  Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
-  ```
-
-  #### Resources
-  - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
-
----  
-  
-### December 3 - The Grand Master
-  #### Problem
-  - It was a dark and stormy night where an Oldman and his grandson were playing chess. The Oldman gave his grandson a problem, to check his knowledge and skills in chess.
-  - He stated that, It was a square chessboard of A x B size, the position of Knight (C, D) and position of a target (E, F) is given. 
-  - Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
-
-    ![chess](/src/assets/chess.png)
-  
-  #### Sample Input/Output
-  ```bash
-      > A = 6, B = 6, C = 1, D = 1, E = 4, F = 5 
-        3
-  ```
-
-  #### Explanation
-  - From the starting position of the Knight (1,1). The Knight can move to either (3,2) or (2,3). We choose (3,2).
-  - From (3,2) the Knight can move to (5,1), (1,3), (2,4), (4,4), (5,3), (1,1). We choose (5,3).
-  - From (5,3) the Knight moves to (4,5).
-  - The Minimum steps required is 3.
-
-  #### Resources
-  - [Graphs in C/CPP/JAVA/PYTHON](https://www.geeksforgeeks.org/graph-and-its-representations/)
-  - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
-
-----
-
- ### December 4- The Final Quest
-   #### Problem
-   - It's the final quest of Sherlock Holmes. The murderer who wants Sherlock dead is hiding behind a door on the same floor. To make sure he gets killed, the evil man has           filled all the rooms except the one he is in with poisonous gas.
-   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is       also a multiple of 3.
-   
-      ![sherlock](/src/assets/sherlock.gif)
-   
-   #### Example
-   ```
-    45 is a multiple of 3
-    45^2 =2025
-    20+25=45
-   ```
-   - Help Sherlock catch the murderer! The game is a foot!!!
-   
-   #### Sample Input/Output
-   ```
-    Room_numbers: [1,10,45,55,18]	
-    Sample_Output: 45			
-   ```
-   #### Resources
-   - [Arrays in C/C++](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
-   - [Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
-   - [Arrays in Python](https://www.geeksforgeeks.org/python-arrays/)
-----
-
-### **December 5 - Spoiled Or Not**
+  ### **December 4 - Spoiled Or Not**
 
   #### Problem
   - You are given with a list of manufacturing dates of each ice cream.
@@ -139,7 +115,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - You may assume that all the dates are in dd/mm/yyyy format.
   - If an ice cream expires on the given day then the ice cream is not spoiled.
   - You may assume that all months have only 30 days.
-
+     
+     ![sherlock](/src/assets/icecream.gif)
+     
   #### Sample input and output
   ```
     > 3	                // No of ice creams
@@ -167,6 +145,33 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [Python Lists](https://www.geeksforgeeks.org/python-list/)
   - [Multidimensional Arrays in c/cpp](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)
   - [Multidimensional Arrays in Java](https://www.programiz.com/java-programming/multidimensional-array)
+  
+  ----
+  
+  ### December 5 - The Grand Master
+  #### Problem
+  - It was a dark and stormy night where an Oldman and his grandson were playing chess. The Oldman gave his grandson a problem, to check his knowledge and skills in chess.
+  - He stated that, It was a square chessboard of A x B size, the position of Knight (C, D) and position of a target (E, F) is given. 
+  - Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
+
+    ![chess](/src/assets/chess.png)
+  
+  #### Sample Input/Output
+  ```bash
+      > A = 6, B = 6, C = 1, D = 1, E = 4, F = 5 
+        3
+  ```
+
+  #### Explanation
+  - From the starting position of the Knight (1,1). The Knight can move to either (3,2) or (2,3). We choose (3,2).
+  - From (3,2) the Knight can move to (5,1), (1,3), (2,4), (4,4), (5,3), (1,1). We choose (5,3).
+  - From (5,3) the Knight moves to (4,5).
+  - The Minimum steps required is 3.
+
+  #### Resources
+  - [Graphs in C/CPP/JAVA/PYTHON](https://www.geeksforgeeks.org/graph-and-its-representations/)
+  - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
 
 ----
 ## Maintainers
