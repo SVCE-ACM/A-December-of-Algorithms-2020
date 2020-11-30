@@ -116,9 +116,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         Sample_Output: 45			
       ```
    #### Resources
-    - [Arrays in C/C++](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
-    - [Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
-    - [Arrays in Python](https://www.geeksforgeeks.org/python-arrays/)
+   - [Arrays in C/C++](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
+   - [Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
+   - [Arrays in Python](https://www.geeksforgeeks.org/python-arrays/)
 ----
 
 ## Maintainers
