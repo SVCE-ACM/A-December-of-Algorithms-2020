@@ -2,7 +2,7 @@
 <h1>
     <img alt="header" src="/src/assets/Header.png" width="800"></img>
 </h1>
-Welcome to A December of Algorithms (2019). After the overwhelming response from last year, we present you with a new collection of algorithms to implement this December. Each Day, Each Algorithm ;) Finish them all to get prizes and certificate :)
+Welcome to A December of Algorithms (2020). After overwhelming responses from previous years, we present you with a new collection of algorithms to implement this December. Each Day, Each Algorithm ;) Finish them all to get a certificate :)
 
 **Send a pull request only after completing all 31 algorithms.**
 
