@@ -11,8 +11,6 @@ Welcome to A December of Algorithms (2020). After overwhelming responses from pr
 ## What Do I Do?
 We have a small collection of algorithms, one for every day of the month. Scroll down to take a look at them. All you need to do is fork this repository, implement all 31  algorithms and send a pull request over to us. Check out our FAQ for more information.
 
-----
-
 ## Index
   - [**December 1 - Sherlock's Quest**](#december-1---sherlocks-quest)
   - [**December 2 - The Convo!**](#december-2---the-convo)
@@ -31,7 +29,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    #### Problem Statement
    - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has filled all the rooms except the one he is in with poisonous gas.
    - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3.
-   
       <img src="https://i.imgur.com/pIc2I8j.gif" height=250/>
    
    #### Sample Input/Output
@@ -56,7 +53,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   #### Problem Statement
   - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
   - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.
-  
     ![Keypad](https://i.imgur.com/O31uZDd.jpg)
   
   #### Note
