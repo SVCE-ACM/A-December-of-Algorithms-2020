@@ -108,7 +108,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      
   <img src="https://media.giphy.com/media/uUs14eCA2SBgs/giphy-downsized.gif" height=250/>
   
-  #### Sample input and output
+  #### Sample Input/Output
   ```
    Number of Ice Creams : 3	                
    Manufacture Dates : [10, 01, 2020],[13, 01, 2020],[20, 12, 2019]    
@@ -145,7 +145,7 @@ On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
   
   ![chess](/src/assets/chess.png)
   
-#### Sample Input and Output
+#### Sample Input/Output
 ```
 Dimension of Board : 6 6
 Position of Knight : 1 1
