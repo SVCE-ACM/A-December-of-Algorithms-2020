@@ -159,7 +159,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
   ```
   #### Optional Task:
-  - Can you come with a solution which reduces the time complexity to O(n/4).
+  - Try completing the problem in time complexity O(n/4).
 
   #### Resources:
   - [Python Lists](https://www.geeksforgeeks.org/python-list/)
