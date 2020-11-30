@@ -113,7 +113,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - #### Sample Input/Output
       ```bash
       > Room_numbers: [1,10,45,55,18]	
-        Sample_Output: 45			//output the room number
+        Sample_Output: 45			
       ```
   - #### Resources
     - [Arrays in C/C++](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
