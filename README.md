@@ -132,6 +132,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/aravindr22">Aravind R</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
+            <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
         </tr>
     </thead>
     <tbody>
@@ -148,6 +149,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
