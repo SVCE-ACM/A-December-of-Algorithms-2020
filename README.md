@@ -31,7 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     <img src="https://i.imgur.com/pIc2I8j.gif" height=250/>
    
    #### Sample Input/Output
-   ```
+   ```c
     Sample Input: 45
     Sample Output: Safe
     
@@ -39,7 +39,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     Sample Output: Poison! Do no enter
    ```
    #### Explaination
-   ```
+   ```c
     45 is a multiple of 3
     45^2 = 2025
     20 + 25 = 45
@@ -59,7 +59,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
   
   #### Sample Input/Output
-  ```
+  ```c
   Sample Input: 32
   Sample Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
   ```
@@ -77,7 +77,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
   
   #### Sample Input/Output
-  ```
+  ```c
   Sample Input: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
   Sample Output: [ ["1100","1200"],["1330","1530"] ]
   ```
