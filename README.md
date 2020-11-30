@@ -134,7 +134,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ```
 
   #### Explanation
-  - The expiry dates of each ice cream is:
   ```c
     Expiry Date of Ice cream 1 = [10, 01, 2020] + 20 days = [30, 01, 2020]	    
     Expiry Date of Ice cream 2 = [13, 01, 2020] + 13 days = [26, 01, 2020]	    
@@ -155,11 +154,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ### December 5 - The Grand Master
 
   #### Problem
-  - uhggkug
   - It was a dark and stormy night where an Oldman and his grandson were playing chess. The Oldman gave his grandson a problem, to check his knowledge and skills in chess.
   - He stated that, It was a square chessboard of A x B size, the position of Knight (C, D) and position of a target (E, F) is given.
   - Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
-
+  
   ![chess](/src/assets/chess.png)
   
   #### Input and Output:
