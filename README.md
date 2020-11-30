@@ -32,11 +32,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    
    #### Sample Input/Output
    ```c
-    Sample Input: 45
-    Sample Output: Safe
+    Room: 45
+    Status: Safe
     
-    Sample Input: 36
-    Sample Output: Poison! Do no enter
+    Room: 36
+    Status: Not Safe
    ```
    #### Explaination
    ```c
@@ -108,23 +108,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
      
   <img src="https://media.giphy.com/media/uUs14eCA2SBgs/giphy-downsized.gif" height=250/>
   
-  #### Input and Output
-  - The first line contains the Number of Ice creams `n`
-  - The next `n` lines contain the Manufacturing date of the `n` Ice creams.
-  - The next line contains `n` values where each value indicates the number of days for the corresponding Ice cream to expire from the Manufacturing date
-  - The last line contains the test date. 
-  
   #### Sample input and output
-  ```c
-  Sample Input:
-    3	                
-    [10, 01, 2020]    
-    [13, 01, 2020]    
-    [20, 12, 2019]    
-    20 13 20          
-    [28, 01, 2020] 	
-  Sample Output: 
-    No of ice creams spoiled: 2
+  ```
+   Number of Ice Creams : 3	                
+   Manufacture Dates : [10, 01, 2020],[13, 01, 2020],[20, 12, 2019]    
+   Best Befor days : 20 13 20          
+   Given Date : [28, 01, 2020] 	
+   
+   No of ice creams spoiled: 2
   ```
 
 #### Explanation
@@ -147,23 +138,20 @@ On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
   
   ### December 5 - The Grand Master
 
-  #### Problem
+  #### Problem Statement
   - It was a dark and stormy night where an Oldman and his grandson were playing chess. The Oldman gave his grandson a problem, to check his knowledge and skills in chess.
   - He stated that, It was a square chessboard of A x B size, the position of Knight (C, D) and position of a target (E, F) is given.
   - Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
   
   ![chess](/src/assets/chess.png)
   
-#### Input and Output:
-- The first two values indicate `A`, `B` respectively
-- The next two values indicate `C`, `D` respectively
-- The last two values indicate `E`, `F` respectively
-- All the values are separated by spaces
-  
 #### Sample Input and Output
 ```
-Sample Input: 6 6 1 1 4 5 
-Sample Output:  3
+Dimension of Board : 6 6
+Position of Knight : 1 1
+Target Position :  4 5 
+
+Minimum Steps : 3
 ```
 
   #### Explanation
