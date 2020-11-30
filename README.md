@@ -28,27 +28,25 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
  ### December 1 - Sherlock's Quest
    #### Problem
-   - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has           filled all the rooms except the one he is in with poisonous gas.
-   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is       also a multiple of 3.
+   - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has filled all the rooms except the one he is in with poisonous gas.
+   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3.
    
       ![sherlock](/src/assets/sherlock.gif)
    
    #### Sample Input/Output
-   ```
-    Room_number: 45
-    Sample_Output: Safe
+   ```c
+    Sample Input: 45
+    Sample Output: Safe
     
-    Room_number: 36
-    Sample_Output: Poison! Do no enter
+    Sample Input: 36
+    Sample Output: Poison! Do no enter
    ```
    #### Exaplanation
-   ```
+   ```c
     45 is a multiple of 3
     45^2 =2025
     20+25=45
-   ```
-   - Help Sherlock catch the murderer! The game is a foot!!!
-   
+   ```   
    #### Resources
    - [Pow method in Java](https://www.geeksforgeeks.org/math-pow-method-in-java-with-example/)
    - [Power fucntion in c/c++](https://www.geeksforgeeks.org/power-function-cc/)
@@ -67,9 +65,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
   
   #### Sample Input/Output
-  ```bash
-  32
-  Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
+  ```c
+  Sample Input: 32
+  Sample Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
   ```
 
   #### Resources
@@ -80,25 +78,24 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ### December 3 - Meet and Greet!
   
   #### Problem Statement
-  - Sundar is an employee at Google. He comes to office at 9.00hrs and leaves office at 17.00hrs.
+  - Sundar is an employee at Google. He comes to office at `9:00` and leaves office at `17:00`.
   - One day he got a sudden message from a employee to schedule a metting for 1hr. He, Can choose any time between his working hours. But, Sundar is a busy employee already had several meetings on that day.
   - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
   
   #### Sample Input/Output
-  ```bash
-  Schedule_Time: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
-  Output: [ ["1100","1200"],["1330","1530"] ]
+  ```c
+  Sample Input: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
+  Sample Output: [ ["1100","1200"],["1330","1530"] ]
   ```
   
   #### Explanation
   - He comes to office by `9:00` the first meeting starts at `9:30` so he can't assign a meeting.
   - The first meeting overs at `10:00` and the next meeting starts at `12:00`. Now, He has 1 hour gap. So, he can assign a meeting in between that.
-  - Again he has interval of 2 hour between `1330` to `1530` so he can assign a meeting at that time.
+  - Again he has interval of 2 hour between `13:30` to `15:30` so he can assign a meeting at that time.
   
   #### Note
   - All times are calculated in 24 hours format.
   - The working hour and meeting time is constant
-  - The Input time can be taken in the format of integer or string
   
   #### Resources
   - [Python Lists](https://www.w3schools.com/python/python_lists.asp)
@@ -109,34 +106,41 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ### **December 4 - Spoiled Or Not**
 
   #### Problem
-  - You are given with a list of manufacturing dates of each ice cream.
-  - You are given with a list of days for the expiry of each ice cream from the date of manufacute.
+  - You are given with a list of manufacturing dates of each ice cream and also a list of days for the expiry of each ice cream from the date of manufacturing.
   - On a given date find the number of ice creams spoiled.
   - You may assume that all the dates are in dd/mm/yyyy format.
   - If an ice cream expires on the given day then the ice cream is not spoiled.
   - You may assume that all months have only 30 days.
      
-     ![sherlock](/src/assets/icecream.gif)
-     
+  ![icecream](/src/assets/icecream.gif)
+  
+  #### Input and Output
+  - The first line contains the Number of Ice creams `n`
+  - The next `n` lines contain the Manufacturing date of the `n` Ice creams.
+  - The next line contains `n` values where each value indicates the number of days for the corresponding Ice cream to expire from the Manufacturing date
+  - The last line contains the test date. 
+  
   #### Sample input and output
-  ```
-    > 3	                // No of ice creams
-    > [10, 01, 2020]    // Mfg date of ice cream 1
-    > [13, 01, 2020]    // Mfg date of ice cream 2
-    > [20, 12, 2019]    // Mfg date of ice cream 3
-    > 20 13 20          //i-th integer is no of days for the i-th ice cream to expire from the date of manufacture. 
-    > [28, 01, 2020] 	// Given date.
-    Output: No of ice creams spoiled: 2
+  ```c
+  Sample Input:
+    3	                
+    [10, 01, 2020]    
+    [13, 01, 2020]    
+    [20, 12, 2019]    
+    20 13 20          
+    [28, 01, 2020] 	
+  Sample Output: 
+    No of ice creams spoiled: 2
   ```
 
   #### Explanation
   - The expiry dates of each ice cream is:
-  ```
-    - [10, 01, 2020] + 20 days = [30, 01, 2020]	    // Expiry of ice cream 1
-    - [13, 01, 2020] + 13 days = [26, 01, 2020]	    // Expiry of ice cream 2
-    - [20, 12, 2019] + 20 days = [10, 01, 2020]	    // Expiry of ice cream 3
+  ```c
+    Expiry Date of Ice cream 1 = [10, 01, 2020] + 20 days = [30, 01, 2020]	    
+    Expiry Date of Ice cream 2 = [13, 01, 2020] + 13 days = [26, 01, 2020]	    
+    Expiry Date of Ice cream 3 = [20, 12, 2019] + 20 days = [10, 01, 2020]	    
 
-    - On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
+    On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
   ```
   #### Optional Task:
   - Try completing the problem in time complexity O(n/4).
@@ -149,17 +153,25 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   ----
   
   ### December 5 - The Grand Master
+
   #### Problem
+  - uhggkug
   - It was a dark and stormy night where an Oldman and his grandson were playing chess. The Oldman gave his grandson a problem, to check his knowledge and skills in chess.
-  - He stated that, It was a square chessboard of A x B size, the position of Knight (C, D) and position of a target (E, F) is given. 
+  - He stated that, It was a square chessboard of A x B size, the position of Knight (C, D) and position of a target (E, F) is given.
   - Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
 
-    ![chess](/src/assets/chess.png)
+  ![chess](/src/assets/chess.png)
   
-  #### Sample Input/Output
-  ```bash
-      > A = 6, B = 6, C = 1, D = 1, E = 4, F = 5 
-        3
+  #### Input and Output:
+  - The first two values indicate `A`, `B` respectively
+  - The next two values indicate `C`, `D` respectively
+  - The last two values indicate `E`, `F` respectively
+  - All the values are separated by spaces
+  
+  #### Sample Input and Output
+  ```c
+      Sample Input: 6 6 1 1 4 5 
+      Sample Output:  3
   ```
 
   #### Explanation
@@ -169,6 +181,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - The Minimum steps required is 3.
 
   #### Resources
+  - [How does a knight move in a chessboard?](http://www.chesscorner.com/tutorial/basic/knight/knight.htm)
   - [Graphs in C/CPP/JAVA/PYTHON](https://www.geeksforgeeks.org/graph-and-its-representations/)
   - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
