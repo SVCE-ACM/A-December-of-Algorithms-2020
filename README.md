@@ -109,6 +109,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - It's the final quest of Sherlock Holmes. The murderer who wants Sherlock dead is hiding behind a door on the same floor. To make sure he gets killed, the evil man has           filled all the rooms except the one he is in with poisonous gas.
    - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is       also a multiple of 3.
    
+      ![sherlock](/src/assets/sherlock.gif)
+   
    #### Example
    ```
     45 is a multiple of 3
