@@ -20,7 +20,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
-----
 
 ## Algorithms
 
