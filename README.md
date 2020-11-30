@@ -28,8 +28,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  
    #### Problem Statement
    - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has filled all the rooms except the one he is in with poisonous gas.
-   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3.
-      <img src="https://i.imgur.com/pIc2I8j.gif" height=250/>
+   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3.  
+    <img src="https://i.imgur.com/pIc2I8j.gif" height=250/>
    
    #### Sample Input/Output
    ```
@@ -52,7 +52,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   #### Problem Statement
   - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
-  - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.
+  - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.  
     ![Keypad](https://i.imgur.com/O31uZDd.jpg)
   
   #### Note
