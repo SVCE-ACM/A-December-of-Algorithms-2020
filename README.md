@@ -91,11 +91,15 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         3
   ```
 
- #### Explanation
+  #### Explanation
   - From the starting position of the Knight (1,1). The Knight can move to either (3,2) or (2,3). We choose (3,2).
   - From (3,2) the Knight can move to (5,1), (1,3), (2,4), (4,4), (5,3), (1,1). We choose (5,3).
   - From (5,3) the Knight moves to (4,5).
   - The Minimum steps required is 3.
+
+  #### Resources
+  - [Graphs in C/CPP/JAVA/PYTHON](https://www.geeksforgeeks.org/graph-and-its-representations/)
+  - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
 ----
 
