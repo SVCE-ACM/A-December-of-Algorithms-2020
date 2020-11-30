@@ -31,7 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
    - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has filled all the rooms except the one he is in with poisonous gas.
    - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3.
    
-      ![sherlock](/src/assets/sherlock.gif)
+      <img src="https://media.giphy.com/media/3o7TKVSE5isogWqnwk/giphy-downsized.gif" height=250/>
    
    #### Sample Input/Output
    ```c
@@ -112,7 +112,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - If an ice cream expires on the given day then the ice cream is not spoiled.
   - You may assume that all months have only 30 days.
      
-  ![icecream](/src/assets/icecream.gif)
+  <img src="https://media.giphy.com/media/uUs14eCA2SBgs/giphy-downsized.gif" height=250/>
   
   #### Input and Output
   - The first line contains the Number of Ice creams `n`
