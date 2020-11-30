@@ -16,6 +16,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## Index
   - [**December 1 - Meet and Greet!**](#december-1---meet-and-greet)
   - [**December 2 - The Convo!**](#december-2---the-convo)
+  - [**December 3 - THE GRAND MASTER**](#december-3---the-grand-master)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -58,7 +59,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
   - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.
   
-   ![Keypad](https://i.imgur.com/O31uZDd.jpg)
+    ![Keypad](https://i.imgur.com/O31uZDd.jpg)
   
   #### Note
   - Only 2 character combinations are allowed.
@@ -69,9 +70,31 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   32
   Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
   ```
-  
+
   #### Resources
   - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
+
+---  
+  
+### **December 3 - THE GRAND MASTER**
+  #### Problem
+  - It was a dark and stormy night where an Oldman and his grandson were playing chess. The Oldman gave his grandson a problem, to check his knowledge and skills in chess.
+  - He stated that, It was a square chessboard of A x B size, the position of Knight (C, D) and position of a target (E, F) is given. 
+  - Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
+
+    ![chess](/src/assets/chess.png)
+  
+  #### Sample Input/Output
+      ```bash
+      > A = 6, B = 6, C = 1, D = 1, E = 4, F = 5 
+        3
+      ```
+
+ #### Explanation
+  - From the starting position of the Knight (1,1). The Knight can move to either (3,2) or (2,3). We choose (3,2).
+  - From (3,2) the Knight can move to (5,1), (1,3), (2,4), (4,4), (5,3), (1,1). We choose (5,3).
+  - From (5,3) the Knight moves to (4,5).
+  - The Minimum steps required is 3.
 
 ----
 
@@ -85,6 +108,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/dhirajv2000">Dhiraj V</a></th>
             <th><a href="https://github.com/aravindr22">Aravind R</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
+            <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
         </tr>
     </thead>
     <tbody>
@@ -94,11 +118,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=86" alt="f"></a></td>
             <td align="center"><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=86" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=86" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=460&u=dc835e2281a9265edf2b48059f1c8151be89a1b1&v=4" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
         </tr>
