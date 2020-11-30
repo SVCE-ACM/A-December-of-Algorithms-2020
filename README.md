@@ -17,6 +17,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 1 - Meet and Greet!**](#december-1---meet-and-greet)
   - [**December 2 - The Convo!**](#december-2---the-convo)
   - [**December 3 - THE GRAND MASTER**](#december-3---the-grand-master)
+  - [**December 4 - The Final Quest**](#december-4---the-final-quest)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -98,6 +99,28 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ----
 
+ ### **December 4- The Final Quest**
+  - #### Problem
+    - It's the final quest of Sherlock Holmes. The murderer who wants Sherlock dead is hiding behind a door on the same floor. To make sure he gets killed, the evil man has           filled all the rooms except the one he is in with poisonous gas.
+    - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is       also a multiple of 3.
+     - #### Example
+      ```
+      45 is a multiple of 3
+      45^2 =2025
+      20+25=45
+      ```
+      - Help Sherlock catch the murderer! The game is a foot!!!
+  - #### Sample Input/Output
+      ```bash
+      > Room_numbers: [1,10,45,55,18]	
+        Sample_Output: 45			
+      ```
+  - #### Resources
+    - [Arrays in C/C++](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
+    - [Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
+    - [Arrays in Python](https://www.geeksforgeeks.org/python-arrays/)
+----
+
 ## Maintainers
 
 <table>
@@ -109,6 +132,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <th><a href="https://github.com/aravindr22">Aravind R</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
+            <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
         </tr>
     </thead>
     <tbody>
@@ -119,11 +143,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
             <td align="center"><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=86" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=86" alt="f"></a></td>
             <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=460&u=dc835e2281a9265edf2b48059f1c8151be89a1b1&v=4" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=460&v=4" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
