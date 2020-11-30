@@ -86,10 +86,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     ![chess](/src/assets/chess.png)
   
   #### Sample Input/Output
-      ```bash
+  ```bash
       > A = 6, B = 6, C = 1, D = 1, E = 4, F = 5 
         3
-      ```
+  ```
 
  #### Explanation
   - From the starting position of the Knight (1,1). The Knight can move to either (3,2) or (2,3). We choose (3,2).
