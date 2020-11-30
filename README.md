@@ -27,29 +27,28 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ## Algorithms
 
  ### December 1 - Sherlock's Quest
-   #### Problem
+ 
+   #### Problem Statement
    - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has filled all the rooms except the one he is in with poisonous gas.
    - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3.
    
-      <img src="https://media.giphy.com/media/3o7TKVSE5isogWqnwk/giphy-downsized.gif" height=250/>
+      <img src="https://i.imgur.com/pIc2I8j.gif" height=250/>
    
    #### Sample Input/Output
-   ```c
+   ```
     Sample Input: 45
     Sample Output: Safe
     
     Sample Input: 36
     Sample Output: Poison! Do no enter
    ```
-   #### Exaplanation
-   ```c
+   #### Explaination
+   ```
     45 is a multiple of 3
-    45^2 =2025
-    20+25=45
+    45^2 = 2025
+    20 + 25 = 45
    ```   
-   #### Resources
-   - [Pow method in Java](https://www.geeksforgeeks.org/math-pow-method-in-java-with-example/)
-   - [Power fucntion in c/c++](https://www.geeksforgeeks.org/power-function-cc/)
+   
 ----
   
 ### December 2 - The Convo!
@@ -65,7 +64,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
   
   #### Sample Input/Output
-  ```c
+  ```
   Sample Input: 32
   Sample Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
   ```
@@ -83,7 +82,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
   
   #### Sample Input/Output
-  ```c
+  ```
   Sample Input: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
   Sample Output: [ ["1100","1200"],["1330","1530"] ]
   ```
@@ -103,12 +102,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   ----
   
-  ### **December 4 - Spoiled Or Not**
+  ### December 4 - Spoiled Or Not
 
   #### Problem
   - You are given with a list of manufacturing dates of each ice cream and also a list of days for the expiry of each ice cream from the date of manufacturing.
   - On a given date find the number of ice creams spoiled.
-  - You may assume that all the dates are in dd/mm/yyyy format.
+  - You may assume that all the dates are in `DD/MM/YYYY` format.
   - If an ice cream expires on the given day then the ice cream is not spoiled.
   - You may assume that all months have only 30 days.
      
@@ -133,14 +132,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     No of ice creams spoiled: 2
   ```
 
-  #### Explanation
-  ```c
-    Expiry Date of Ice cream 1 = [10, 01, 2020] + 20 days = [30, 01, 2020]	    
-    Expiry Date of Ice cream 2 = [13, 01, 2020] + 13 days = [26, 01, 2020]	    
-    Expiry Date of Ice cream 3 = [20, 12, 2019] + 20 days = [10, 01, 2020]	    
+#### Explanation
+```c
+Expiry Date of Ice cream 1 = [10, 01, 2020] + 20 days = [30, 01, 2020]	    
+Expiry Date of Ice cream 2 = [13, 01, 2020] + 13 days = [26, 01, 2020]	    
+Expiry Date of Ice cream 3 = [20, 12, 2019] + 20 days = [10, 01, 2020]	    
 
-    On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
-  ```
+On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
+```
   #### Optional Task:
   - Try completing the problem in time complexity O(n/4).
 
@@ -160,27 +159,27 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   ![chess](/src/assets/chess.png)
   
-  #### Input and Output:
-  - The first two values indicate `A`, `B` respectively
-  - The next two values indicate `C`, `D` respectively
-  - The last two values indicate `E`, `F` respectively
-  - All the values are separated by spaces
+#### Input and Output:
+- The first two values indicate `A`, `B` respectively
+- The next two values indicate `C`, `D` respectively
+- The last two values indicate `E`, `F` respectively
+- All the values are separated by spaces
   
-  #### Sample Input and Output
-  ```c
-      Sample Input: 6 6 1 1 4 5 
-      Sample Output:  3
-  ```
+#### Sample Input and Output
+```
+Sample Input: 6 6 1 1 4 5 
+Sample Output:  3
+```
 
   #### Explanation
-  - From the starting position of the Knight (1,1). The Knight can move to either (3,2) or (2,3). We choose (3,2).
-  - From (3,2) the Knight can move to (5,1), (1,3), (2,4), (4,4), (5,3), (1,1). We choose (5,3).
-  - From (5,3) the Knight moves to (4,5).
-  - The Minimum steps required is 3.
+  - From the starting position of the Knight `(1,1)`. The Knight can move to either `(3,2)` or `(2,3)`. We choose `(3,2)`.
+  - From `(3,2)` the Knight can move to `(5,1)`, `(1,3)`, `(2,4)`, `(4,4)`, `(5,3)`, `(1,1)`. We choose `(5,3)`.
+  - From `(5,3)` the Knight moves to `(4,5)`.
+  - The Minimum steps required is `3`.
 
   #### Resources
-  - [How does a knight move in a chessboard?](http://www.chesscorner.com/tutorial/basic/knight/knight.htm)
-  - [Graphs in C/CPP/JAVA/PYTHON](https://www.geeksforgeeks.org/graph-and-its-representations/)
+  - [How does a knight move in a Chess Board?](http://www.chesscorner.com/tutorial/basic/knight/knight.htm)
+  - [Graphs in C/CPP/Java/Python](https://www.geeksforgeeks.org/graph-and-its-representations/)
   - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
 
@@ -225,46 +224,47 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 FAQ
 ======
-  #### Who can join the Challenge?
-  Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
 
-  #### When should I submit the pull request?
-  You don't need to submit it everyday. Just submit it once you're done with all 31 algorithms.
+#### Who can join the Challenge?
+Anyone who is passionate about coding and can dedicate a little time a day for the challenge for the next 31 days.
 
-  #### What if I'm not able to code every day?
-  Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus its holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
+#### When should I submit the pull request?
+You don't need to submit it everyday. Just submit it once you're done with all 31 algorithms.
 
-  #### What language should I use to code?
-  Anything! New to GoLang? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
+#### What if I'm not able to code every day?
+Not a problem. While coding every day is nice, we understand that other commitments might interfere with it. Plus its holiday season. So you don't have to solve one problem every day. Go at your own pace. One per day or 7 a week or even all 30 in a day.
 
-  #### Fork? Pull request? What is all that? I don't know how to use GitHub!
-  If you are new to Git or GitHub, check out this [small tutorial from our team](https://github.com/ASS-G/Git-Training-Kit) and [GitHub](https://guides.github.com/activities/hello-world/)
+#### What language should I use to code?
+Anything! New to GoLang? Best way to practice it. Wanna find out what all this hype about Python is? Use it! Any and all languages are welcomed. Maybe you could try using a different language for every problem as a mini-challenge?
 
-  #### Where are the rest of the problems?
-  Our code ninjas are hard at work preparing the rest of the problems. Don't worry, they'll be up soon.
+#### Fork? Pull request? What is all that? I don't know how to use GitHub!
+If you are new to Git or GitHub, check out this [small tutorial from our team](https://github.com/ASS-G/Git-Training-Kit) and [GitHub](https://guides.github.com/activities/hello-world/)
 
-  #### How should I complete these programs?
-  We have a folder for each day of the month. Simply complete your code and move the file into that folder. Be sure to rename your file to the following format: `language_username` or `language_username_problemname`
-  Some examples:
-  `python_exampleUser.py`
-  `c_exampleUser.c`
-  **Please do not modify any existing files in the repository.**
+#### Where are the rest of the problems?
+Our code ninjas are hard at work preparing the rest of the problems. Don't worry, they'll be up soon.
 
-  #### I forked the repository but some problems were added only after that. How do I access those problems?
-  Not to worry! Open your nearest terminal or command prompt and navigate over to your forked repository. Enter these commands:
-  ```bash
-  git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms-2020.git
-  git fetch upstream
-  git merge upstream/master
-  ```
-  If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
-  Note that if you've already added the upstream repository, you don't need to re-add it in the future while fetching the newer questions.
+#### How should I complete these programs?
+We have a folder for each day of the month. Simply complete your code and move the file into that folder. Be sure to rename your file to the following format: `language_username` or `language_username_problemname`
+Some examples:
+`python3_exampleUser.py`
+`c_exampleUser.c`
+**Please do not modify any existing files in the repository.**
 
-  #### I received a merge error. What do I do?
-  This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
+#### I forked the repository but some problems were added only after that. How do I access those problems?
+Not to worry! Open your nearest terminal or command prompt and navigate over to your forked repository. Enter these commands:
+```bash
+git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms-2020.git
+git fetch upstream
+git merge upstream/master
+```
+If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
+Note that if you've already added the upstream repository, you don't need to re-add it in the future while fetching the newer questions.
 
-  #### I'm facing difficulties with/need help understanding a particular question.
-  Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms-2020/issues) on this repository and we'll do our best to help you out.
+#### I received a merge error. What do I do?
+This shouldn't happen unless you modify an existing file in the repository. There's a lot of potential troubleshooting that might be needed, but the simplest thing to do is to make a copy of your code outside the repository and then clone it once again. Now repeat the steps from the answer above. Merge it and then add your code. Now proceed as usual. :)
+
+#### I'm facing difficulties with/need help understanding a particular question.
+Open up an [issue](https://github.com/SVCE-ACM/A-December-of-Algorithms-2020/issues) on this repository and we'll do our best to help you out.
 
 ###### [[Back to Top]](#----)
 
