@@ -31,15 +31,16 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     <img src="https://i.imgur.com/pIc2I8j.gif" height=250/>
    
    #### Sample Input/Output
-   ```c
+   ```
     Room: 45
     Status: Safe
-    
+   ```
+   ```
     Room: 36
     Status: Not Safe
    ```
    #### Explaination
-   ```c
+   ```
     45 is a multiple of 3
     45^2 = 2025
     20 + 25 = 45
@@ -59,9 +60,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - First you should display the character corresponding to the first number and then display the character corresponding to the second number.
   
   #### Sample Input/Output
-  ```c
-  Sample Input: 32
-  Sample Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
+  ```
+  Input: 32
+  Output: ["da","db","dc","ea","eb","ec","fa","fb","fc"]
   ```
 
   #### Resources
@@ -73,13 +74,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   #### Problem Statement
   - Sundar is an employee at Google. He comes to office at `9:00` and leaves office at `17:00`.
-  - One day he got a sudden message from a employee to schedule a metting for 1hr. He, Can choose any time between his working hours. But, Sundar is a busy employee already had several meetings on that day.
-  - Develop an algorithm that finds an interval time which is greater than meeting time (i.e) 1hr. So, sundar can fix his meeting accordingly.
+  - One day he got a sudden message from a employee to schedule a metting for 1 hour. He, Can choose any time between his working hours. But, Sundar is a busy employee already had several meetings on that day.
+  - Develop an algorithm to finds an interval time which is greater than meeting time (i.e) 1 hour. So, Sundar can attend his meeting accordingly.
   
   #### Sample Input/Output
-  ```c
-  Sample Input: [ ["0930", "1100"],["1200","1330"],["1530","1630"] ]
-  Sample Output: [ ["1100","1200"],["1330","1530"] ]
+  ```
+  Input: ["0930", "1100"],["1200","1330"],["1530","1630"]
+  Output: ["1100","1200"],["1330","1530"]
   ```
   
   #### Explanation
@@ -101,10 +102,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
   #### Problem
   - You are given with a list of manufacturing dates of each ice cream and also a list of days for the expiry of each ice cream from the date of manufacturing.
-  - On a given date find the number of ice creams spoiled.
-  - You may assume that all the dates are in `DD/MM/YYYY` format.
-  - If an ice cream expires on the given day then the ice cream is not spoiled.
-  - You may assume that all months have only 30 days.
+  - On a given date find the number of ice creams spoiled. You may assume that all the dates are in `DD/MM/YYYY` format.
+  - If an Ice Cream expires on the given day then the ice cream is not spoiled. You may assume that all months have only `30` days.
      
   <img src="https://media.giphy.com/media/uUs14eCA2SBgs/giphy-downsized.gif" height=250/>
   
@@ -127,7 +126,7 @@ Expiry Date of Ice cream 3 = [20, 12, 2019] + 20 days = [10, 01, 2020]
 On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
 ```
   #### Optional Task:
-  - Try completing the problem in time complexity O(n/4).
+  - Try completing the problem in time complexity `O(n/4)`.
 
   #### Resources:
   - [Python Lists](https://www.geeksforgeeks.org/python-list/)
@@ -136,14 +135,14 @@ On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
   
   ----
   
-  ### December 5 - The Grand Master
+### December 5 - The Grand Master
 
-  #### Problem Statement
-  - It was a dark and stormy night where an Oldman and his grandson were playing chess. The Oldman gave his grandson a problem, to check his knowledge and skills in chess.
-  - He stated that, It was a square chessboard of A x B size, the position of Knight (C, D) and position of a target (E, F) is given.
-  - Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
+#### Problem Statement
+- It was a dark and stormy night where an Oldman and his grandson were playing chess. The Oldman gave his grandson a problem, to check his knowledge and skills in chess.
+- He stated that, It was a square chessboard of `A x B` size, the position of Knight `(C, D)` and position of a target `(E, F)` is given.
+- Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
   
-  ![chess](/src/assets/chess.png)
+![chess](/src/assets/chess.png)
   
 #### Sample Input/Output
 ```
@@ -154,16 +153,16 @@ Target Position :  4 5
 Minimum Steps : 3
 ```
 
-  #### Explanation
-  - From the starting position of the Knight `(1,1)`. The Knight can move to either `(3,2)` or `(2,3)`. We choose `(3,2)`.
-  - From `(3,2)` the Knight can move to `(5,1)`, `(1,3)`, `(2,4)`, `(4,4)`, `(5,3)`, `(1,1)`. We choose `(5,3)`.
-  - From `(5,3)` the Knight moves to `(4,5)`.
-  - The Minimum steps required is `3`.
+#### Explanation
+- From the starting position of the Knight `(1,1)`. The Knight can move to either `(3,2)` or `(2,3)`. We choose `(3,2)`.
+- From `(3,2)` the Knight can move to `(5,1)`, `(1,3)`, `(2,4)`, `(4,4)`, `(5,3)`, `(1,1)`. We choose `(5,3)`.
+- From `(5,3)` the Knight moves to `(4,5)`.
+- The Minimum steps required is `3`.
 
-  #### Resources
-  - [How does a knight move in a Chess Board?](http://www.chesscorner.com/tutorial/basic/knight/knight.htm)
-  - [Graphs in C/CPP/Java/Python](https://www.geeksforgeeks.org/graph-and-its-representations/)
-  - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+#### Resources
+- [How does a knight move in a Chess Board?](http://www.chesscorner.com/tutorial/basic/knight/knight.htm)
+- [Graphs](https://www.geeksforgeeks.org/graph-and-its-representations/)
+- [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
 
 ----
@@ -183,13 +182,13 @@ Minimum Steps : 3
     </thead>
     <tbody>
         <tr>
-            <td align="center"><a href="https://github.com/bearlike"><img width="64" src="https://avatars1.githubusercontent.com/u/39209037?s=86" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339?s=86" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=86" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=86" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=86" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=460&u=dc835e2281a9265edf2b48059f1c8151be89a1b1&v=4" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=460&v=4" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/bearlike"><img width="64" src="https://avatars1.githubusercontent.com/u/39209037?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=64" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
