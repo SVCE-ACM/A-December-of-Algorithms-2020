@@ -17,7 +17,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 1 - Meet and Greet!**](#december-1---meet-and-greet)
   - [**December 2 - The Convo!**](#december-2---the-convo)
   - [**December 3 - THE GRAND MASTER**](#december-3---the-grand-master)
-  - [**December 4 - The Final Quest **](#december-4---the-Final-Quest)
+  - [**December 4 - The Final Quest**](#december-4---the-final-quest)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
