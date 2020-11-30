@@ -100,22 +100,22 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 ----
 
  ### **December 4- The Final Quest**
-  - #### Problem
-    - It's the final quest of Sherlock Holmes. The murderer who wants Sherlock dead is hiding behind a door on the same floor. To make sure he gets killed, the evil man has           filled all the rooms except the one he is in with poisonous gas.
-    - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is       also a multiple of 3.
-     - #### Example
+   #### Problem
+   - It's the final quest of Sherlock Holmes. The murderer who wants Sherlock dead is hiding behind a door on the same floor. To make sure he gets killed, the evil man has           filled all the rooms except the one he is in with poisonous gas.
+   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is       also a multiple of 3.
+    #### Example
       ```
       45 is a multiple of 3
       45^2 =2025
       20+25=45
       ```
       - Help Sherlock catch the murderer! The game is a foot!!!
-  - #### Sample Input/Output
+    =#### Sample Input/Output
       ```bash
       > Room_numbers: [1,10,45,55,18]	
         Sample_Output: 45			
       ```
-  - #### Resources
+   #### Resources
     - [Arrays in C/C++](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
     - [Arrays in Java](https://www.geeksforgeeks.org/arrays-in-java/)
     - [Arrays in Python](https://www.geeksforgeeks.org/python-arrays/)
