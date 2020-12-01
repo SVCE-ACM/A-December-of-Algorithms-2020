@@ -17,6 +17,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 3 - Meet and Greet!**](#december-3---meet-and-greet)
   - [**December 4 - Spoiled Or Not**](#december-4---spoiled-or-not)
   - [**December 5 - The Grand Master**](#december-5---the-grand-master)
+  - [**December 6 - The Task Master**](#december-6---the-task-master)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -164,6 +165,49 @@ Minimum Steps : 3
 - [Graphs](https://www.geeksforgeeks.org/graph-and-its-representations/)
 - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
+----
+
+### December 6 - The Task Master
+
+#### Problem Statement
+
+  - Tim has lot of tasks to do but there are certain tasks which he must finish before doing others tasks. He wants to know the order in which he has to perform these tasks, for that he needs your help cause you are the task master.
+
+  - You are given a directed graph (without any cycle, represented by adjacency list) of tasks where each task is represented using characters (from A to Z) and incoming edge represents that the current task can be done only after doing the previous task.
+
+  - Implement a function findCompletionOrderOfTasks(list) that finds the order of completion of the tasks.
+
+  - Here each index of the list represents a character (which is the task name). For example index 0 is A, 1 is B, 2 is C and so on. Also each task will have an array of tasks which can be performed only after performing the current task.
+
+![graph](/src/assets/dag-graph.png)
+
+#### Sample Input/Output
+
+```
+findCompletionOrderOfTasks( [ ['B','C'], [], ['D'])
+
+There are three possible solutions for the given input print any one of them.
+
+A C D B
+A C B D
+A B C D
+
+```
+
+#### Explanation
+
+  - The task A is not depended on any other tasks so it should be finished first. Then there are two options either you can do task B or C as they depend only on task A which is already done.
+
+  - If you finish task B after A, then you have to finish task C and then D because task D depends on C.
+
+  - If you finish task C after A, then you have two options you can finish task B and then D or D and then B.
+
+#### Resources
+
+- [Graph Editor](https://csacademy.com/app/graph_editor/)
+- [Topological Sort](https://www.geeksforgeeks.org/topological-sorting/)
+- [DFS-BFS](https://visualgo.net/en/dfsbfs)
+
 
 ----
 ## Maintainers
@@ -178,6 +222,7 @@ Minimum Steps : 3
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
+            <th><a href="https://github.com/Ganesh-Kumar6">Ganesh Kumar</a></th>
         </tr>
     </thead>
     <tbody>
@@ -189,11 +234,13 @@ Minimum Steps : 3
             <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754?s=64" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
