@@ -1,6 +1,6 @@
 package com.company;
 import java.lang.*;
-public class Quest
+public class SherlocksQuest
 {
     public boolean isRoomSafe(int door_number)
     {
