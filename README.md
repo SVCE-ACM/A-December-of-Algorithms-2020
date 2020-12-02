@@ -219,7 +219,7 @@ A B C D
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
-            <th><a href="https://github.com/Ganesh-Kumar6">Ganesh Kumar</a></th>
+            <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
         </tr>
     </thead>
     <tbody>
