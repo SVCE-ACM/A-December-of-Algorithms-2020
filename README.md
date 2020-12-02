@@ -214,8 +214,8 @@ A B C D
         <tr>
             <th><a href="https://github.com/bearlike">Krishnakanth</a></th>
             <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>
-            <th><a href="https://github.com/dhirajv2000">Dhiraj V</a></th>
-            <th><a href="https://github.com/aravindr22">Aravind R</a></th>
+            <th><a href="https://github.com/dhirajv2000">Dhiraj</a></th>
+            <th><a href="https://github.com/aravindr22">Aravind</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
