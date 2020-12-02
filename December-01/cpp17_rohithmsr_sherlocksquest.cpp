@@ -4,13 +4,9 @@
 
 using namespace std;
 
-int main()
+int statusCheck(int room_no)
 {
-    int room_no, sqr, len, ans;
-
-    cout << "Room: ";
-    cin >> room_no;
-    cout << "Status: ";
+    int sqr, len, ans;
 
     if (room_no % 3 == 0)
     {
@@ -21,12 +17,23 @@ int main()
 
         if (ans == room_no)
         {
-            cout << "Safe" << endl;
+            return 1;
         }
-        else
-        {
-            cout << "Not Safe" << endl;
-        }
+    }
+    return 0;
+}
+
+int main()
+{
+    int room_no;
+
+    cout << "Room: ";
+    cin >> room_no;
+    cout << "Status: ";
+
+    if (statusCheck(room_no))
+    {
+        cout << "Safe" << endl;
     }
     else
     {
