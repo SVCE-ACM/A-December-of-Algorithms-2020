@@ -171,13 +171,17 @@ Minimum Steps : 3
 
 #### Problem Statement
 
-  - Tim has lot of tasks to do but there are certain tasks which he must finish before doing others tasks. He wants to know the order in which he has to perform these tasks, for that he needs your help cause you are the task master.
+  - Tim has lot of tasks to do but there are certain tasks which he must finish before doing others tasks. 
+  
+  - He wants to know the order in which he has to perform these tasks, for that he needs your help cause you are the task master.
 
-  - You are given a directed graph (without any cycle, represented by adjacency list) of tasks where each task is represented using characters (from A to Z) and incoming edge represents that the current task can be done only after doing the previous task.
+  - You are given a directed graph without any cycles, represented by a matrix.
+  
+  - Each index of the matrix represents a task. For example index 0 is task A, 1 is task B, 2 is task C and so on. 
+  
+  - Each task will have an array of tasks which can be performed only after performing the current task (the character represented by the index is the current task).
 
   - Implement a function findCompletionOrderOfTasks(list) that finds the order of completion of the tasks.
-
-  - Here each index of the list represents a character (which is the task name). For example index 0 is A, 1 is B, 2 is C and so on. Also each task will have an array of tasks which can be performed only after performing the current task.
 
 ![graph](/src/assets/dag-graph.png)
 
@@ -196,7 +200,9 @@ A B C D
 
 #### Explanation
 
-  - The task A is not depended on any other tasks so it should be finished first. Then there are two options either you can do task B or C as they depend only on task A which is already done.
+  - The task A is not depended on any other tasks so it should be finished first.
+  
+  - Now there are two options either you can do task B or C as they depend only on task A which is already done.
 
   - If you finish task B after A, then you have to finish task C and then D because task D depends on C.
 
