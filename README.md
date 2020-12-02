@@ -261,11 +261,13 @@ A B C D
             <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
