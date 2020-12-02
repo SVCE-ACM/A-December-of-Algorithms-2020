@@ -18,6 +18,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 4 - Spoiled Or Not**](#december-4---spoiled-or-not)
   - [**December 5 - The Grand Master**](#december-5---the-grand-master)
   - [**December 6 - The Task Master**](#december-6---the-task-master)
+  - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -207,6 +208,32 @@ A B C D
 
 
 ----
+ 
+ ### December 7 - Temperature Screening
+ 
+   #### Problem Statement
+   - Due to COVID, the Railways have included a queue to check the temperature of the passengers before boarding the train. 
+   - It takes 2 minutes for a ticket to be generated in ticket counter A, while it takes only 1 minute for a ticket to be generated in ticket counter B. 
+   - The queue for temperature check up is right next to ticket counter B, where the passengers from both the queues have to wait for their turn. 
+     Write a program that specifies the position of the passengers in the temperature check up queue.
+
+   
+   #### Sample Input/Output
+   ```
+    Counter A: Aditi  Gautham  Ravi  Shreya
+
+    Counter B: Karthik  Neha  Suman  Prakash
+   ```
+   ```
+   Temperature Screening: Karthik  Neha  Aditi  Suman  Prakash  Gautham  Ravi  Shreya
+   ```
+   #### Explaination
+   ```
+   Since counter B is closer to the temperature check up queue, the person in counter B will move to that queue faster than the person in counter A. 
+   By the time 2 people from counter B move to the third queue, one person from counter A joins them.
+   ```   
+   
+----
 ## Maintainers
 
 <table>
@@ -220,6 +247,7 @@ A B C D
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
             <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
+            <th><a href="https://github.com/Sandyy22">Sandhya V</a></th>
         </tr>
     </thead>
     <tbody>
