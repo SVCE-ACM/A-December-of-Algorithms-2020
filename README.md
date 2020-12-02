@@ -229,10 +229,11 @@ A B C D
    ```
    #### Explanation
 
-   - Since counter B is closer to the temperature check up queue, the person in counter B will move to that queue faster than the person in counter A. 
-   - By the time 2 people from counter B move to the third queue, one person from counter A joins them.
+   - Since counter B is closer to the temperature screening queue, only after 2 people from counter B move to that queue, one person from counter A joins them.
     
-   
+   #### Resources
+   - [Queues using Arrays](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
+   - [Queues using Linked List](https://www.geeksforgeeks.org/queue-linked-list-implementation/?ref=rp)
 ----
 ## Maintainers
 
