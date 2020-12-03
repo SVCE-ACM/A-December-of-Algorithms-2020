@@ -244,6 +244,8 @@ A B C D
    - Note that, he cannot change a or b once he starts cleaning.He can perform any one of the following operations for one round of cleaning: -Replace X with X+a. -Replace X with X−b.
    - Find minimum number of rounds (possibly zero) to make lab clean.  
    - For each test case, output an integer denoting minimum number of rounds to clean the lab.
+   
+   <img src="https://media.giphy.com/media/3ohc11UljvpPKWeNva/giphy.gif" height=250/>
     
    #### Sample Input/Output
     ```
