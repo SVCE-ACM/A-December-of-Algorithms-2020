@@ -19,6 +19,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 5 - The Grand Master**](#december-5---the-grand-master)
   - [**December 6 - The Task Master**](#december-6---the-task-master)
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
+  - [**December 8 - Breaking Bad**](#december-8---Breaking-Bad)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -216,7 +217,6 @@ A B C D
    - It takes 2 minutes for a ticket to be generated in ticket counter A, while it takes only 1 minute for a ticket to be generated in ticket counter B. 
    - The queue for temperature check up is right next to ticket counter B, where the passengers from both the queues have to wait for their turn. 
      Write a program that specifies the position of the passengers in the temperature check up queue.
-
    
    #### Sample Input/Output
    ```
@@ -235,6 +235,33 @@ A B C D
    - [Queues using Arrays](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
    - [Queues using Linked List](https://www.geeksforgeeks.org/queue-linked-list-implementation/?ref=rp)
 ----
+
+### December 8 - Breaking Bad 
+    
+   #### Problem Statement
+   - “I am not in danger, Skyler. I am the danger. A guy opens his door and gets shot, and you think that of me? No! I am the one who knocks!”
+   - Skyler fears Walter and ponders escaping to Colorado. Walter wants to clean his lab as soon as possible and then go back home to his wife. In order clean his lab, he has   to achieve cleaning level of lab as Y. The current cleaning level of the lab is X.
+   - Note that, he cannot change a or b once he starts cleaning.He can perform any one of the following operations for one round of cleaning: -Replace X with X+a. -Replace X with X−b.
+   - Find minimum number of rounds (possibly zero) to make lab clean.  
+   - For each test case, output an integer denoting minimum number of rounds to clean the lab.
+    
+   #### Sample Input/Output
+    ```
+    Input: 2
+           0 5
+           4 -5
+    Output: 1
+            2
+    ```
+    
+   #### Explanation
+    
+    - For the first testcase, you can convert X to Y by choosing a=5 and b=2.It will cost minimum of 1 cleaning round. You can select any other combination of a,b satisfying above condition but will take minimum of 1 cleaning round in any case.
+    - For the second testcase, you can convert X to Y by choosing a=1 and b=10. In first round they will replace X to X+a and then in second round replace to X−b. You can perform only one operation in one round.
+    
+    
+----    
+        
 ## Maintainers
 
 <table>
@@ -249,6 +276,7 @@ A B C D
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
             <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
             <th><a href="https://github.com/Sandyy22">Sandhya V</a></th>
+            <th><a href="https://github.com/NikhileshJr08">Nikhilesh S</a></th>
         </tr>
     </thead>
     <tbody>
@@ -261,7 +289,9 @@ A B C D
             <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Sandyy22"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/NikhileshJr08"><img width="64" src="https://avatars3.githubusercontent.com/u/63784914?s=64" alt="f"></a></td>
+            
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
@@ -273,6 +303,8 @@ A B C D
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
+            <td align="center"> :pencil: </td>
+            
         </tr>
     </tbody>
 </table>
