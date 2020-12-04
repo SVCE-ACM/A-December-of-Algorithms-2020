@@ -19,6 +19,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 5 - The Grand Master**](#december-5---the-grand-master)
   - [**December 6 - The Task Master**](#december-6---the-task-master)
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
+  - [**December 9 - Maximum Tickets**](#december-9---maximum-tickets)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -235,6 +236,39 @@ A B C D
    - [Queues using Arrays](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
    - [Queues using Linked List](https://www.geeksforgeeks.org/queue-linked-list-implementation/?ref=rp)
 ----
+
+### December 9 - Maximum Tickets
+
+#### Problem Statement
+- A theatre has 'N X M' seats, some of them are not in usable condition. Due to the pandemic, social distancing needs to be maintained, restricting only one person per row and column.
+- How can you maximise the tickets sold for this theatre?  
+- Represent Usable condition as U, Non-usable condition as N.
+  
+#### Sample Input/Output
+```
+Input : 
+2
+3 3
+UUU
+UUU
+UUU
+3 3
+UUU
+UNN
+UNN
+
+Output:
+3
+2
+```
+
+#### Explanation
+- Case 1: People can sit on seats (1,1) (2,2) and (3,3)
+- Case 2: People can sit on seats (1,2) and (2,1)
+
+#### Resources
+- [Maximum Flow ](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
+
 ## Maintainers
 
 <table>
@@ -249,6 +283,7 @@ A B C D
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
             <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
             <th><a href="https://github.com/Sandyy22">Sandhya V</a></th>
+            <th><a href="https://github.com/shrusri27">Shruti</a></th>
         </tr>
     </thead>
     <tbody>
@@ -262,11 +297,13 @@ A B C D
             <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
+             <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092?s=460&v=4" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
