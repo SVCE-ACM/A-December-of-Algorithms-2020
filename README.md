@@ -166,6 +166,41 @@ Minimum Steps : 3
 
 
 ----
+
+### December 9 - Maximum Tokens
+
+#### Problem Statement
+- Rakesh is given a 'N X M' board, some of whose cells are coloured red and the rest are coloured black. He has unlimited tokens and a token can be placed on a cell only if the following conditions are met:
+- The cell is of black colour
+- No other token is already placed in the same row
+- No other token is already placed in the same column
+- Help Rakesh find the maximum number of tokens that can be placed on the board.  
+  
+#### Sample Input/Output
+```
+Input : 
+2
+3 3
+BBB
+BBB
+BBB
+3 3
+BBB
+BRR
+BRR
+
+Output:
+3
+2
+```
+
+#### Explanation
+- Case 1: We can place tokens on cells (1,1) (2,2) and (3,3)
+- Case 2: We can place tokens on cells (1,2) and (2,1)
+
+#### Resources
+- [Maximum Flow ](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
+
 ## Maintainers
 
 <table>
@@ -178,6 +213,7 @@ Minimum Steps : 3
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
+            <th><a href="https://github.com/shrusri27">Shruti</a></th>
         </tr>
     </thead>
     <tbody>
@@ -189,11 +225,13 @@ Minimum Steps : 3
             <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092?s=460&v=4" alt="f"></a></td>            
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
