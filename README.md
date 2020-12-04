@@ -19,6 +19,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 5 - The Grand Master**](#december-5---the-grand-master)
   - [**December 6 - The Task Master**](#december-6---the-task-master)
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
+  - [**December 9 - Maximum Tickets**](#december-9---maximum-tickets)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
