@@ -19,7 +19,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 5 - The Grand Master**](#december-5---the-grand-master)
   - [**December 6 - The Task Master**](#december-6---the-task-master)
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
-  - [**December 9 - Maximum Tickets**](#december-9---maximum-tickets)
+  - [**December 8 - Movie Night**](#december-8---movie-night)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -237,29 +237,32 @@ A B C D
    - [Queues using Linked List](https://www.geeksforgeeks.org/queue-linked-list-implementation/?ref=rp)
 ----
 
-### December 9 - Maximum Tickets
+### December 8 - Movie Night
 
 #### Problem Statement
 - A theatre has 'N X M' seats, some of them are not in usable condition. Due to the pandemic, social distancing needs to be maintained, restricting only one person per row and column.
 - How can you maximise the tickets sold for this theatre?  
 - Represent Usable condition as U, Non-usable condition as N.
+<img src="https://i.imgur.com/GckVAA4.gif" height=250/>
   
 #### Sample Input/Output
-```
-Input : 
-2
-3 3
-UUU
-UUU
-UUU
-3 3
-UUU
-UNN
-UNN
 
-Output:
-3
-2
+```
+Input : 2
+        3 3
+        UUU
+        UUU
+        UUU
+        
+Output : 3
+```
+```
+Input : 3 3
+        UUU
+        UNN
+        UNN
+        
+Output: 2
 ```
 
 #### Explanation
@@ -268,6 +271,7 @@ Output:
 
 #### Resources
 - [Maximum Flow ](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
+----
 
 ## Maintainers
 
