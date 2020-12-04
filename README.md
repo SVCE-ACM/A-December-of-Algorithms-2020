@@ -167,27 +167,25 @@ Minimum Steps : 3
 
 ----
 
-### December 9 - Maximum Tokens
+### December 9 - Maximum Tickets
 
 #### Problem Statement
-- Rakesh is given a 'N X M' board, some of whose cells are coloured red and the rest are coloured black. He has unlimited tokens and a token can be placed on a cell only if the following conditions are met:
-- The cell is of black colour
-- No other token is already placed in the same row
-- No other token is already placed in the same column
-- Help Rakesh find the maximum number of tokens that can be placed on the board.  
+- A theatre has 'N X M' seats, some of them are not in usable condition. Due to the pandemic, social distancing needs to be maintained, restricting only one person per row and column.
+- How can you maximise the tickets sold for this theatre?  
+- Represent Usable condition as U, Non-usable condition as N.
   
 #### Sample Input/Output
 ```
 Input : 
 2
 3 3
-BBB
-BBB
-BBB
+UUU
+UUU
+UUU
 3 3
-BBB
-BRR
-BRR
+UUU
+UNN
+UNN
 
 Output:
 3
@@ -195,8 +193,8 @@ Output:
 ```
 
 #### Explanation
-- Case 1: We can place tokens on cells (1,1) (2,2) and (3,3)
-- Case 2: We can place tokens on cells (1,2) and (2,1)
+- Case 1: People can sit on seats (1,1) (2,2) and (3,3)
+- Case 2: People can sit on seats (1,2) and (2,1)
 
 #### Resources
 - [Maximum Flow ](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
