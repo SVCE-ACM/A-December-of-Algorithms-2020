@@ -20,6 +20,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 6 - The Task Master**](#december-6---the-task-master)
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
   - [**December 8 - Movie Night**](#december-8---movie-night)
+  - [**December 9 - Pick The Balls**](#december-9---pick-the-balls)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -278,6 +279,7 @@ Output: 2
    #### Problem Statement
    - Two Friends arun and vijay are playing with colour balls. After Sometime arun put three different colour balls in a basket and arun asked to take the colour balls in all possible permutation ways
    - Write a program to calculate the number of possible ways the ball can be picked.
+
     ![balls](/src/assets/balls.jpg)
    
    #### Sample Input/Output
