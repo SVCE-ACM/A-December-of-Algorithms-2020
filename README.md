@@ -392,7 +392,7 @@ Not to worry! Open your nearest terminal or command prompt and navigate over to 
 ```bash
 git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms-2020.git
 git fetch upstream
-git merge upstream/master
+git merge upstream/main
 ```
 If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
 Note that if you've already added the upstream repository, you don't need to re-add it in the future while fetching the newer questions.
