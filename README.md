@@ -278,7 +278,7 @@ Output: 2
    #### Problem Statement
    - Two Friends arun and vijay are playing with colour balls. After Sometime arun put three different colour balls in a basket and arun asked to take the colour balls in all possible permutation ways
    - Write a program to calculate the number of possible ways the ball can be picked.
-    <img src="https://i.imgur.com/GckVAA4.gif" height=250/>
+    ![balls](/src/assets/balls.jpg)
    
    #### Sample Input/Output
    ```
