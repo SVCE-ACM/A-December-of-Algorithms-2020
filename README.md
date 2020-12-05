@@ -167,7 +167,6 @@ Minimum Steps : 3
 - [Graphs](https://www.geeksforgeeks.org/graph-and-its-representations/)
 - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
-----
 
 ### December 6 - The Task Master
 
@@ -192,7 +191,6 @@ There are three possible solutions for the given input print any one of them.
 A C D B
 A C B D
 A B C D
-
 ```
 
 #### Explanation
@@ -207,8 +205,6 @@ A B C D
   - [Topological Sort](https://www.geeksforgeeks.org/topological-sorting/)
   - [DFS-BFS](https://visualgo.net/en/dfsbfs)
 
-
-----
  
  ### December 7 - Temperature Screening
  
@@ -222,7 +218,6 @@ A B C D
    #### Sample Input/Output
    ```
     Counter A: Aditi  Gautham  Ravi  Shreya
-
     Counter B: Karthik  Neha  Suman  Prakash
    ```
    ```
@@ -271,8 +266,9 @@ Output: 2
 
 #### Resources
 - [Maximum Flow ](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
-----
 
+
+----
 ## Maintainers
 
 <table>
@@ -300,8 +296,8 @@ Output: 2
             <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
-             <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092?s=460&v=4" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Sandyy22"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092?s=460&v=4" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction: </td>
