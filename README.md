@@ -20,6 +20,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 6 - The Task Master**](#december-6---the-task-master)
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
   - [**December 8 - Movie Night**](#december-8---movie-night)
+  - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -234,7 +235,7 @@ A B C D
 #### Problem Statement
 - A theatre has `N x M` seats, some of them are not in usable condition. Due to the pandemic, social distancing needs to be maintained, restricting only one person per row and column.
 - How can you maximise the tickets sold for this theatre?  
-- Represent Usable condition as U, Non-usable condition as `N`.
+- Represent Usable condition as `U`, Non-usable condition as `N`.
 
 <p align="center"><img src="https://i.imgur.com/GckVAA4.gif" height=250/></p>
   
@@ -265,8 +266,52 @@ Output: 2
 #### Resources
 - [Maximum Flow](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
 
-
 ----
+
+### December 9 - Isle of Dogs
+
+#### Problem Statement
+- An outbreak of dog flu has spread through the city of Megasaki, Japan, and Mayor Kobayashi has demanded all dogs to be sent to Trash Islands. A young boy named Atari sets out to find his lost dog in the Trash Islands. But first, Atari needs help knowing how many islands are there to refuel his makeshift motorboat. Given an `M x N` 2D grid map of `*` (**land**) and `_` (**water**), **return the number of islands**.
+- An island is always surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+<p align="center"><img src="https://i.imgur.com/p94noNt.gif" height=250/></p>
+  
+#### Sample Input/Output
+
+##### Example 1:
+```
+Input: grid = [
+  ["*","*","*","*","_"],
+  ["*","*","_","*","_"],
+  ["*","*","_","_","_"],
+  ["_","_","_","_","_"]
+]
+Output: 1
+```
+##### Example 2:
+```
+Input: grid = [
+  ["*","*","_","_","_"],
+  ["*","*","_","_","_"],
+  ["_","_","*","_","_"],
+  ["_","_","_","*","*"]
+]
+Output: 3
+```
+ 
+<details>
+    <summary>
+        <strong>Resources (Spoiler)</strong>
+    </summary>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Adjacency_matrix">Adjacency Matrix</a></li>
+        <li><a href="https://www.geeksforgeeks.org/implementation-of-bfs-using-adjacency-matrix/">Implementation of BFS using adjacency matrix</a></li>
+        <li><a href="https://www.geeksforgeeks.org/implementation-of-dfs-using-adjacency-matrix/">Implementation of DFS using adjacency matrix</a></li>
+    </ul>
+</details>
+
+---
+
 ## Maintainers
 
 <table>
@@ -298,7 +343,7 @@ Output: 2
             <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092?s=460&v=4" alt="f"></a></td>
         </tr>
         <tr>
-            <td align="center"> :hammer::construction: </td>
+            <td align="center"> :hammer::construction::pencil: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
             <td align="center"> :pencil: </td>
