@@ -273,6 +273,35 @@ Output: 2
 - [Maximum Flow ](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
 ----
 
+### December 9 - Pick The Balls
+ 
+   #### Problem Statement
+   - Two Friends arun and vijay are playing with colour balls. After Sometime arun put three different colour balls in a basket and arun asked to take the colour balls in all possible permutation ways
+   - Write a program to calculate the number of possible ways the ball can be picked.
+    <img src="https://i.imgur.com/GckVAA4.gif" height=250/>
+   
+   #### Sample Input/Output
+   ```
+   Balls_in_Basket = [1,2,3]
+
+   ```
+   ```
+   output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+   ```
+   #### Explanation
+
+   - Using the permutation formula we can say that there are 6 possible output
+    
+   ### NOte
+   - Consider the Three colour balls as numbers (i.e) [1,2,3]
+   - All the colour balls in the basket are unique
+
+   #### Resources
+   - [Python Lists](https://www.w3schools.com/python/python_lists.asp)
+   - [C++ Vectors](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+   - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
+
+
 ## Maintainers
 
 <table>
