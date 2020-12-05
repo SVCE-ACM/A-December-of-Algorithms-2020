@@ -325,7 +325,7 @@ Output: 3
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
             <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
-            <th><a href="https://github.com/Sandyy22">Sandhya V</a></th>
+            <th><a href="https://github.com/Sandyy22">Sandhya</a></th>
             <th><a href="https://github.com/shrusri27">Shruti</a></th>
         </tr>
     </thead>
