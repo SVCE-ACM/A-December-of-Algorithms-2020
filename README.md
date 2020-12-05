@@ -279,7 +279,9 @@ Output: 2
    #### Problem Statement
    - Ram is a Senior Network engineer in a company. He is setting up the network in the company by connecting all the nodes. As a part of testing he want to check how long will it take for all nodes to receive the signal. 
    - If the testing node (or) source node is invalid return -1.
-    ![graph](/src/assets/9graph.png)
+
+
+  - ![graph](/src/assets/9graph.png)
    
    #### Sample Input/Output
    ```
