@@ -20,7 +20,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 6 - The Task Master**](#december-6---the-task-master)
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
   - [**December 8 - Movie Night**](#december-8---movie-night)
-  - [**December 9 - Pick The Balls**](#december-9---pick-the-balls)
+  - [**December 9 - Find the Time Delay**](#december-9---find-the-time-daily)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -274,33 +274,30 @@ Output: 2
 - [Maximum Flow ](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
 ----
 
-### December 9 - Pick The Balls
+### December 9 - Find The Time Delay
  
    #### Problem Statement
-   - Two Friends arun and vijay are playing with colour balls. After Sometime arun put three different colour balls in a basket and arun asked to take the colour balls in all possible permutation ways
-   - Write a program to calculate the number of possible ways the ball can be picked.
-    ![balls](/src/assets/balls.jpg)
+   - Ram is a Senior Network engineer in a company. He is setting up the network in the company by connecting all the nodes. As a part of testing he want to check how long will it take for all nodes to receive the signal. 
+   - If the testing node (or) source node is invalid return -1.
+    ![graph](/src/assets/9graph.png)
    
    #### Sample Input/Output
    ```
-   Balls_in_Basket = [1,2,3]
+   times = [[2,1,1],[2,3,1],[3,4,1]], Nodes = 4, TestingNode = 2
 
    ```
    ```
-   output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+   output: 2
    ```
    #### Explanation
 
-   - Using the permutation formula we can say that there are 6 possible output
-    
-   ### NOte
-   - Consider the Three colour balls as numbers (i.e) [1,2,3]
-   - All the colour balls in the basket are unique
+   - In the List (or) Array [2,1,1] It is consider as [u,v,w]. where u is the source node and v is the destination node and w is the time taken (i.e) Delay time.
+   - In this sample test case where the TestingNode (or) Source node is given as 2 from that node the maximum time to reach is 2 since 4 is the last node.
 
    #### Resources
-   - [Python Lists](https://www.w3schools.com/python/python_lists.asp)
-   - [C++ Vectors](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
-   - [Backtracking](https://www.geeksforgeeks.org/backtracking-algorithms/)
+   - [DFS-BFS](https://visualgo.net/en/dfsbfs)
+   - [Graph](https://www.tutorialspoint.com/data_structures_algorithms/graph_data_structure.htm)
+   - [Graph Editor](https://csacademy.com/app/graph_editor/)
 
 
 ## Maintainers
