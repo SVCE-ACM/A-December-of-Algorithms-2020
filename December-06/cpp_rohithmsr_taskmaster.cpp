@@ -41,38 +41,6 @@ void Graph::topologicalSort(char v, bool *visited, list<char> *stack)
     stack->push_back(v);
 }
 
-void addEdges(string input)
-{
-    int V = 0;
-    char letter = 'A';
-
-    for (int i = 1; i < input.size() - 1; i++)
-    {
-        if (input[i] == '[')
-        {
-            V++;
-        }
-    }
-
-    Graph g(V);
-
-    for (int i = 1; i < input.size() - 1; i++)
-    {
-        if (input[i] == ']')
-        {
-            letter++;
-        }
-        else if (input[i] >= 65 & input[i] <= 90)
-        {
-            g.addEdge(letter, input[i]);
-        }
-        else
-        {
-            continue;
-        }
-    }
-}
-
 void findCompletionOrderOfTasks(string input)
 {
     list<char> stack;
