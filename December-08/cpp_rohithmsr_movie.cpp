@@ -12,6 +12,7 @@ void printSolution(int *board, int M, int N)
     }
 }
 
+// checks whether seats[row][col] is a safe place to sit
 bool isSocialDistanced(int *seats, int M, int N, int row, int col)
 {
     int i, j;
@@ -35,7 +36,7 @@ bool isSocialDistanced(int *seats, int M, int N, int row, int col)
     return true;
 }
 
-bool solveNQUtil(int *seats, int M, int N, int col, int S)
+bool solveByBacktracking(int *seats, int M, int N, int col, int S)
 {
 
     if (col >= S)
@@ -57,7 +58,7 @@ bool solveNQUtil(int *seats, int M, int N, int col, int S)
             seats[i * N + col] = 1;
 
             // recur to place rest of the people
-            if (solveNQUtil(seats, M, N, col + 1, S))
+            if (solveByBacktracking(seats, M, N, col + 1, S))
                 return true;
 
             // If placing person in seats[i][col]
@@ -101,7 +102,7 @@ int getUsableSeats(int M, int N, string s)
 
     while (S >= 0)
     {
-        if (solveNQUtil(seats, M, N, 0, S) == false)
+        if (solveByBacktracking(seats, M, N, 0, S) == false)
         {
             makeSeats(seats, M, N, s, &non_usable);
             S -= 1;
