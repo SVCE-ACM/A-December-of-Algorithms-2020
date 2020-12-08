@@ -184,7 +184,7 @@ Minimum Steps : 3
 #### Sample Input/Output
 
 ```
-findCompletionOrderOfTasks( [ ['B','C'], [], ['D'])
+findCompletionOrderOfTasks( [ ['B','C'], [], ['D'], [] ])
 ```
 There are three possible solutions for the given input print any one of them.
 ```
