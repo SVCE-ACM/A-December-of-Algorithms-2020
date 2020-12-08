@@ -18,6 +18,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 4 - Spoiled Or Not**](#december-4---spoiled-or-not)
   - [**December 5 - The Grand Master**](#december-5---the-grand-master)
   - [**December 6 - The Task Master**](#december-6---the-task-master)
+  - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
+  - [**December 8 - Movie Night**](#december-8---movie-night)
+  - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -28,8 +31,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
  
    #### Problem Statement
    - It's the final quest of Sherlock Holmes. The Moriarty wants Sherlock dead and is hiding behind a door on the same floor. To make sure he gets killed, Moriarty has filled all the rooms except the one he is in with poisonous gas.
-   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3.  
-    <img src="https://i.imgur.com/pIc2I8j.gif" height=250/>
+   - The door number behind which he is hiding is designed in such a way that the sum of the left half and right half of the square of the number is equal to the number and is also a multiple of 3. 
+   
+   <p align="center"><img src="https://i.imgur.com/pIc2I8j.gif" height=250/></p>
    
    #### Sample Input/Output
    ```
@@ -54,7 +58,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   #### Problem Statement
   - Two friends were talking over the phone. They suddenly started to play a puzzle using the keypad.
   - The keypad contains digits from 2-9 inclusive. Develop a small algorithm to return all the possible letter combinations that the number could represent.  
-    ![Keypad](https://i.imgur.com/O31uZDd.jpg)
+    <p align="center"><img src="https://i.imgur.com/O31uZDd.jpg" /></p>
   
   #### Note
   - Only 2 character combinations are allowed.
@@ -101,12 +105,12 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   
   ### December 4 - Spoiled Or Not
 
-  #### Problem
+  #### Problem Statement
   - You are given with a list of manufacturing dates of each ice cream and also a list of days for the expiry of each ice cream from the date of manufacturing.
   - On a given date find the number of ice creams spoiled. You may assume that all the dates are in `DD/MM/YYYY` format.
   - If an Ice Cream expires on the given day then the ice cream is not spoiled. You may assume that all months have only `30` days.
      
-  <img src="https://media.giphy.com/media/uUs14eCA2SBgs/giphy-downsized.gif" height=250/>
+  <p align="center"><img align="center" src="https://media.giphy.com/media/uUs14eCA2SBgs/giphy-downsized.gif" height=250/></p>
   
   #### Sample Input/Output
   ```
@@ -126,10 +130,10 @@ Expiry Date of Ice cream 3 = [20, 12, 2019] + 20 days = [10, 01, 2020]
 
 On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
 ```
-  #### Optional Task:
+  #### Optional Task
   - Try completing the problem in time complexity `O(n/4)`.
 
-  #### Resources:
+  #### Resources
   - [Python Lists](https://www.geeksforgeeks.org/python-list/)
   - [Multidimensional Arrays in c/cpp](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)
   - [Multidimensional Arrays in Java](https://www.programiz.com/java-programming/multidimensional-array)
@@ -143,7 +147,7 @@ On the given date ([28, 01, 2020]) ice creams 2 & 3 has expired.
 - He stated that, It was a square chessboard of `A x B` size, the position of Knight `(C, D)` and position of a target `(E, F)` is given.
 - Now the Grandson needs to find out the minimum steps a Knight will take to reach the target position. 
   
-![chess](/src/assets/chess.png)
+<p align="center"><img src="/src/assets/chess.png" /></p>
   
 #### Sample Input/Output
 ```
@@ -166,56 +170,148 @@ Minimum Steps : 3
 - [BFS traversal in a graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
 ----
-
 ### December 6 - The Task Master
 
 #### Problem Statement
 
-  - Tim has lot of tasks to do but there are certain tasks which he must finish before doing others tasks. 
-  
-  - He wants to know the order in which he has to perform these tasks, for that he needs your help cause you are the task master.
-
-  - You are given a directed graph without any cycles, represented by a matrix.
-  
-  - Each index of the matrix represents a task. For example index 0 is task A, 1 is task B, 2 is task C and so on. 
-  
+  - Tim has lot of tasks to do but there are certain tasks which he must finish before doing others tasks and he wants to know the order in which he has to perform these tasks, for that he needs your help cause you are the task master.
+  - Tim gives you a directed graph without any cycles, represented by a matrix where each index of the matrix represents a task. For example index `0` is task `A`, `1` is task `B`, `2` is task `C` and so on. 
   - Each task will have an array of tasks which can be performed only after performing the current task (the character represented by the index is the current task).
+  - Implement a function `findCompletionOrderOfTasks(list*)` that finds the order of completion of the tasks.
 
-  - Implement a function findCompletionOrderOfTasks(list) that finds the order of completion of the tasks.
-
-![graph](/src/assets/dag-graph.png)
+<p align="center"><img src="/src/assets/dag-graph.png" /></p>
 
 #### Sample Input/Output
 
 ```
 findCompletionOrderOfTasks( [ ['B','C'], [], ['D'])
-
+```
 There are three possible solutions for the given input print any one of them.
-
+```
 A C D B
 A C B D
 A B C D
-
 ```
 
 #### Explanation
-
-  - The task A is not depended on any other tasks so it should be finished first.
-  
-  - Now there are two options either you can do task B or C as they depend only on task A which is already done.
-
-  - If you finish task B after A, then you have to finish task C and then D because task D depends on C.
-
-  - If you finish task C after A, then you have two options you can finish task B and then D or D and then B.
+  - The task `A` is not depended on any other tasks so it should be finished first.
+  - Now there are two options either you can do task `B` or `C` as they depend only on task A which is already done.
+  - If you finish task `B` after `A`, then you have to finish task `C` and then `D` because task `D` depends on `C`.
+  - If you finish task `C` after `A`, then you have two options you can finish task `B` and then `D` or `D` and then `B`.
 
 #### Resources
-
-- [Graph Editor](https://csacademy.com/app/graph_editor/)
-- [Topological Sort](https://www.geeksforgeeks.org/topological-sorting/)
-- [DFS-BFS](https://visualgo.net/en/dfsbfs)
-
+  - [Graph Editor](https://csacademy.com/app/graph_editor/)
+  - [Topological Sort](https://www.geeksforgeeks.org/topological-sorting/)
+  - [DFS-BFS](https://visualgo.net/en/dfsbfs)
 
 ----
+ ### December 7 - Temperature Screening
+ 
+   #### Problem Statement
+   - Due to strict quarantine, the Railways have included a queue to check the temperature of the passengers before boarding the train. 
+   - It takes 2 minutes for a ticket to be generated in ticket counter `A`, while it takes only 1 minute for a ticket to be generated in ticket counter `B`. 
+   - The queue for temperature check up is right next to ticket counter `B`, where the passengers from both the queues have to wait for their turn.  Develop a small algorithm that specifies the position of the passengers in the temperature check up queue.
+
+   
+   #### Sample Input/Output
+   ```
+    Counter A: Aditi  Gautham  Ravi  Shreya
+    Counter B: Karthik  Neha  Suman  Prakash
+   ```
+   ```
+   Temperature Screening: Karthik  Neha  Aditi  Suman  Prakash  Gautham  Ravi  Shreya
+   ```
+   
+   #### Explanation
+   - Since counter B is closer to the temperature screening queue, only after 2 people from counter B move to that queue, one person from counter A joins them.
+    
+   #### Resources
+   - [Queues using Arrays](https://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
+   - [Queues using Linked List](https://www.geeksforgeeks.org/queue-linked-list-implementation/?ref=rp)
+----
+
+### December 8 - Movie Night
+
+#### Problem Statement
+- A theatre has `N x M` seats, some of them are not in usable condition. Due to the pandemic, social distancing needs to be maintained, restricting only one person per row and column.
+- How can you maximise the tickets sold for this theatre?  
+- Represent Usable condition as `U`, Non-usable condition as `N`.
+
+<p align="center"><img src="https://i.imgur.com/GckVAA4.gif" height=250/></p>
+  
+#### Sample Input/Output
+
+```
+Input : 2
+        3 3
+        UUU
+        UUU
+        UUU
+        
+Output : 3
+```
+```
+Input : 3 3
+        UUU
+        UNN
+        UNN
+        
+Output: 2
+```
+
+#### Explanation
+- **Case 1**: People can sit on seats `(1,1)` `(2,2)` and `(3,3)`
+- **Case 2**: People can sit on seats `(1,2)` and `(2,1)`
+
+#### Resources
+- [Maximum Flow](https://www.geeksforgeeks.org/max-flow-problem-introduction/)
+
+----
+
+### December 9 - Isle of Dogs
+
+#### Problem Statement
+- An outbreak of dog flu has spread through the city of Megasaki, Japan, and Mayor Kobayashi has demanded all dogs to be sent to Trash Islands. A young boy named Atari sets out to find his lost dog in the Trash Islands. But first, Atari needs help knowing how many islands are there to refuel his makeshift motorboat. Given an `M x N` 2D grid map of `*` (**land**) and `_` (**water**), **return the number of islands**.
+- An island is always surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+<p align="center"><img src="https://i.imgur.com/p94noNt.gif" height=250/></p>
+  
+#### Sample Input/Output
+
+##### Example 1:
+```
+Input: grid = [
+  ["*","*","*","*","_"],
+  ["*","*","_","*","_"],
+  ["*","*","_","_","_"],
+  ["_","_","_","_","_"]
+]
+Output: 1
+```
+##### Example 2:
+```
+Input: grid = [
+  ["*","*","_","_","_"],
+  ["*","*","_","_","_"],
+  ["_","_","*","_","_"],
+  ["_","_","_","*","*"]
+]
+Output: 3
+```
+ 
+<details>
+    <summary>
+        <strong>Resources (Spoiler)</strong>
+    </summary>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Adjacency_matrix">Adjacency Matrix</a></li>
+        <li><a href="https://www.geeksforgeeks.org/implementation-of-bfs-using-adjacency-matrix/">Implementation of BFS using adjacency matrix</a></li>
+        <li><a href="https://www.geeksforgeeks.org/implementation-of-dfs-using-adjacency-matrix/">Implementation of DFS using adjacency matrix</a></li>
+    </ul>
+</details>
+
+---
+
 ## Maintainers
 
 <table>
@@ -223,29 +319,35 @@ A B C D
         <tr>
             <th><a href="https://github.com/bearlike">Krishnakanth</a></th>
             <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>
-            <th><a href="https://github.com/dhirajv2000">Dhiraj V</a></th>
-            <th><a href="https://github.com/aravindr22">Aravind R</a></th>
+            <th><a href="https://github.com/dhirajv2000">Dhiraj</a></th>
+            <th><a href="https://github.com/aravindr22">Aravind</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
             <th><a href="https://github.com/Harshini-rs">Harshini</a></th>
-            <th><a href="https://github.com/Ganesh-Kumar6">Ganesh Kumar</a></th>
+            <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
+            <th><a href="https://github.com/Sandyy22">Sandhya</a></th>
+            <th><a href="https://github.com/shrusri27">Shruti</a></th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center"><a href="https://github.com/bearlike"><img width="64" src="https://avatars1.githubusercontent.com/u/39209037?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459?s=64" alt="f"></a></td>
-            <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/bearlike"><img width="64" src="https://avatars1.githubusercontent.com/u/39209037" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/mahavisvanathan"><img width="64" src="https://avatars2.githubusercontent.com/u/40058339" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/dhirajv2000"><img width="64" src="https://avatars3.githubusercontent.com/u/54794049" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/aravindr22"><img width="64" src="https://avatars2.githubusercontent.com/u/55151962" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Tarun200"><img width="64" src="https://avatars2.githubusercontent.com/u/55352559" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/ASHIK11ab"><img width="64" src="https://avatars2.githubusercontent.com/u/58099865" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Harshini-rs"><img width="64" src="https://avatars0.githubusercontent.com/u/54198459" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/Sandyy22"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092" alt="f"></a></td>
         </tr>
         <tr>
-            <td align="center"> :hammer::construction: </td>
+            <td align="center"> :hammer::construction::pencil: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
@@ -290,7 +392,7 @@ Not to worry! Open your nearest terminal or command prompt and navigate over to 
 ```bash
 git remote add upstream https://github.com/SVCE-ACM/A-December-of-Algorithms-2020.git
 git fetch upstream
-git merge upstream/master
+git merge upstream/main
 ```
 If you're curious, the commands simply add a new remote called upstream that is linked to this repository. Then it 'fetches' or retrieves the contents of the repository and attempts to merge it with your progress.
 Note that if you've already added the upstream repository, you don't need to re-add it in the future while fetching the newer questions.

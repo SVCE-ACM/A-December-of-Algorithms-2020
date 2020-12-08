@@ -10,6 +10,13 @@ __pycache__/
 # C extensions
 *.so
 
+<<<<<<< HEAD
+=======
+# node.js
+/node_modules
+package-lock.json
+
+>>>>>>> fbbf25b816de9addab7f912218362c0055ae43d9
 # Distribution / packaging
 .Python
 build/
