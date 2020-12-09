@@ -21,6 +21,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
   - [**December 8 - Movie Night**](#december-8---movie-night)
   - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
+  - [**December 10 - Can you retrieve the data ?**](#december-10---can-you-retrieve-the-data)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -298,7 +299,70 @@ Input: grid = [
 ]
 Output: 3
 ```
- 
+
+----
+
+### December 10 - Can you retrieve the data ?
+
+#### Problem Statement
+  - Rahul is working on a project where he is fetching some data of employees from an api, the data is in json format and he wants to convert it into a list.
+  - The list should have objects of employee class where each object will contain the details of an employee.
+  - Note that each employee is guaranteed to have only four fields of information (see sample input).
+  - He needs your help to convert the data into the required form.
+
+#### Sample Input/Output
+```
+{
+    "employees":[
+        {
+            "name":"peter",
+            "age":35,
+            "hobbies":["dancing","writing","reading"],
+            "work":{
+                "company":"marcus corp",
+                "companyType":"industrial"
+            }
+        },
+        {
+            "name":"john",
+            "age":28,
+            "hobbies":["swimming","jogging"],
+            "work":{
+                "company":"alfa tech",
+                "companyType":"tech"
+            }
+        },
+        {
+            "name":"sam",
+            "age":40,
+            "hobbies":["movies","art"],
+            "work":{
+                "company":"prima corp",
+                "companyType":"telecommunication"
+            }
+        }
+
+    ]
+}
+```
+```
+employees=[peter,john,sam]
+
+print(employees[1].name) // john 
+print(employees[1].age) // 28
+```
+
+#### Explanation
+- Here each item is an object and the object name is the name of the employee and you should be able to access the information about the employee by printing them.
+
+#### Resources
+- [JSON in javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+- [JSON in java](https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java)
+- [JSON in python](https://docs.python.org/3/library/json.html)
+- [JSON in c++](https://nlohmann.github.io/json/)
+
+----
+
 <details>
     <summary>
         <strong>Resources (Spoiler)</strong>

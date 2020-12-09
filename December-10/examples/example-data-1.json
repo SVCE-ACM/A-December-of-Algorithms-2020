@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "name": "bob",
+      "age": 25,
+      "hobbies": ["talking", "reading"],
+      "work": {
+        "company": "john enterprise",
+        "companyType": "industrial"
+      }
+    },
+    {
+      "name": "anna",
+      "age": 28,
+      "hobbies": ["swimming", "jogging"],
+      "work": {
+        "company": "neo tech",
+        "companyType": "tech"
+      }
+    },
+    {
+      "name": "robert",
+      "age": 40,
+      "hobbies": ["movies", "trekking"],
+      "work": {
+        "company": "montye corporation",
+        "companyType": "telecommunication"
+      }
+    },
+    {
+      "name": "mike",
+      "age": 30,
+      "hobbies": ["biking", "art"],
+      "work": {
+        "company": "silva corporation",
+        "companyType": "buissness"
+      }
+    }
+  ]
+}
