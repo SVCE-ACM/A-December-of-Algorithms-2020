@@ -21,6 +21,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 7 - Temperature Screening**](#december-7---temperature-screening)
   - [**December 8 - Movie Night**](#december-8---movie-night)
   - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
+  - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -297,7 +298,7 @@ Input: grid = [
   ["_","_","_","*","*"]
 ]
 Output: 3
-```
+``` 
  
 <details>
     <summary>
@@ -309,6 +310,47 @@ Output: 3
         <li><a href="https://www.geeksforgeeks.org/implementation-of-dfs-using-adjacency-matrix/">Implementation of DFS using adjacency matrix</a></li>
     </ul>
 </details>
+
+---
+
+### December 10 - Restore IP Addresses
+#### Problem Statement
+- It's midnight, Gilfoyle received a call from Dinesh that he lost Pied Piper's entire network table after trying to "download RAM from the Internet". All Dinesh gives Gilfoyle is a string `corrupted_log` containing only digits, help Gilfoyle return all possible valid IPv4 addresses that can be obtained from `corrupted_log`. They can be returned in any order.
+- A valid IPv4 address must be in the form of **`xxx.xxx.xxx.xxx`**, where `xxx` is a number from 0-255 and cannot have leading zeros. For example, `0.2.1.132` and `192.168.1.1` are valid IPv4 addresses and `1.101.255.132`, `192.168.4.312` and `192.168@1.1` are invalid IPv4 addresses. 
+
+<p align="center"><img src="https://i.imgur.com/jfzI7T2.gif" height=250/></p>
+  
+#### Sample Input/Output
+
+##### Example 1
+```
+Input: corrupted_log = "25525511135"
+Output: ["255.255.11.135","255.255.111.35"]
+```
+
+##### Example 2
+```
+Input: corrupted_log = "1111"
+Output: ["1.1.1.1"]
+```
+
+##### Example 3
+```
+Input: corrupted_log = "0000"
+Output: ["0.0.0.0"]
+```
+
+##### Example 4
+```
+Input: corrupted_log = "010010"
+Output: ["0.10.0.10","0.100.1.0"]
+```
+
+##### Example 5
+```
+Input: corrupted_log = "101023"
+Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
+```
 
 ---
 
