@@ -49,7 +49,7 @@ bool solveByBacktracking(int *seats, int M, int N, int col, int S)
         //Check if a person can be placed on seats[i][col]
         if (isSocialDistanced(seats, M, N, i, col))
         {
-            // Place the person in seats[i][col] only if it is usable
+            // Place the person in seats[i][col] only if the seat is usable
             // if not go to next row
             if (seats[i * N + col] == -1)
             {
@@ -72,21 +72,19 @@ bool solveByBacktracking(int *seats, int M, int N, int col, int S)
     return false;
 }
 
-void makeSeats(int *seats, int M, int N, string s, int *non_usable)
+void makeSeats(int *seats, int M, int N, string s)
 {
-    *non_usable = 0;
     for (int i = 0; i < M; i++)
     {
         for (int j = 0; j < N; j++)
         {
-            if (s[i * N + j] == 'U')
+            if (s[i * N + j] == 'U') // Usable
             {
                 *(seats + i * N + j) = 0;
             }
-            else
+            else // Non-Usable
             {
                 *(seats + i * N + j) = -1;
-                *(non_usable)++;
             }
         }
     }
@@ -95,25 +93,32 @@ void makeSeats(int *seats, int M, int N, string s, int *non_usable)
 int getUsableSeats(int M, int N, string s)
 {
     int *seats = new int[M * N];
-    int S = M * N;
-    int non_usable = 0;
 
-    makeSeats(seats, M, N, s, &non_usable);
+    // maximum number of seats possible will be minimum(rows, columns)
+    // since there can be only person per row and column
+    int S = M < N ? M : N;
 
-    while (S >= 0)
+    // creates the seats and store in seats array
+    makeSeats(seats, M, N, s);
+
+    // Worst Case - Time Complexity O(S x S!)
+    // since S seats till 1 seat are tried
+    while (S > 0)
     {
         if (solveByBacktracking(seats, M, N, 0, S) == false)
         {
-            makeSeats(seats, M, N, s, &non_usable);
-            S -= 1;
+            makeSeats(seats, M, N, s); // recreate the original seats array
+            S -= 1;                    // since S seats cannot be filled, decrement by 1
         }
-        else
+        else // if possible, S will be the maximum seats(tickets) to be sold
         {
             break;
         }
     }
 
+    // prints any one possible seating arrangement
     printSolution(seats, M, N);
+
     return S;
 }
 
