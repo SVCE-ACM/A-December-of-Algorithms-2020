@@ -1,0 +1,31 @@
+{
+  "employees": [
+    {
+      "name": "johnson",
+      "age": 33,
+      "hobbies": ["travel", "reading"],
+      "work": {
+        "company": "mike enterprise",
+        "companyType": "industrial"
+      }
+    },
+    {
+      "name": "smith",
+      "age": 29,
+      "hobbies": ["teaching", "jogging"],
+      "work": {
+        "company": "montye tech",
+        "companyType": "tech"
+      }
+    },
+    {
+      "name": "albert",
+      "age": 37,
+      "hobbies": ["reading", "art"],
+      "work": {
+        "company": "silva corporation",
+        "companyType": "buissness"
+      }
+    }
+  ]
+}
