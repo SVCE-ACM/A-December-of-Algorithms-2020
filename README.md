@@ -405,7 +405,7 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 - From the JSON input we need to create a table named 'my_table' with 2 columns named 'id' and 'age'.
 - The table should have 3 records in it.
 
-> For more sample input <a >click here</a>
+> For more sample input <a href="src/assets/dec 11 sample input.json">click here</a>
 
 #### Resources
 - [SQL basics](https://www.tutorialspoint.com/sql/index.htm)
