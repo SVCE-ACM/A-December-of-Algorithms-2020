@@ -22,7 +22,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 8 - Movie Night**](#december-8---movie-night)
   - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
   - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
-  - [**December 11 - Post Master**](#december-11---post-master)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -352,38 +351,6 @@ Output: ["0.10.0.10","0.100.1.0"]
 Input: corrupted_log = "101023"
 Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 ```
-
----
-
-### December 11 - Post Master
-#### Problem Statement
--  John is a postman. Each day his manager gives him a target. John has to deliver at least target no of letters on that day. John has his local area map downloaded from google.
--  Find whether can John accomplish his task today. If so then, print the path that John has to take to accomplish his task. If not then, print "IMPOSSIBLE TODAY"
-
-<p align="center"><img src="src/assets/postmaster.gif" height="250px"></p>
-
-#### Note
-- If John has delivered a letter to a particular location. Then, he cannot visit the same location again.
--  If John can deliver more no of letters than the given target. Then, include those paths in your output. If multiple solutions exists then print any
-one.
-<br />
-
-<p align="center"><img src="src/assets/postmaster_map.png" height="250px">
-
-#### Sample Input/Output
-```bash
-  Input:
-   No of locations: 10
-   Target: 5
-   Map: START -> A, START -> B, START -> C, B -> E, E -> D, D -> G,D -> H, H -> F, C -> I, I -> J
-
-  Output: 
-    START -> B -> E -> D -> H -> F 
-```
-
-#### Resources
-- [Graphs in C/CPP/JAVA/PYTHON](https://www.geeksforgeeks.org/graph-and-its-representations)
-- [Graph traversals](http://www.cs.cornell.edu/courses/cs2112/2012sp/lectures/lec24/lec24-12sp.html)
 
 ---
 
