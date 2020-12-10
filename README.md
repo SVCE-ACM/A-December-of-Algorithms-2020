@@ -355,7 +355,7 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 
 ---
 
-### December 11 – JSQL
+### December 11 - JSQL
 
 #### Problem Statement
 -	Given a table in JSON format, print the SQL syntax that is required to create the table and also to insert all the records into the table.
