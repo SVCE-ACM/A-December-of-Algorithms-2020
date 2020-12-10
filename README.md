@@ -22,7 +22,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 8 - Movie Night**](#december-8---movie-night)
   - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
   - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
-  - [**December 11 - JSQL**](#december-11---jsql)
+  - [**December 11 - abc**](#december-11---jsql)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
