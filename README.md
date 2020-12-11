@@ -358,41 +358,31 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 ### December 11 - JSQL
 
 #### Problem Statement
--	Given a table in JSON format, print the SQL syntax that is required to create the table and also to insert all the records into the table.
-
-#### Note
--	For inserting the records into the table you can either insert all records in a single statement or you can insert each record one by one.
--	Your ouput should also have the semicolon (;) at the end of each statement.
-- You need not worry about the key constraints.
+-	Given a JSON file with table information, return the SQL statement to create the table and insert all the records into the table.
+- - You need not worry about key constraints.
 
 #### Sample Input/Output
 ```json
   Input:
   {
     "table name": "my_table",
-      
-    "headers": {
+          "headers": {
       "1": {
         "column name": "id",
         "data type": "integer"
       },
-
       "2": {
         "column name": "name",
         "data type": "varchar(30)"
       }, 
     },
-
     "records": {   
       "1": [1, "Josh"],
-
       "2": [2, "Mike"],
-
       "3": [3, "Tom"]
     }
   }
 ```
-
 ```sql
   Output:
     create table my_table (id integer, name varchar(30));
@@ -402,10 +392,9 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 ```
 
 #### Explanation
-- From the JSON input we need to create a table named 'my_table' with 2 columns named 'id' and 'age'.
-- The table should have 3 records in it.
+- From the JSON file, we need to create a table `my_table` with 2 columns `id', and `age`.
 
-> For more sample input <a href="src/assets/dec 11 sample input.json">click here</a>
+> [Click here for more Sample Input]("src/assets/dec 11 sample input.json)
 
 #### Resources
 - [SQL basics](https://www.tutorialspoint.com/sql/index.htm)
