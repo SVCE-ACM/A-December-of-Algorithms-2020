@@ -408,8 +408,8 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 - Given a file of candidates selection based on GPA and work experience predict whether the new candidate will be selected or not
 
 - The file will have the following values
-GPA : 0-10
-Work experience : No in years
+GPA : 0-5
+Work experience : Number in years
 Selection Status : 0-not selected
                    1-selected
 
@@ -423,7 +423,8 @@ for each test case (Stochastic gradient)
 - Output whether the candidate will be selected or not?
 
 #### Input Format
-- The first line contains the address of the csv file
+- The first line contains the address of the csv file. The csv file can be fetched from [here](src/assets/RECRUITMENT%20DRIVE%20-%20Sheet1.csv)
+
 - The second line consists of two values gpa and work_experience
 
 #### Output Format
@@ -449,7 +450,7 @@ Output: Selected
 ```
 
 #### Resources
-- https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/
+- [Logistic Regression ML](https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/)
 
 ---
 
