@@ -23,6 +23,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
   - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
   - [**December 11 - JSQL**](#december-11---jsql)
+  - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
+  
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -399,6 +401,56 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 #### Resources
 - [SQL basics](https://www.tutorialspoint.com/sql/index.htm)
 - [JSON overview & parsing JSON in various languaes](https://www.json.org/json-en.html)
+
+---
+### December 12 - Recruitment Drive
+
+#### Problem Statement
+- Given a file of candidates selection based on GPA and work experience predict whether the new candidate will be selected or not
+
+- The file will have the following values
+GPA : 0-10
+Work experience : No in years
+Selection Status : 0-not selected
+                   1-selected
+
+- Prediction calculation: 1 / (1 + e^(-(b0 + b1*x1 + b2*x2)))
+where x1 is GPA and x2 is work experience
+
+- b0,b1,b2 are initially zero and is updated using 
+b = b + 0.3 * (y – prediction) * prediction * (1 – prediction) * x
+for each test case (Stochastic gradient)
+
+- Output whether the candidate will be selected or not?
+
+#### Input Format
+- The first line contains the address of the csv file
+- The second line consists of two values gpa and work_experience
+
+#### Output Format
+- Print 'Selected' or 'Not selected' based on the prediction
+
+#### Sample Input/Output
+```csv
+gpa,work_experience,selection_status
+4,3,1
+3.9,4,1
+3.3,3,0
+3.7,5,1
+3.9,4,0
+3.7,6,1
+2.3,1,0
+3.3,4,1
+3.3,5,1
+1.7,1,0
+```
+```
+Input: 3.7 6
+Output: Selected
+```
+
+#### Resources
+- https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/
 
 ---
 
