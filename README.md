@@ -368,7 +368,7 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
   Input:
   {
     "table name": "my_table",
-    "headers": {
+          "headers": {
       "1": {
         "column name": "id",
         "data type": "integer"
@@ -396,7 +396,7 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 #### Explanation
 - From the JSON file, we need to create a table `my_table` with 2 columns `id', and `age`.
 
-> <a href="src/assets/dec 11 sample input.json"> Click here for more sample input</a>
+> [Click here for more Sample Input]("src/assets/dec 11 sample input.json)
 
 #### Resources
 - [SQL basics](https://www.tutorialspoint.com/sql/index.htm)
