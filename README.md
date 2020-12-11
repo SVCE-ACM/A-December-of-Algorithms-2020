@@ -417,12 +417,10 @@ Selection Status : 0-not selected
 - For each test case (Stochastic gradient) b<sub>0</sub>,b<sub>1</sub>,b<sub>2</sub> are initially zero and is updated using: 
 
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;b&space;=&space;b&space;&plus;&space;0.3&space;\times&space;(y&space;-&space;prediction)&space;\times&space;prediction&space;\times&space;(1&space;-&space;prediction)&space;\times&space;x" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;b&space;=&space;b&space;&plus;&space;0.3&space;\times&space;(y&space;-&space;prediction)&space;\times&space;prediction&space;\times&space;(1&space;-&space;prediction)&space;\times&space;x" title="\large b = b + 0.3 \times (y - prediction) \times prediction \times (1 - prediction) \times x" /></a></p>
-
 - Output whether the candidate will be selected or not?
 
 #### Input Format
 - The first line contains the address of the csv file. The csv file can be fetched from [here](src/assets/RECRUITMENT%20DRIVE%20-%20Sheet1.csv)
-
 - The second line consists of two values gpa and work_experience
 
 #### Output Format
