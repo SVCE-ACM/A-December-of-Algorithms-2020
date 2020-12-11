@@ -411,10 +411,10 @@ GPA : 0-5
 Work experience : Number in years
 Selection Status : 0-not selected
                    1-selected
-- Prediction calculation (where x1 is GPA and x2 is work experience): 
+- Prediction calculation (where X<sub>1</sub> is GPA and X<sub>2</sub> is work experience): 
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\frac{1}{1&space;&plus;&space;e^{-(b_{0}&space;&plus;&space;b_{1}x_{1}&space;&plus;&space;b_{2}x_{2})}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;\frac{1}{1&space;&plus;&space;e^{-(b_{0}&space;&plus;&space;b_{1}x_{1}&space;&plus;&space;b_{2}x_{2})}}" title="\large \frac{1}{1 + e^{-(b_{0} + b_{1}x_{1} + b_{2}x_{2})}}" /></a></p>
 
-- For each test case (Stochastic gradient) b0,b1,b2 are initially zero and is updated using: 
+- For each test case (Stochastic gradient) b<sub>0</sub>,b<sub>1</sub>,b<sub>2</sub> are initially zero and is updated using: 
 
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;b&space;=&space;b&space;&plus;&space;0.3&space;\times&space;(y&space;-&space;prediction)&space;\times&space;prediction&space;\times&space;(1&space;-&space;prediction)&space;\times&space;x" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;b&space;=&space;b&space;&plus;&space;0.3&space;\times&space;(y&space;-&space;prediction)&space;\times&space;prediction&space;\times&space;(1&space;-&space;prediction)&space;\times&space;x" title="\large b = b + 0.3 \times (y - prediction) \times prediction \times (1 - prediction) \times x" /></a></p>
 
