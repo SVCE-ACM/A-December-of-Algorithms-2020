@@ -22,6 +22,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 8 - Movie Night**](#december-8---movie-night)
   - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
   - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
+  - [**December 11 - JSQL**](#december-11---jsql)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -351,6 +352,53 @@ Output: ["0.10.0.10","0.100.1.0"]
 Input: corrupted_log = "101023"
 Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 ```
+
+---
+
+### December 11 - JSQL
+
+#### Problem Statement
+-	Given a JSON file with table information, return the SQL statement to create the table and insert all the records into the table.
+- - You need not worry about key constraints.
+
+#### Sample Input/Output
+```json
+  Input:
+  {
+    "table name": "my_table",
+          "headers": {
+      "1": {
+        "column name": "id",
+        "data type": "integer"
+      },
+      "2": {
+        "column name": "name",
+        "data type": "varchar(30)"
+      }, 
+    },
+    "records": {   
+      "1": [1, "Josh"],
+      "2": [2, "Mike"],
+      "3": [3, "Tom"]
+    }
+  }
+```
+```sql
+  Output:
+    create table my_table (id integer, name varchar(30));
+    insert into my_table values (1, "Josh");
+    insert into my_table values (2, "Mike");
+    insert into my_table values (3, "Tom"); 
+```
+
+#### Explanation
+- From the JSON file, we need to create a table `my_table` with 2 columns `id', and `age`.
+
+> [Click here for more Sample Input]("src/assets/dec 11 sample input.json)
+
+#### Resources
+- [SQL basics](https://www.tutorialspoint.com/sql/index.htm)
+- [JSON overview & parsing JSON in various languaes](https://www.json.org/json-en.html)
 
 ---
 
