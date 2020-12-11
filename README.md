@@ -24,7 +24,6 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
   - [**December 11 - JSQL**](#december-11---jsql)
   - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
-  
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
