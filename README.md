@@ -406,20 +406,15 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 
 #### Problem Statement
 - Given a file of candidates selection based on GPA and work experience predict whether the new candidate will be selected or not
-
 - The file will have the following values
 GPA : 0-5
 Work experience : Number in years
 Selection Status : 0-not selected
                    1-selected
-
-- Prediction calculation: 1 / (1 + e^(-(b0 + b1*x1 + b2*x2)))
-where x1 is GPA and x2 is work experience
-
-- b0,b1,b2 are initially zero and is updated using 
-b = b + 0.3 * (y – prediction) * prediction * (1 – prediction) * x
-for each test case (Stochastic gradient)
-
+- Prediction calculation (where x1 is GPA and x2 is work experience): <br>
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\frac{1}{1&space;&plus;&space;e^{-(b_{0}&space;&plus;&space;b_{1}x_{1}&space;&plus;&space;b_{2}x_{2})}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;\frac{1}{1&space;&plus;&space;e^{-(b_{0}&space;&plus;&space;b_{1}x_{1}&space;&plus;&space;b_{2}x_{2})}}" title="\large \frac{1}{1 + e^{-(b_{0} + b_{1}x_{1} + b_{2}x_{2})}}" /></a></p>
+- For each test case (Stochastic gradient) b0,b1,b2 are initially zero and is updated using: 
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;b&space;=&space;b&space;&plus;&space;0.3&space;\times&space;(y&space;-&space;prediction)&space;\times&space;prediction&space;\times&space;(1&space;-&space;prediction)&space;\times&space;x" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;b&space;=&space;b&space;&plus;&space;0.3&space;\times&space;(y&space;-&space;prediction)&space;\times&space;prediction&space;\times&space;(1&space;-&space;prediction)&space;\times&space;x" title="\large b = b + 0.3 \times (y - prediction) \times prediction \times (1 - prediction) \times x" /></a></p>
 - Output whether the candidate will be selected or not?
 
 #### Input Format
