@@ -24,6 +24,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
   - [**December 11 - JSQL**](#december-11---jsql)
   - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
+  - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -449,6 +450,34 @@ Output: Selected
 - [Logistic Regression ML](https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/)
 
 ---
+### December 13 - Check Your Spelling Sara!
+  
+  #### Problem Statement
+  - Sara was writing an essay on pollution due to urbanization. Due to her poor writing skills she made a lot of errors in her essay.
+  - One character in the string is incorrectly replaced by another one. Example: She enters Equalety instead Equality.  
+  - So write a program to help her finish the essay by correcting the spelling mistakes.
+  #### Note
+  - Input Format: The first line of the input contains number of items in the list . Then follows the items in the list. One misspelt word would be there in the input.
+.
+  - Output Format: For that one misspelt word give the correct word as output
+    
+  
+  #### Sample Input And Output
+  ```
+  Input:
+  No of items in the list: 5
+  List: [Mango, Guitar, Automobile, Astonished, Unique]
+  Misspelt word: Guiter
+  
+  Output:
+  Guitar
+  
+  ```
+
+  #### Resources
+  - https://www.geeksforgeeks.org/top-7-applications-of-natural-language-processing/
+
+---  
 
 ## Maintainers
 
