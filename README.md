@@ -22,6 +22,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 8 - Movie Night**](#december-8---movie-night)
   - [**December 9 - Isle of Dogs**](#december-9---isle-of-dogs)
   - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
+  - [**December 11 - JSQL**](#december-11---jsql)
+  - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -351,6 +353,100 @@ Output: ["0.10.0.10","0.100.1.0"]
 Input: corrupted_log = "101023"
 Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 ```
+
+---
+
+### December 11 - JSQL
+
+#### Problem Statement
+-	Given a JSON file with table information, return the SQL statement to create the table and insert all the records into the table.
+- - You need not worry about key constraints.
+
+#### Sample Input/Output
+```json
+  Input:
+  {
+    "table name": "my_table",
+          "headers": {
+      "1": {
+        "column name": "id",
+        "data type": "integer"
+      },
+      "2": {
+        "column name": "name",
+        "data type": "varchar(30)"
+      }, 
+    },
+    "records": {   
+      "1": [1, "Josh"],
+      "2": [2, "Mike"],
+      "3": [3, "Tom"]
+    }
+  }
+```
+```sql
+  Output:
+    create table my_table (id integer, name varchar(30));
+    insert into my_table values (1, "Josh");
+    insert into my_table values (2, "Mike");
+    insert into my_table values (3, "Tom"); 
+```
+
+#### Explanation
+- From the JSON file, we need to create a table `my_table` with 2 columns `id', and `age`.
+
+> <a href="src/assets/dec 11 sample input.json"> Click here for more sample input</a>
+
+#### Resources
+- [SQL basics](https://www.tutorialspoint.com/sql/index.htm)
+- [JSON overview & parsing JSON in various languaes](https://www.json.org/json-en.html)
+
+---
+### December 12 - Recruitment Drive
+
+#### Problem Statement
+- Given a file of candidates selection based on GPA and work experience predict whether the new candidate will be selected or not
+- The file will have the following values
+GPA : 0-5
+Work experience : Number in years
+Selection Status : 0-not selected
+                   1-selected
+- Prediction calculation (where X<sub>1</sub> is GPA and X<sub>2</sub> is work experience): 
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;\frac{1}{1&space;&plus;&space;e^{-(b_{0}&space;&plus;&space;b_{1}x_{1}&space;&plus;&space;b_{2}x_{2})}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\large&space;\frac{1}{1&space;&plus;&space;e^{-(b_{0}&space;&plus;&space;b_{1}x_{1}&space;&plus;&space;b_{2}x_{2})}}" title="\large \frac{1}{1 + e^{-(b_{0} + b_{1}x_{1} + b_{2}x_{2})}}" /></a></p>
+
+- For each test case (Stochastic gradient) b<sub>0</sub>,b<sub>1</sub>,b<sub>2</sub> are initially zero and is updated using: 
+
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\large&space;b&space;=&space;b&space;&plus;&space;0.3&space;\times&space;(y&space;-&space;prediction)&space;\times&space;prediction&space;\times&space;(1&space;-&space;prediction)&space;\times&space;x" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\large&space;b&space;=&space;b&space;&plus;&space;0.3&space;\times&space;(y&space;-&space;prediction)&space;\times&space;prediction&space;\times&space;(1&space;-&space;prediction)&space;\times&space;x" title="\large b = b + 0.3 \times (y - prediction) \times prediction \times (1 - prediction) \times x" /></a></p>
+- Output whether the candidate will be selected or not?
+
+#### Input Format
+- The first line contains the address of the csv file. The csv file can be fetched from [here](src/assets/RECRUITMENT%20DRIVE%20-%20Sheet1.csv)
+- The second line consists of two values gpa and work_experience
+
+#### Output Format
+- Print 'Selected' or 'Not selected' based on the prediction
+
+#### Sample Input/Output
+```csv
+gpa,work_experience,selection_status
+4,3,1
+3.9,4,1
+3.3,3,0
+3.7,5,1
+3.9,4,0
+3.7,6,1
+2.3,1,0
+3.3,4,1
+3.3,5,1
+1.7,1,0
+```
+```
+Input: 3.7 6
+Output: Selected
+```
+
+#### Resources
+- [Logistic Regression ML](https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/)
 
 ---
 
