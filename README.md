@@ -457,16 +457,14 @@ Output: Selected
   - One character in the string is incorrectly replaced by another one. Example: She enters Equalety instead Equality.  
   - So write a program to help her finish the essay by correcting the spelling mistakes.
   #### Note
-  - Input Format: The first line of the input contains number of items in the list . Then follows the items in the list. One misspelt word would be there in the input.
-.
-  - Output Format: For that one misspelt word give the correct word as output
+  - Input Format: The first line contains a list of correct words followed by the misspelt word.
+. - Output Format: Corrected word
     
   
   #### Sample Input And Output
   ```
   Input:
-  No of items in the list: 5
-  List: [Mango, Guitar, Automobile, Astonished, Unique]
+  Correct Words: [Mango, Guitar, Automobile, Astonished, Unique]
   Misspelt word: Guiter
   
   Output:
