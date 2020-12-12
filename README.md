@@ -455,11 +455,10 @@ Output: Selected
   #### Problem Statement
   - Sara was writing an essay on pollution due to urbanization. Due to her poor writing skills she made a lot of errors in her essay.
   - One character in the string is incorrectly replaced by another one. Example: She enters Equalety instead Equality.  
-  - So write a program to help her finish the essay by correcting the spelling mistakes.
-  #### Note
-  - Input Format: The first line contains a list of correct words followed by the misspelt word.
-. - Output Format: Corrected word
-    
+  - Write a program to help her finish the essay by correcting the spelling mistakes.
+  - The program should accept a list of correct words and the misspelt word as the input. Display the correct word as the output.
+  
+  <p align="center"><img src="https://i.imgur.com/gcZMbHu.gif" height=250/></p>
   
   #### Sample Input And Output
   ```
@@ -469,6 +468,15 @@ Output: Selected
   
   Output:
   Guitar
+  
+  ```
+  ```
+  Input:
+  Correct Words: [December, Of, Algorithms]
+  Misspelt word: Algorythms
+  
+  Output:
+  Algorithms
   
   ```
 
