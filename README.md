@@ -482,7 +482,7 @@ Output: Selected
   ```
 
   #### Resources
-  - https://www.geeksforgeeks.org/top-7-applications-of-natural-language-processing/
+  - [Applications of NLP](https://www.geeksforgeeks.org/top-7-applications-of-natural-language-processing/)
 
 ---  
 ### December 14 - Puddles and Potholes
