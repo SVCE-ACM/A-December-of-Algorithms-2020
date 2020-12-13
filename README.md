@@ -487,13 +487,13 @@ Output: Selected
 ---  
 ### December 14 - Puddles and Potholes
   
-  #### Problem Statement
+ #### Problem Statement
 - Due to improper road maintenance, some roads in ABC Nagar were broken and had potholes. The new delivery guy at Pizza House does not know about this situation. 
 - To make things worse, the heavy rain last night has filled up these potholes and, there's no difference between a puddle of water and a pothole filled with water.
 - Given a map where the potholes are marked as 0 and the road marked as 1, help the delivery guy deliver his pizzas safely on time by choosing the best route for him.
 - The top left corner and the bottom right corner must be considered as Pizza House and the destination respectively.
  
-  #### Sample Input And Output
+ #### Sample Input And Output
    ```
     Enter the map details:
      1 0 0 0
@@ -516,11 +516,10 @@ Output: Selected
      <p align="center"><img src="https://i.stack.imgur.com/mh9kV.png" height=250/></p>
   
   - The blocks for the optimised route are mentioned as 1’s while the remaining blocks are mentioned as 0’s.
-
-
-  #### Resources
-  - https://www.geeksforgeeks.org/backtracking-introduction/
-  - https://www.freecodecamp.org/news/backtracking-algorithms-recursive-search/
+ 
+ #### Resources
+  - [Backtracking Introduction](https://www.geeksforgeeks.org/backtracking-introduction/)
+  - [Backtracking Algorithms](https://www.geeksforgeeks.org/backtracking-algorithms/)
 
 --- 
 
