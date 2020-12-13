@@ -491,7 +491,7 @@ Output: Selected
 - Due to improper road maintenance, some roads in ABC Nagar were broken and had potholes. The new delivery guy at Pizza House does not know about this situation. 
 - To make things worse, the heavy rain last night has filled up these potholes and, there's no difference between a puddle of water and a pothole filled with water.
 - Given a map where the potholes are marked as 0 and the road marked as 1, help the delivery guy deliver his pizzas safely on time by choosing the best route for him.
-
+- The top left corner and the bottom right corner must be considered as Pizza House and the destination respectively.
  
   #### Sample Input And Output
    ```
