@@ -25,6 +25,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 11 - JSQL**](#december-11---jsql)
   - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
+  - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -484,6 +485,43 @@ Output: Selected
   - https://www.geeksforgeeks.org/top-7-applications-of-natural-language-processing/
 
 ---  
+### December 14 - Puddles and Potholes
+  
+ #### Problem Statement
+- Due to improper road maintenance, some roads in ABC Nagar were broken and had potholes. The new delivery guy at Pizza House does not know about this situation. 
+- To make things worse, the heavy rain last night has filled up these potholes and, there's no difference between a puddle of water and a pothole filled with water.
+- Given a map where the potholes are marked as 0 and the road marked as 1, help the delivery guy deliver his pizzas safely on time by choosing the best route for him.
+- The top left corner and the bottom right corner must be considered as Pizza House and the destination respectively.
+ 
+ #### Sample Input And Output
+   ```
+    Enter the map details:
+     1 0 0 0
+     1 1 0 1
+     0 1 0 0
+     1 1 1 1
+     
+   ```
+   ```
+   Optimised Route:
+     1 0 0 0
+     1 1 0 0
+     0 1 0 0
+     0 1 1 1
+     
+   ```
+ 
+ #### Explanation
+   - The given map details can be interpreted as given:
+     <p align="center"><img src="https://i.stack.imgur.com/mh9kV.png" height=250/></p>
+  
+  - The blocks for the optimised route are mentioned as 1’s while the remaining blocks are mentioned as 0’s.
+ 
+ #### Resources
+  - [Backtracking Introduction](https://www.geeksforgeeks.org/backtracking-introduction/)
+  - [Backtracking Algorithms](https://www.geeksforgeeks.org/backtracking-algorithms/)
+
+--- 
 
 ## Maintainers
 
