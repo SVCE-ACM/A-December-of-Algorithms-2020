@@ -26,6 +26,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
+  - [**December 15 - Max plays PUBG**](#december-15---Max-plays-PUBG)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -523,6 +524,44 @@ Output: Selected
 
 --- 
 
+### December 15 - Max plays PUBG
+
+   #### Problem Statement
+   - Max is playing PUBG and he has reached a place with a large staircase in front of him. And there is an enemy at each landing of the staircase.
+   - The staircase is analogous to a binary tree with each of its nodes as a landing of the staircase and each of its edges as stairs from one landing to another.  
+     <p align="center"><img src="https://he-s3.s3.amazonaws.com/media/uploads/9817cde1-d9a3-4551-9ecd-8ac1e50acd2a.png" height=250/></p>
+   - Yatin wants to kill the maximum possible number of enemies. He can kill every person he can see from his position with his suppressed sniper gun. But he can see only the persons at the leftmost standing at each level and cannot see the rest.
+   - Before starting shooting them, he wants to know how many persons he can kill. He is busy keeping an eye on the enemies. So he wants you to find out the maximum number of people he can kill from that location by providing you with the analogous a binary search tree.
+   - [ Note: Players do not change their position after one player has died, i.e. the leftmost node remains the same even after player on that node has died. Or we can say that the nodes are not removed after the player on that node has died. ]
+   
+   #### Input Format
+ - The first line of input contains a number t denoting the number of test cases.
+
+ - The first line of each test case contains n, the number of nodes in the tree.
+
+ - The second line of each test case contains n space separated integers (unique) ai denoting the value at each node of the BST.
+
+
+#### Output Format
+  - Print the answer for each test case on a new line.  
+   
+   #### Sample Input And Output
+   ```
+   Input:
+    1
+    9
+    8 3 10 1 6 14 4 7 13
+     
+   ```
+   ```
+    Output: 
+    4
+     
+   ```
+   
+   #### Resources
+  - [Binary Search Tree](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+
 ## Maintainers
 
 <table>
@@ -538,6 +577,7 @@ Output: Selected
             <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
             <th><a href="https://github.com/Sandyy22">Sandhya</a></th>
             <th><a href="https://github.com/shrusri27">Shruti</a></th>
+            <th><a href="https://github.com/NikhileshJr08">Nikhilesh</a></th>
         </tr>
     </thead>
     <tbody>
@@ -552,11 +592,13 @@ Output: Selected
             <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Sandyy22"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars3.githubusercontent.com/u/63784914" alt="f"></a></td>            
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
