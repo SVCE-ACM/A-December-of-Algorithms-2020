@@ -26,6 +26,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
+  - [**December 15 - Help Max shop!**](#december-15---Help-Max-shop!)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -523,6 +524,44 @@ Output: Selected
 
 --- 
 
+### December 15 - Help Max shop!
+
+   #### Problem Statement
+   - Max is deeply fond of fashion and he enters H&M in search of shirts and trousers.
+   - The shirts and trousers are arranged in a single line (in disorderly fashion). Max wants to pick maxiumum number of continuous garments such that number of shirts and trousers are equal.
+   - Can you help Max to find maximum number of garments he can pick?
+   <p align="center"><img src="https://media.giphy.com/media/z2D26GunfUK1W/giphy.gif" height=250/></p>
+
+   #### Input Format
+   - A string gives arrangements of garments. 's' denotes shirts and 't' denotes trousers.
+
+   #### Output Format
+   - Print a single line denoting maximum number of garments Max can pick. 
+
+#### Sample Input And Output
+   ```
+   ststt
+   4
+   ```
+   ```
+   tsssst
+   2
+   ```
+   ```  
+   tstts
+   4
+   ```
+   
+   #### Explanation
+   - He can pick from index 0 to 3 (assuming indexing starts from 0)
+   - He can pick from index 0 to 1 or from 4 to 5 (assuming indexing starts from 0)
+   - He can pick from index 1 to 4 (assuming indexing starts from 0)
+   
+   #### Resources
+   - [Hashing](https://www.geeksforgeeks.org/hashing-data-structure/)
+   
+---
+   
 ## Maintainers
 
 <table>
@@ -538,6 +577,7 @@ Output: Selected
             <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
             <th><a href="https://github.com/Sandyy22">Sandhya</a></th>
             <th><a href="https://github.com/shrusri27">Shruti</a></th>
+            <th><a href="https://github.com/NikhileshJr08">Nikhilesh</a></th>
         </tr>
     </thead>
     <tbody>
@@ -552,11 +592,13 @@ Output: Selected
             <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Sandyy22"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars3.githubusercontent.com/u/63784914" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
