@@ -26,7 +26,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
-  - [**December 15 - Help Max shop!**](#december-15---Help-Max-shop!)
+  - [**December 15 - Help Max shop!**](#december-15---help-max-shop)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -530,7 +530,7 @@ Output: Selected
    - Max is deeply fond of fashion and he enters H&M in search of shirts and trousers.
    - The shirts and trousers are arranged in a single line (in disorderly fashion). Max wants to pick maxiumum number of continuous garments such that number of shirts and trousers are equal.
    - Can you help Max to find maximum number of garments he can pick?
-   <p align="center"><img src="https://media.giphy.com/media/z2D26GunfUK1W/giphy.gif" height=250/></p>
+   <p align="center"><img src="https://i.imgur.com/0KTYTYg.gif" height=250/></p>
 
    #### Input Format
    - A string gives arrangements of garments. 's' denotes shirts and 't' denotes trousers.
