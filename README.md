@@ -529,14 +529,9 @@ Output: Selected
    #### Problem Statement
    - Max is deeply fond of fashion and he enters H&M in search of shirts and trousers.
    - The shirts and trousers are arranged in a single line (in disorderly fashion). Max wants to pick maxiumum number of continuous garments such that number of shirts and trousers are equal.
-   - Can you help Max to find maximum number of garments he can pick?
-   <p align="center"><img src="https://i.imgur.com/0KTYTYg.gif" height=250/></p>
-
-   #### Input Format
-   - A string gives arrangements of garments. 's' denotes shirts and 't' denotes trousers.
-
-   #### Output Format
-   - Print a single line denoting maximum number of garments Max can pick. 
+   - Can you help Max to find maximum number of garments he can pick given string gives arrangements of garments, `s` denotes shirts and `t` denotes trousers? Return a single line denoting maximum number of garments Max can pick.
+   
+   <p align="center"><img src="https://i.imgur.com/0KTYTYg.gif" height=250/></p> 
 
 #### Sample Input And Output
    ```
