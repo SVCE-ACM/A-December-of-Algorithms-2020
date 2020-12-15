@@ -27,7 +27,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
   - [**December 15 - Help Max shop!**](#december-15---help-max-shop)
-  - [**December 16 - Decrypt The Message!**](#december-16---decrypt-the-message)
+  - [**December 16 - Max's Party**](#december-16---maxs-party)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -557,46 +557,32 @@ Output: Selected
    - [Hashing](https://www.geeksforgeeks.org/hashing-data-structure/)
    
 ---
-### December 16 - Decrypt The Message!
+### December 16 - Max's Party
   
   #### Problem Statement
-  - Alice want to contact Bob. But Alice found that there are some intruders listening to the Alice and Bob channel. So, Alice decided to Invent a Cipher based on ROT Cipher with a Key. 
-  - Bob knows how the encryption works and Bob also recived the key from Alice. Now, Bob want to implement Decryption algorithm to decrypt the message sent by the Alice.
+  - The neighbourhood of greenwood want to throw an appreciation party for their beloved mailman max. 
+  - They want to get word around, but dont want to spoil the suprise for max. So they decide to encrypt their letter.
+  - They decide to use ROT encryption to circulate their messages. Help the neighbourhood by building an encryption algorithm.
+  - Rot cipher is a simple character substitution based on a shift/rotation of N letters in an alphabet. 
   
   #### Sample Input And Output
   ```
-  Input:
-  encrypted_text = "nvGhg" 
+  Input Text :"Hihow" 
   Key="LLRHR
   
-  Output:
-  Hihow
+  Output :"nvGhg"
   
   ```
-  #### Explanation For the Encryption
-  - First the Plain test is taken as a input and the spaces are removed.
-	    (ex) (Hi how are you -> Hihowareyou)
-  - Plain text is divided as chunks as maximum length as 5.
-	    (ie) (Hihowareyou -> Hihow areyo u)
-  - Key is entered as second input. The key contains only letter (H, L and R).
-	    (Ex) LLRHR
-  - where L is -1, H is +1 and R is Rotate (Right -> Left)
-  - Each chunk must be encrypted separately.
-	  (ie) 
-	  > For The Key LLRHR.<br/>
-    > Step 1 (L from 1st letter of Key): Hihow -> Ghgnv<br/>
-    > step 2 (L from 2nd letter of Key): Ghgnv -> Fgfmu<br/>
-    > step 3 (R from 3rd letter of Key): Fgfmu -> uFgfm<br/>
-    > step 4 (H from 4th letter of Key): uFgfm -> vGhgn<br/>
-    > step 5 (R from 4th letter of Key): vGhgn -> nvGhg<br/>
+  #### Explanation 
+  - Step 1 (L): Hihow -> Ghgnv<br/>
+  - Step 2 (L): Ghgnv -> Fgfmu<br/>
+  - Step 3 (R): Fgfmu -> uFgfm<br/>
+  - Step 4 (H): uFgfm -> vGhgn<br/>
+  - Step 5 (R): vGhgn -> nvGhg<br/>
   - The Final cipher text for (Hihow) using the key (LLRHR) is (nvGhg).
 
   #### Note:
-  - The chunk size should be max 5.
-  - Key size should be greater than one and contains only(L, H & R)
-    where L -> Low
-          H -> High
-          R -> Rotate
+  - Key size should be greater than one and contains only(L, H & R) where L -> -1, H -> +1, R -> Rotate
     
   #### Resources
   - [ROT Cipher](https://en.wikipedia.org/wiki/ROT13/)
