@@ -27,6 +27,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
   - [**December 15 - Help Max shop!**](#december-15---help-max-shop)
+  - [**December 16 - Max's Party**](#december-16---maxs-party)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -556,6 +557,37 @@ Output: Selected
    - [Hashing](https://www.geeksforgeeks.org/hashing-data-structure/)
    
 ---
+### December 16 - Max's Party
+  
+  #### Problem Statement
+  - The neighbourhood of greenwood want to throw an appreciation party for their beloved mailman max. 
+  - They want to get word around, but dont want to spoil the suprise for max. So they decide to encrypt their letter.
+  - They decide to use ROT encryption to circulate their messages. Help the neighbourhood by building an encryption algorithm.
+  - Rot cipher is a simple character substitution based on a shift/rotation of N letters in an alphabet. 
+  
+  #### Sample Input And Output
+  ```
+  Input Text : "Hihow" 
+  Key : LLRHR
+  
+  Output : "nvGhg"
+  
+  ```
+  #### Explanation 
+  - Step 1 (L): Hihow -> Ghgnv<br/>
+  - Step 2 (L): Ghgnv -> Fgfmu<br/>
+  - Step 3 (R): Fgfmu -> uFgfm<br/>
+  - Step 4 (H): uFgfm -> vGhgn<br/>
+  - Step 5 (R): vGhgn -> nvGhg<br/>
+  - The Final cipher text for (Hihow) using the key (LLRHR) is (nvGhg).
+
+  #### Note:
+  - Key size should be greater than one and contains only(L, H & R) where L -> -1, H -> +1, R -> Rotate
+    
+  #### Resources
+  - [ROT Cipher](https://en.wikipedia.org/wiki/ROT13/)
+
+---  
    
 ## Maintainers
 
