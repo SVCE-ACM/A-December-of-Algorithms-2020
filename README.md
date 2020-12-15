@@ -584,11 +584,11 @@ Output: Selected
   - Each chunk must be encrypted separately.
 	  (ie) 
 	  > For The Key LLRHR.<br/>
-    > Step 1 (L from 1st letter of Key): Hihow -> Ghgnv
-    > step 2 (L from 2nd letter of Key): Ghgnv -> Fgfmu
-    > step 3 (R from 3rd letter of Key): Fgfmu -> uFgfm
-    > step 4 (H from 4th letter of Key): uFgfm -> vGhgn
-    > step 5 (R from 4th letter of Key): vGhgn -> nvGhg
+    > Step 1 (L from 1st letter of Key): Hihow -> Ghgnv<br/>
+    > step 2 (L from 2nd letter of Key): Ghgnv -> Fgfmu<br/>
+    > step 3 (R from 3rd letter of Key): Fgfmu -> uFgfm<br/>
+    > step 4 (H from 4th letter of Key): uFgfm -> vGhgn<br/>
+    > step 5 (R from 4th letter of Key): vGhgn -> nvGhg<br/>
   - The Final cipher text for (Hihow) using the key (LLRHR) is (nvGhg).
 
   #### Note:
