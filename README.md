@@ -27,7 +27,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
   - [**December 15 - Help Max shop!**](#december-15---help-max-shop)
-  - [**December 16 - Decrypt The Message!**](#december-16--decrypt-the-message)
+  - [**December 16 - Decrypt The Message!**](#december-16---decrypt-the-message)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -583,7 +583,7 @@ Output: Selected
   - where L is -1, H is +1 and R is Rotate (Right -> Left)
   - Each chunk must be encrypted separately.
 	  (ie) 
-	  > For The Key LLRHR.
+	  > For The Key LLRHR.<br/>
     > Step 1 (L from 1st letter of Key): Hihow -> Ghgnv
     > step 2 (L from 2nd letter of Key): Ghgnv -> Fgfmu
     > step 3 (R from 3rd letter of Key): Fgfmu -> uFgfm
