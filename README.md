@@ -27,6 +27,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
   - [**December 15 - Help Max shop!**](#december-15---help-max-shop)
+  - [**December 16 - Decrypt The Message!**](#december-16--decrypt-the-message)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -556,6 +557,51 @@ Output: Selected
    - [Hashing](https://www.geeksforgeeks.org/hashing-data-structure/)
    
 ---
+### December 16 - Decrypt The Message!
+  
+  #### Problem Statement
+  - Alice want to contact Bob. But Alice found that there are some intruders listening to the Alice and Bob channel. So, Alice decided to Invent a Cipher based on ROT Cipher with a Key. 
+  - Bob knows how the encryption works and Bob also recived the key from Alice. Now, Bob want to implement Decryption algorithm to decrypt the message sent by the Alice.
+  
+  #### Sample Input And Output
+  ```
+  Input:
+  encrypted_text = "nvGhg" 
+  Key="LLRHR
+  
+  Output:
+  Hihow
+  
+  ```
+  #### Explanation For the Encryption
+  - First the Plain test is taken as a input and the spaces are removed.
+	    (ex) (Hi how are you -> Hihowareyou)
+  - Plain text is divided as chunks as maximum length as 5.
+	    (ie) (Hihowareyou -> Hihow areyo u)
+  - Key is entered as second input. The key contains only letter (H, L and R).
+	    (Ex) LLRHR
+  - where L is -1, H is +1 and R is Rotate (Right -> Left)
+  - Each chunk must be encrypted separately.
+	  (ie) 
+	  > For The Key LLRHR.
+    > Step 1 (L from 1st letter of Key): Hihow -> Ghgnv
+    > step 2 (L from 2nd letter of Key): Ghgnv -> Fgfmu
+    > step 3 (R from 3rd letter of Key): Fgfmu -> uFgfm
+    > step 4 (H from 4th letter of Key): uFgfm -> vGhgn
+    > step 5 (R from 4th letter of Key): vGhgn -> nvGhg
+  - The Final cipher text for (Hihow) using the key (LLRHR) is (nvGhg).
+
+  #### Note:
+  - The chunk size should be max 5.
+  - Key size should be greater than one and contains only(L, H & R)
+    where L -> Low
+          H -> High
+          R -> Rotate
+    
+  #### Resources
+  - [ROT Cipher](https://en.wikipedia.org/wiki/ROT13/)
+
+---  
    
 ## Maintainers
 
