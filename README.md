@@ -567,10 +567,10 @@ Output: Selected
   
   #### Sample Input And Output
   ```
-  Input Text :"Hihow" 
-  Key="LLRHR
+  Input Text : "Hihow" 
+  Key : LLRHR
   
-  Output :"nvGhg"
+  Output : "nvGhg"
   
   ```
   #### Explanation 
