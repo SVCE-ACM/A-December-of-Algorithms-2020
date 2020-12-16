@@ -593,49 +593,37 @@ Output: Selected
 ### December 17 - Pokemon
 
 #### Problem Statement
-- A pokemon battle between two teams (A & B) is about to take place. Each teams consist of pokemon from 1 to n. Each pokemon has a power score.
-- A pokemon can win the battle only if its power score is strictly greater than his opponents power score. Coach of team A is yet to arrive.
-- Team A needs your help. Come up with the maximum number of matches that team A can win if the fight the battle in a optimal manner.
+- A Pokemon battle between two teams (say `A` and `B`) is about to take place. Each teams consist of Pokemon from `1` to `n`. Each Pokemon has a power score.
+- A Pokemon can win the battle only if its power score is strictly greater than his opponents power score. Coach of team A is yet to arrive.
+- Team `A` needs your help. Come up with the maximum number of matches that team `A` can win if the fight the battle in a optimal manner if a Pokemon can only fight in one battle.
 
-<p align="center"><img src="src/assets/pokemon.gif"></p>
-
-#### Note
-- A pokemon can only fight in one battle.
-- Do not consider the order of battle. Just output the maximum battles that team A can win.
+<p align="center"><img src="https://i.imgur.com/SH4TGKD.gif"></p>
 
 #### Sample Input/Output
 ##### Example 1
 ```bash
-  Input:
   No of pokemons: 4
   Team A power score: [7, 10, 3, 5]
   Team B power score: [4, 12, 2, 6]
-
-  Output:
-  3
+```
+```
+  Output: 3
 ```
 ##### Explanation
-- Team A can win a maximum of 3 battles if they fight in the below order:
-- A1 fights with B4
-- A3 fights with B3
-- A4 fights with B1
+- Team `A` can win a maximum of `3` battles if they fight in the below order:
+- `A1` fights with `B4`
+- `A3` fights with `B3`
+- `A4` fights with `B1`
 
 ##### Example 2
 ```bash
-  Input:
   No of pokemons: 5
   Team A power score: [4, 6, 7, 11, 8]
   Team B power score: [2, 5, 6, 13, 3]
-
-  Output:
-  4
 ```
-##### Explanation
-- Team A can win a maximum of 4 battles if they fight in the below order:
-- A1 fights with B1
-- A2 fights with B5
-- A3 fights with B2
-- A5 fights with B3
+```
+  Output: 4
+```
 
 #### Resources
 - [Basics of Greedy Algorithms](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
