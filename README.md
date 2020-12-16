@@ -27,6 +27,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
   - [**December 15 - Help Max shop!**](#december-15---help-max-shop)
+  - [**December 16 - Max's Party**](#december-16---maxs-party)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -556,6 +557,37 @@ Output: Selected
    - [Hashing](https://www.geeksforgeeks.org/hashing-data-structure/)
    
 ---
+
+### December 16 - Max's Party
+  
+  #### Problem Statement
+  - The neighbourhood of greenwood want to throw an appreciation party for their beloved mailman max. They want to get word around, but dont want to spoil the suprise for max. So they decide to encrypt their letter.
+  - They decide to use ROT encryption technique, which is a simple character substitution based on a shift/rotation of `N` letters in an alphabet to circulate their messages. Help the neighbourhood encrypt a string `message` with a `Key` using ROT encryption technique as demonstrated below. 
+  
+  #### Sample Input And Output
+  ```
+  Message: "Hihow" 
+  Key: LLRHR
+  ```
+  ```
+  Encrypted Message: "nvGhg"
+  ```
+  #### Step-wise Explanation 
+  1. `L`: `Hihow` -> `Ghgnv`
+  2. `L`: `Ghgnv` -> `Fgfmu`
+  3. `R`: `Fgfmu` -> `uFgfm`
+  4. `H`: `uFgfm` -> `vGhgn`
+  5. `R`: `vGhgn` -> `nvGhg`
+  6. Therefore, the Derived Encrypted message for `Hihow` using the key `LLRHR` is `nvGhg`.
+  7. Key size should be greater than one and contains only `L`, `H` and `R` where,
+        - `L` stands for `-1`
+        - `H` stands for `+1`
+        - `R` stands for `Rotate`
+  
+  #### Resources
+  - [ROT Cipher](https://en.wikipedia.org/wiki/ROT13/)
+
+---  
    
 ## Maintainers
 
@@ -564,7 +596,7 @@ Output: Selected
         <tr>
             <th><a href="https://github.com/bearlike">Krishnakanth</a></th>
             <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>
-            <th><a href="https://github.com/dhirajv2000">Dhiraj</a></th>
+            <th><a href="https://github.com/dhirajv2000">Dhiraj V</a></th>
             <th><a href="https://github.com/aravindr22">Aravind</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
