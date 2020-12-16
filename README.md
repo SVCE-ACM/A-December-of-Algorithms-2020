@@ -28,6 +28,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
   - [**December 15 - Help Max shop!**](#december-15---help-max-shop)
   - [**December 16 - Max's Party**](#december-16---maxs-party)
+  - [**December 17 - Pokemon**](#december-17---pokemon)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -588,6 +589,47 @@ Output: Selected
   - [ROT Cipher](https://en.wikipedia.org/wiki/ROT13/)
 
 ---  
+
+### December 17 - Pokemon
+
+#### Problem Statement
+- A Pokemon battle between two teams (say `A` and `B`) is about to take place. Each teams consist of Pokemon from `1` to `n`. Each Pokemon has a power score.
+- A Pokemon can win the battle only if its power score is strictly greater than his opponents power score. Coach of team A is yet to arrive.
+- Team `A` needs your help. Come up with the maximum number of matches that team `A` can win if the fight the battle in a optimal manner if a Pokemon can only fight in one battle.
+
+<p align="center"><img src="https://i.imgur.com/SH4TGKD.gif"></p>
+
+#### Sample Input/Output
+##### Example 1
+```bash
+  No of pokemons: 4
+  Team A power score: [7, 10, 3, 5]
+  Team B power score: [4, 12, 2, 6]
+```
+```
+  Output: 3
+```
+##### Explanation
+- Team `A` can win a maximum of `3` battles if they fight in the below order:
+- `A1` fights with `B4`
+- `A3` fights with `B3`
+- `A4` fights with `B1`
+
+##### Example 2
+```bash
+  No of pokemons: 5
+  Team A power score: [4, 6, 7, 11, 8]
+  Team B power score: [2, 5, 6, 13, 3]
+```
+```
+  Output: 4
+```
+
+#### Resources
+- [Basics of Greedy Algorithms](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
+- [Approach of Greedy Algorithms](https://www.guru99.com/greedy-algorithm.html)
+
+---
    
 ## Maintainers
 
