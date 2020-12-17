@@ -632,11 +632,10 @@ Output: Selected
 
 ---
 
-### December 18 - Is this a valid new user
+### December 18 - Is this a valid new user?
 
 #### Problem Statement
-
-- During a hackathon your friend Shyam is trying to add a user authentication feature.
+- During a hackathon, your friend Shyam is trying to add a user authentication feature.
 - He is asking you to implement an algorithm to validate and check the availability for a given username.
 - The rules for username validation are
   1. It can contain characters `a-z` or `A-Z`.
@@ -647,30 +646,23 @@ Output: Selected
 - Fetch the data from the [fake users API](https://jsonplaceholder.typicode.com/users) to check whether the given username is available or not.
 
 #### Sample Input/Output
-
 ##### Example 1
-
 ```
 Input: Peter_Smith-24
 Output: The username is valid and available.
 ```
-
 ##### Example 2
-
 ```
 Input: Leopoldo_Corkery
 Output: The username is valid but not available.
 ```
-
 ##### Example 3
-
 ```
 Input: john $1-Samuel
 Output: The username is not valid.
 ```
 
 #### Resources
-
 - [Fake users API](https://jsonplaceholder.typicode.com/users)
 - [Regex Playground](https://regex101.com/)
 - [Regex in C++](http://www.cplusplus.com/reference/regex/)
