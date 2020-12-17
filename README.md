@@ -639,14 +639,12 @@ Output: Selected
 - During a hackathon your friend Shyam is trying to add a user authentication feature.
 - He is asking you to implement an algorithm to validate and check the availability for a given username.
 - The rules for username validation are
-  ```
-  1. It can contain characters a-z or A-Z.
-  2. It can contain numbers 0-9.
-  3. Special characters like period (.) underscore(_) or dash (-) is allowed, other special characters are not allowed.
+  1. It can contain characters `a-z` or `A-Z`.
+  2. It can contain numbers `0-9`.
+  3. Special characters like period (`.`) underscore(`_`) or dash (`-`) is allowed, other special characters are not allowed.
   4. It should not contain any whitespace characters.
   5. The length of the username should not exceed 20.
-  ```
-- Fetch the data from the [fake users api](https://jsonplaceholder.typicode.com/users) to check whether the given username is available or not.
+- Fetch the data from the [fake users API](https://jsonplaceholder.typicode.com/users) to check whether the given username is available or not.
 
 #### Sample Input/Output
 
@@ -673,7 +671,7 @@ Output: The username is not valid.
 
 #### Resources
 
-- [Fake users api](https://jsonplaceholder.typicode.com/users)
+- [Fake users API](https://jsonplaceholder.typicode.com/users)
 - [Regex Playground](https://regex101.com/)
 - [Regex in C++](http://www.cplusplus.com/reference/regex/)
 - [Regex in Java](https://www.javatpoint.com/java-regex)
