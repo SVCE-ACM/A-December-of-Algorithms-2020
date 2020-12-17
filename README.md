@@ -636,22 +636,19 @@ Output: Selected
 
 #### Problem Statement
 
-- During a hackathon your team mate shyam is trying to add user authentication feature to the web app.
-- He is taking care of the algorithm to check the password but he is asking you to implement an algorithm to validate and check the availability for a given username.
-- The rules for validating the username and a fake users api (for the purpose of the problem) is given as input.
-- You have to implement an algorithm that
-  - Validates the username according to the given rules.
-  - Checks whether the username is available or it is already taken (using the data from the api).
+- During a hackathon your friend Shyam is trying to add a user authentication feature.
+- He is asking you to implement an algorithm to validate and check the availability for a given username.
+- The rules for username validation are
+  ```
+  1. It can contain characters a-z or A-Z.
+  2. It can contain numbers 0-9.
+  3. Special characters like period (.) underscore(_) or dash (-) is allowed, other special characters are not allowed.
+  4. It should not contain any whitespace characters.
+  5. The length of the username should not exceed 20.
+  ```
+- Fetch the data from the [fake users api](https://jsonplaceholder.typicode.com/users) to check whether the given username is available or not.
 
 #### Sample Input/Output
-
-Rules for username validation are
-
-1. It can contain characters a-z or A-Z.
-1. It can contain numbers 0-9.
-1. Special characters like period (.) underscore(_) or dash (-) is allowed, other special characters are not allowed.
-1. It should not contain any whitespace characters.
-1. The length of the username should not exceed 20.
 
 ##### Example 1
 
@@ -674,26 +671,14 @@ Input: john $1-Samuel
 Output: The username is not valid.
 ```
 
-#### Note
-
-- Here is the [fake users api](https://jsonplaceholder.typicode.com/users) to use for the problem.
-- You have to fetch the data from the given api and check wheter the given username is available or already taken.
-
-#### Explanation
-
-- In the example 1 the username follows all the given rules so it is valid also it is not taken.
-- In the example 2 the username follows all the rules so it is valid but the username is already taken.
-- In the example 3 the username does not follow all the rules so it is not valid.
-- Check for the availability only if the username is valid.
-
 #### Resources
 
-[Fake users api](https://jsonplaceholder.typicode.com/users)
-[Regex Playground](https://regex101.com/)
-[Regex in C++](http://www.cplusplus.com/reference/regex/)
-[Regex in Java](https://www.javatpoint.com/java-regex)
-[Regex in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
-[Regex in Python](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
+- [Fake users api](https://jsonplaceholder.typicode.com/users)
+- [Regex Playground](https://regex101.com/)
+- [Regex in C++](http://www.cplusplus.com/reference/regex/)
+- [Regex in Java](https://www.javatpoint.com/java-regex)
+- [Regex in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [Regex in Python](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
 
 ---
 
