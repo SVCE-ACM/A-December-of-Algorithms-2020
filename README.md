@@ -30,6 +30,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Max's Party**](#december-16---maxs-party)
   - [**December 17 - Pokemon**](#december-17---pokemon)
   - [**December 18 - Is this a valid new user**](#december-18---is-this-a-valid-new-user)
+  - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -671,7 +672,40 @@ Output: The username is not valid.
 - [Regex in Python](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
 
 ---
+### War on Wakanda
 
+#### Problem Statement
+- Thanos has declared war in Wakanda. The brave soldiers of Wakanda have been defending their country against attacks for a long time. There is a shortage of food amongst the citizens. The governor of Wakanda has ordered the army to drop food crates via helicopters.
+- Each helipad in Wakanda is located at the nodes of a Generic Tree. Due to constant attacks from Thanos, the dispatched helicopter cannot stay over civilian sky for long or it will be shot down by the enemy. The pilot has decided to cover the entire Helipad Tree with the least number of landings. Each Helipad node can cover the node connected to it by one edge.
+- If the number of landings exceed a certain number, the helicopter will be shot down by Thanos.
+- Since it is a high pressure situation, you have to help the pilot figure out the minimum number of times he needs to land his helicopter in order to cover the entire Helipad Tree without being shot and complete its mission (if possible).
+
+#### Input Format
+- We need to input two things- Tree nodes and maximum allowed landings.
+- The first line of input contains data of the nodes of the tree in level order form. The order is: data for root node, number of children to root node, data of each of child nodes and so on and so forth for each node. The data of the nodes of the tree is separated by space.  
+- Since data of each node is irrelevant, it will be taken as 1, representing that the node exists.
+- Second line of each test case will contain an integer K representing the maximum allowed landings.
+
+#### Output Format
+- If it is possible to complete the mission with <= K landings, print the minimum number of landings required to completely cover the Helipad Tree and the phrase “Mission Successful” , otherwise print the minimum number of landings required to completely cover the Helipad Tree and the phrase “Mission Unsuccessful”.
+
+#### Sample Input/Output
+```
+Input:
+1 3 1 1 1 2 1 1 0 0 0 0
+3
+
+Output:
+2 Mission Successful
+```
+#### Explanation
+For the given input the tree formed is given below, which can be covered with minimum 2 landings, which is less than the maximum allowed landings.
+<p align="center"><img src="src/assets/Dec19.jpg" height=250/></p>
+
+#### Resources
+- https://www.geeksforgeeks.org/generic-treesn-array-trees/
+
+---
 ## Maintainers
 
 <table>
