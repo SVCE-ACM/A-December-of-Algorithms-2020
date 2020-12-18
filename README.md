@@ -687,7 +687,7 @@ Output: The username is not valid.
 - Second line of each test case will contain an integer K representing the maximum allowed landings.
 
 #### Output Format
-- If it is possible to complete the mission with <= K landings, print the minimum number of landings required to completely cover the Helipad Tree and the phrase “Mission Successful” , otherwise print the minimum number of landings required to completely cover the Helipad Tree and the phrase “Mission Unsuccessful”.
+- Print the minimum number of landings, and if the mission was Successful/Unsuccesful
 
 #### Sample Input/Output
 ```
@@ -700,10 +700,10 @@ Output:
 ```
 #### Explanation
 For the given input the tree formed is given below, which can be covered with minimum 2 landings, which is less than the maximum allowed landings.
-<p align="center"><img src="src/assets/Dec19.jpg" height=250/></p>
+<p align="center"><img src="https://i.imgur.com/MDxBcf7.jpg" height=250/></p>
 
 #### Resources
-- https://www.geeksforgeeks.org/generic-treesn-array-trees/
+- [Generic Trees](https://www.geeksforgeeks.org/generic-treesn-array-trees/)
 
 ---
 ## Maintainers
