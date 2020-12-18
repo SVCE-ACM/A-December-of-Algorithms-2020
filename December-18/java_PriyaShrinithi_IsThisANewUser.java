@@ -9,7 +9,17 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
+public class IsThisANewUser
+{
 
+    public static void main(String[] args) throws IOException
+    {
+        ValidAndAvailable vaa = new ValidAndAvailable();
+        List<String> contents = vaa.urlExtract("https://jsonplaceholder.typicode.com/users");
+        System.out.println(vaa.availability(vaa.validity("Leopoldo_Corkery"), contents));
+
+    }
+}
 public class ValidAndAvailable
 {
     private String validityStatus="The username is not valid";
