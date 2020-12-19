@@ -24,6 +24,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 10 - Restore IP Addresses**](#december-10---restore-ip-addresses)
   - [**December 11 - JSQL**](#december-11---jsql)
   - [**December 12 - Recruitment Drive**](#december-12---recruitment-drive)
+  - [**December 13 - Check Your Spelling Sara!**](#december-13---check-your-spelling-sara)
+  - [**December 14 - Puddles and Potholes**](#december-14---puddles-and-potholes)
+  - [**December 15 - Help Max shop!**](#december-15---help-max-shop)
+  - [**December 16 - Max's Party**](#december-16---maxs-party)
+  - [**December 17 - Pokemon**](#december-17---pokemon)
+  - [**December 18 - Is this a valid new user**](#december-18---is-this-a-valid-new-user)
+  - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -449,7 +456,256 @@ Output: Selected
 - [Logistic Regression ML](https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/)
 
 ---
+### December 13 - Check Your Spelling Sara!
+  
+  #### Problem Statement
+  - Sara was writing an essay on pollution due to urbanization. Due to her poor writing skills she made a lot of errors in her essay.
+  - One character in the string is incorrectly replaced by another one. Example: She enters Equalety instead Equality.  
+  - Write a program to help her finish the essay by correcting the spelling mistakes.
+  - The program should accept a list of correct words and the misspelt word as the input. Display the correct word as the output.
+  
+  <p align="center"><img src="https://i.imgur.com/gcZMbHu.gif" height=250/></p>
+  
+  #### Sample Input And Output
+  ```
+  Input:
+  Correct Words: [Mango, Guitar, Automobile, Astonished, Unique]
+  Misspelt word: Guiter
+  
+  Output:
+  Guitar
+  
+  ```
+  ```
+  Input:
+  Correct Words: [December, Of, Algorithms]
+  Misspelt word: Algorythms
+  
+  Output:
+  Algorithms
+  
+  ```
 
+  #### Resources
+  - [Applications of NLP](https://www.geeksforgeeks.org/top-7-applications-of-natural-language-processing/)
+
+---  
+### December 14 - Puddles and Potholes
+  
+ #### Problem Statement
+- Due to improper road maintenance, some roads in ABC Nagar were broken and had potholes. The new delivery guy at Pizza House does not know about this situation. 
+- To make things worse, the heavy rain last night has filled up these potholes and, there's no difference between a puddle of water and a pothole filled with water.
+- Given a map where the potholes are marked as 0 and the road marked as 1, help the delivery guy deliver his pizzas safely on time by choosing the best route for him.
+- The top left corner and the bottom right corner must be considered as Pizza House and the destination respectively.
+ 
+ #### Sample Input And Output
+   ```
+    Enter the map details:
+     1 0 0 0
+     1 1 0 1
+     0 1 0 0
+     1 1 1 1
+     
+   ```
+   ```
+   Optimised Route:
+     1 0 0 0
+     1 1 0 0
+     0 1 0 0
+     0 1 1 1
+     
+   ```
+ 
+ #### Explanation
+   - The given map details can be interpreted as given:
+     <p align="center"><img src="https://i.stack.imgur.com/mh9kV.png" height=250/></p>
+  
+  - The blocks for the optimised route are mentioned as 1’s while the remaining blocks are mentioned as 0’s.
+ 
+ #### Resources
+  - [Backtracking Introduction](https://www.geeksforgeeks.org/backtracking-introduction/)
+  - [Backtracking Algorithms](https://www.geeksforgeeks.org/backtracking-algorithms/)
+
+--- 
+
+### December 15 - Help Max shop!
+
+   #### Problem Statement
+   - Max is deeply fond of fashion and he enters H&M in search of shirts and trousers.
+   - The shirts and trousers are arranged in a single line (in disorderly fashion). Max wants to pick maxiumum number of continuous garments such that number of shirts and trousers are equal.
+   - Can you help Max to find maximum number of garments he can pick given string gives arrangements of garments, `s` denotes shirts and `t` denotes trousers? Return a single line denoting maximum number of garments Max can pick.
+   
+   <p align="center"><img src="https://i.imgur.com/0KTYTYg.gif" height=250/></p> 
+
+#### Sample Input And Output
+   ```
+   ststt
+   4
+   ```
+   ```
+   tsssst
+   2
+   ```
+   ```  
+   tstts
+   4
+   ```
+   
+   #### Explanation
+   - He can pick from index 0 to 3 (assuming indexing starts from 0)
+   - He can pick from index 0 to 1 or from 4 to 5 (assuming indexing starts from 0)
+   - He can pick from index 1 to 4 (assuming indexing starts from 0)
+   
+   #### Resources
+   - [Hashing](https://www.geeksforgeeks.org/hashing-data-structure/)
+   
+---
+
+### December 16 - Max's Party
+  
+  #### Problem Statement
+  - The neighbourhood of greenwood want to throw an appreciation party for their beloved mailman max. They want to get word around, but dont want to spoil the suprise for max. So they decide to encrypt their letter.
+  - They decide to use ROT encryption technique, which is a simple character substitution based on a shift/rotation of `N` letters in an alphabet to circulate their messages. Help the neighbourhood encrypt a string `message` with a `Key` using ROT encryption technique as demonstrated below. 
+  
+  #### Sample Input And Output
+  ```
+  Message: "Hihow" 
+  Key: LLRHR
+  ```
+  ```
+  Encrypted Message: "nvGhg"
+  ```
+  #### Step-wise Explanation 
+  1. `L`: `Hihow` -> `Ghgnv`
+  2. `L`: `Ghgnv` -> `Fgfmu`
+  3. `R`: `Fgfmu` -> `uFgfm`
+  4. `H`: `uFgfm` -> `vGhgn`
+  5. `R`: `vGhgn` -> `nvGhg`
+  6. Therefore, the Derived Encrypted message for `Hihow` using the key `LLRHR` is `nvGhg`.
+  7. Key size should be greater than one and contains only `L`, `H` and `R` where,
+        - `L` stands for `-1`
+        - `H` stands for `+1`
+        - `R` stands for `Rotate`
+  
+  #### Resources
+  - [ROT Cipher](https://en.wikipedia.org/wiki/ROT13/)
+
+---  
+
+### December 17 - Pokemon
+
+#### Problem Statement
+- A Pokemon battle between two teams (say `A` and `B`) is about to take place. Each teams consist of Pokemon from `1` to `n`. Each Pokemon has a power score.
+- A Pokemon can win the battle only if its power score is strictly greater than his opponents power score. Coach of team A is yet to arrive.
+- Team `A` needs your help. Come up with the maximum number of matches that team `A` can win if the fight the battle in a optimal manner if a Pokemon can only fight in one battle.
+
+<p align="center"><img src="https://i.imgur.com/SH4TGKD.gif"></p>
+
+#### Sample Input/Output
+##### Example 1
+```bash
+  No of pokemons: 4
+  Team A power score: [7, 10, 3, 5]
+  Team B power score: [4, 12, 2, 6]
+```
+```
+  Output: 3
+```
+##### Explanation
+- Team `A` can win a maximum of `3` battles if they fight in the below order:
+- `A1` fights with `B4`
+- `A3` fights with `B3`
+- `A4` fights with `B1`
+
+##### Example 2
+```bash
+  No of pokemons: 5
+  Team A power score: [4, 6, 7, 11, 8]
+  Team B power score: [2, 5, 6, 13, 3]
+```
+```
+  Output: 4
+```
+
+#### Resources
+- [Basics of Greedy Algorithms](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
+- [Approach of Greedy Algorithms](https://www.guru99.com/greedy-algorithm.html)
+
+---
+
+### December 18 - Is this a valid new user?
+
+#### Problem Statement
+- During a hackathon, your friend Shyam is trying to add a user authentication feature.
+- He is asking you to implement an algorithm to validate and check the availability for a given username.
+- The rules for username validation are
+  1. It can contain characters `a-z` or `A-Z`.
+  2. It can contain numbers `0-9`.
+  3. Special characters like period (`.`) underscore(`_`) or dash (`-`) is allowed, other special characters are not allowed.
+  4. It should not contain any whitespace characters.
+  5. The length of the username should not exceed 20.
+- Fetch the data from the [fake users API](https://jsonplaceholder.typicode.com/users) to check whether the given username is available or not.
+
+#### Sample Input/Output
+##### Example 1
+```
+Input: Peter_Smith-24
+Output: The username is valid and available.
+```
+##### Example 2
+```
+Input: Leopoldo_Corkery
+Output: The username is valid but not available.
+```
+##### Example 3
+```
+Input: john $1-Samuel
+Output: The username is not valid.
+```
+
+#### Resources
+- [Fake users API](https://jsonplaceholder.typicode.com/users)
+- [Regex Playground](https://regex101.com/)
+- [Regex in C++](http://www.cplusplus.com/reference/regex/)
+- [Regex in Java](https://www.javatpoint.com/java-regex)
+- [Regex in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+- [Regex in Python](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
+
+---
+### December 19 - War on Wakanda
+
+#### Problem Statement
+- Thanos has declared war in Wakanda. The brave soldiers of Wakanda have been defending their country against attacks for a long time. There is a shortage of food amongst the citizens. The governor of Wakanda has ordered the army to drop food crates via helicopters.
+- Each helipad in Wakanda is located at the nodes of a Generic Tree. Due to constant attacks from Thanos, the dispatched helicopter cannot stay over civilian sky for long or it will be shot down by the enemy. The pilot has decided to cover the entire Helipad Tree with the least number of landings. Each Helipad node can cover the node connected to it by one edge.
+- If the number of landings exceed a certain number, the helicopter will be shot down by Thanos.
+- Since it is a high pressure situation, you have to help the pilot figure out the minimum number of times he needs to land his helicopter in order to cover the entire Helipad Tree without being shot and complete its mission (if possible).
+
+#### Input Format
+- We need to input two things- Tree nodes and maximum allowed landings.
+- The first line of input contains data of the nodes of the tree in level order form. The order is: data for root node, number of children to root node, data of each of child nodes and so on and so forth for each node. The data of the nodes of the tree is separated by space.  
+- Since data of each node is irrelevant, it will be taken as 1, representing that the node exists.
+- Second line of each test case will contain an integer K representing the maximum allowed landings.
+
+#### Output Format
+- Print the minimum number of landings, and if the mission was Successful/Unsuccesful
+
+#### Sample Input/Output
+```
+Input:
+1 3 1 1 1 2 1 1 0 0 0 0
+3
+
+Output:
+2 Mission Successful
+```
+#### Explanation
+For the given input the tree formed is given below, which can be covered with minimum 2 landings, which is less than the maximum allowed landings.
+<p align="center"><img src="https://i.imgur.com/MDxBcf7.jpg" height=250/></p>
+
+#### Resources
+- [Generic Trees](https://www.geeksforgeeks.org/generic-treesn-array-trees/)
+
+---
 ## Maintainers
 
 <table>
@@ -457,7 +713,7 @@ Output: Selected
         <tr>
             <th><a href="https://github.com/bearlike">Krishnakanth</a></th>
             <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>
-            <th><a href="https://github.com/dhirajv2000">Dhiraj</a></th>
+            <th><a href="https://github.com/dhirajv2000">Dhiraj V</a></th>
             <th><a href="https://github.com/aravindr22">Aravind</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
@@ -465,6 +721,7 @@ Output: Selected
             <th><a href="https://github.com/Ganesh-Kumar6">Ganesh</a></th>
             <th><a href="https://github.com/Sandyy22">Sandhya</a></th>
             <th><a href="https://github.com/shrusri27">Shruti</a></th>
+            <th><a href="https://github.com/NikhileshJr08">Nikhilesh</a></th>
         </tr>
     </thead>
     <tbody>
@@ -479,11 +736,13 @@ Output: Selected
             <td align="center"><a href="https://github.com/Ganesh-Kumar6"><img width="64" src="https://avatars2.githubusercontent.com/u/54319754" alt="f"></a></td>
             <td align="center"><a href="https://github.com/Sandyy22"><img width="64" src="https://avatars2.githubusercontent.com/u/74546521?s=64" alt="f"></a></td>
             <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars1.githubusercontent.com/u/49135092" alt="f"></a></td>
+            <td align="center"><a href="https://github.com/shrusri27"><img width="64" src="https://avatars3.githubusercontent.com/u/63784914" alt="f"></a></td>
         </tr>
         <tr>
             <td align="center"> :hammer::construction::pencil: </td>
             <td align="center"> :hammer::construction: </td>
             <td align="center"> :warning::pencil: </td>
+            <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
             <td align="center"> :pencil: </td>
