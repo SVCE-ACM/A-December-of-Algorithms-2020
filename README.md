@@ -31,6 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 17 - Pokemon**](#december-17---pokemon)
   - [**December 18 - Is this a valid new user**](#december-18---is-this-a-valid-new-user)
   - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
+  - [**December 20 - Show up people!**](#december-20---show-up-people)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -700,10 +701,39 @@ Output:
 ```
 #### Explanation
 For the given input the tree formed is given below, which can be covered with minimum 2 landings, which is less than the maximum allowed landings.
+
 <p align="center"><img src="https://i.imgur.com/MDxBcf7.jpg" height=250/></p>
 
 #### Resources
 - [Generic Trees](https://www.geeksforgeeks.org/generic-treesn-array-trees/)
+
+---
+
+### December 20 - Show up people!
+
+#### Problem Statement
+- Given a positive integer `n`, return the number of all possible attendance records with length `n`, which will be regarded as acceptable The answer may be large, return it after `mod 10^9 + 7`.
+- A student attendance record is a string that only contains the following three characters:
+    - `A` : Absent.
+    - `L` : Late.
+    - `P` : Present.
+- A record is regarded as acceptable if it doesn't contain more than one `A` (absent) or more than two continuous `L` (late).
+
+#### Sample Input/Output
+
+```bash
+Input: n = 2
+Output: 8
+```
+
+#### Explanation
+- There are 8 records with length 2 will be regarded as acceptable:
+- `PP` , `AP`, `PA`, `LP`, `PL`, `AL`, `LA`, `LL`
+- Only `AA` won't be regarded as acceptable owing to more than one absent times. 
+
+#### Resources (Spoilers)
+- [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+
 
 ---
 ## Maintainers
