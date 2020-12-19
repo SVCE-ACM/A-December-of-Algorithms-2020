@@ -31,6 +31,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 17 - Pokemon**](#december-17---pokemon)
   - [**December 18 - Is this a valid new user**](#december-18---is-this-a-valid-new-user)
   - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
+  - [**December 20 - Battery Dead Arjun!!**](#december-20---battery-dead-arjun)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -704,6 +705,33 @@ For the given input the tree formed is given below, which can be covered with mi
 
 #### Resources
 - [Generic Trees](https://www.geeksforgeeks.org/generic-treesn-array-trees/)
+
+---
+### December 20 - Battery Dead Arjun!!
+
+#### Problem Statement
+- Arjun is a very predictable man. For instance, when he uses his laptop, all he does is watch TV shows. He keeps on watching TV shows until his battery dies. Also, he is a very meticulous man, i.e. he pays great attention to minute details. 
+- He has been keeping logs of every time he charged his laptop, which includes how long he charged his laptop for and after that how long was he able to watch the TV shows.
+- Now, Arjun wants to use this log to predict how long will he be able to watch TV shows for when he starts so that he can plan his activities after watching his TV shows accordingly.
+
+
+#### Task
+- You are given access to Arjun's laptop charging log by reading from the file “trainingdata.txt”. The training data file will consist of 100 lines, each with 2 comma-separated numbers https://s3.amazonaws.com/hr-testcases/399/assets/trainingdata.txt.
+- The first number denotes the amount of time the laptop was charged(in hours).  
+- The second number denotes the amount of time the battery lasted(in hours).
+- The training data file can be downloaded here (this will be the same training data used when your program is run). The input for each of the test cases will consist of exactly 1 number rounded to 2 decimal places. For each input, output 1 number: the amount of time you predict his battery will last.
+
+#### Sample Input/Output
+```
+Input:
+1.50
+
+Output:
+3.00
+```
+
+#### Resources
+https://www.google.com/amp/s/www.geeksforgeeks.org/machine-learning-and-data-science/amp/
 
 ---
 ## Maintainers
