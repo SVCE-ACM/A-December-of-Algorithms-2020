@@ -4,10 +4,12 @@
 
 using namespace std;
 
+// Convert Input string to Vector
 vector<string> createList(string str)
 {
     int quote = 0;
     string timestr = "";
+    // add start time to vector
     vector<string> v = {"0900"};
 
     for (int i = 0; i < str.size(); i++)
@@ -30,6 +32,7 @@ vector<string> createList(string str)
             continue;
         }
     }
+    // add ending time to vector
     v.push_back("1700");
 
     // for (auto i = v.begin(); i != v.end(); ++i)
@@ -72,9 +75,10 @@ void getIntervals(string str)
     return;
 }
 
+// Driver Code
 int main()
 {
-    string str;
+    string str; // ["0930", "1100"],["1200","1330"],["1530","1630"]
     cin >> str;
 
     getIntervals(str);
