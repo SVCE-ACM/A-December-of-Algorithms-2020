@@ -707,7 +707,6 @@ For the given input the tree formed is given below, which can be covered with mi
 #### Resources
 - [Generic Trees](https://www.geeksforgeeks.org/generic-treesn-array-trees/)
 
----
 
 ### December 20 - Show up people!
 
@@ -736,6 +735,7 @@ Output: 8
 
 
 ---
+
 ## Maintainers
 
 <table>
