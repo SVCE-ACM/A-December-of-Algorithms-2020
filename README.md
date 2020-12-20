@@ -32,7 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 18 - Is this a valid new user**](#december-18---is-this-a-valid-new-user)
   - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
   - [**December 20 - Show up people!**](#december-20---show-up-people)
-  - [**December 21 – Test of Accuracy**](#december-21---test-of-accuracy)
+  - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy) 
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
