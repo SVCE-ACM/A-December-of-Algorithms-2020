@@ -32,6 +32,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 18 - Is this a valid new user**](#december-18---is-this-a-valid-new-user)
   - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
   - [**December 20 - Show up people!**](#december-20---show-up-people)
+  - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy) 
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -735,6 +736,43 @@ Output: 8
 
 
 ---
+
+### December 21 - Test of Accuracy
+  
+ #### Problem Statement
+- For the final test of accuracy in a shooting range, the players have to hit maximum number of targets using a single bullet. 
+- The targets are placed at random positions with varying lengths. 
+- The input consists of the left most coordinate `(X,Y)` of the target and the length `L` of the target. 
+- Find the maximum number of targets that can be shot by the player from (0,0).
+
+<p align="center"><img src="https://i.imgur.com/LeRRoFv.gif" height=250/></p>
+
+ #### Sample Input And Output
+   ```
+Enter the no. of targets: 5
+30 40 10
+10 20 20
+20 50 30
+40 20 10
+20 30 10
+   ```
+
+   ```
+   Targets shot in a single bullet: 3     
+   ```
+ 
+ #### Explanation
+   - There is a way to shoot in such a way that it hits target number 2,3 and 5, hitting a maximum of 3 targets. 
+
+     <p align="center"><img src="https://i.postimg.cc/Pf216wgv/scatter-plot.jpg" height=250/></p>
+  
+
+
+
+ #### Resources
+ - [Line Sweep Introduction](https://www.topcoder.com/community/competitive-programming/tutorials/line-sweep-algorithms/)
+ - [Line Sweep Algorithms]( https://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/)
+
 
 ## Maintainers
 
