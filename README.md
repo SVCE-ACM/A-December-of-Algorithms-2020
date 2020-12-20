@@ -737,7 +737,7 @@ Output: 8
 
 ---
 
-### December 21 – Test of Accuracy
+### December 21 - Test of Accuracy
   
  #### Problem Statement
 - For the final test of accuracy in a shooting range, the players have to hit maximum number of targets using a single bullet. 
