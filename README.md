@@ -742,8 +742,10 @@ Output: 8
  #### Problem Statement
 - For the final test of accuracy in a shooting range, the players have to hit maximum number of targets using a single bullet. 
 - The targets are placed at random positions with varying lengths. 
-- The input consists of the left most coordinate (X,Y) of the target and the length (L) of the target. 
+- The input consists of the left most coordinate `(X,Y)` of the target and the length `L` of the target. 
 - Find the maximum number of targets that can be shot by the player from (0,0).
+
+<p align="center"><img src="https://i.imgur.com/LeRRoFv.gif" height=250/></p>
 
  #### Sample Input And Output
    ```
