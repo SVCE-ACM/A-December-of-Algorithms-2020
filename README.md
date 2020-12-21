@@ -33,7 +33,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
   - [**December 20 - Show up people!**](#december-20---show-up-people)
   - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy)
-  - [**December 22 - Set up Servers**](#december-22---set-up-servers) 
+  - [**December 22 - Closest Servers**](#december-22---closest-servers) 
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
