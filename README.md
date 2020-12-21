@@ -774,15 +774,14 @@ Enter the no. of targets: 5
 
 ---
 
-### December 22 - Set up Servers
+### December 22 - Closest Servers
 #### Problem Statement
-- George's company is working on a contract with amazon web services. They have to choose k locations for setting up cloud servers from n cities.
-- The locations should be chosen in such a way that the maximum distace of a city to a cloud server is minimum.
+- George's company is working on a contract with a leading Cloud Service provider. They have to choose `k` locations for setting up cloud servers from `n` cities.
+- The locations should be chosen in such a way that the maximum distance of a city to a cloud server is minimum.
 
 #### Sample I/O
 ```bash
-  Input:
-  distances = [
+  Input: distances = [
     [0, 4, 8,  5],
     [4, 0, 10, 7],
     [8, 10, 0, 9],
@@ -794,13 +793,9 @@ Enter the no. of targets: 5
 ```
 
 #### Explanation
-- distances [ i ][ j ] is the distance between city i and city j.
-- The maximum distance of a city from a cloud server is minimized when the two servers are placed at cities 0 and 2 with the distance being 5 units.
+- `distances[i][j]` is the distance between city `i` and city `j`.
+- The maximum distance of a city from a cloud server is minimized when the two servers are placed at cities `0` and `2` with the distance being `5` units.
 - The distance of a city from a center is the distance between that city and its closest center.
-
-#### Resources
-- [Basics of Greedy Algorithms](https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/)
-- [Approach of Greedy Algorithms](https://www.guru99.com/greedy-algorithm.html)
 
 ---
 
