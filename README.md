@@ -32,7 +32,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 18 - Is this a valid new user**](#december-18---is-this-a-valid-new-user)
   - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
   - [**December 20 - Show up people!**](#december-20---show-up-people)
-  - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy) 
+  - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy)
+  - [**December 22 - Set up Servers**](#december-22---set-up-servers) 
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -767,12 +768,36 @@ Enter the no. of targets: 5
      <p align="center"><img src="https://i.postimg.cc/Pf216wgv/scatter-plot.jpg" height=250/></p>
   
 
-
-
  #### Resources
  - [Line Sweep Introduction](https://www.topcoder.com/community/competitive-programming/tutorials/line-sweep-algorithms/)
  - [Line Sweep Algorithms]( https://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/)
 
+---
+
+### December 22 - Closest Servers
+#### Problem Statement
+- George's company is working on a contract with a leading Cloud Service provider. They have to choose `k` locations for setting up cloud servers from `n` cities.
+- The locations should be chosen in such a way that the maximum distance of a city to a cloud server is minimum.
+
+#### Sample I/O
+```bash
+  Input: distances = [
+    [0, 4, 8,  5],
+    [4, 0, 10, 7],
+    [8, 10, 0, 9],
+    [5, 7, 9,  0]
+  ]
+```
+```bash
+  Output: 0 2
+```
+
+#### Explanation
+- `distances[i][j]` is the distance between city `i` and city `j`.
+- The maximum distance of a city from a cloud server is minimized when the two servers are placed at cities `0` and `2` with the distance being `5` units.
+- The distance of a city from a center is the distance between that city and its closest center.
+
+---
 
 ## Maintainers
 
