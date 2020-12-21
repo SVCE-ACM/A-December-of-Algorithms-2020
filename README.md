@@ -30,6 +30,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 16 - Max's Party**](#december-16---maxs-party)
   - [**December 17 - Pokemon**](#december-17---pokemon)
   - [**December 18 - Is this a valid new user**](#december-18---is-this-a-valid-new-user)
+  - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
+  - [**December 20 - Show up people!**](#december-20---show-up-people)
+  - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy) 
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -671,6 +674,105 @@ Output: The username is not valid.
 - [Regex in Python](https://www.tutorialspoint.com/python/python_reg_expressions.htm)
 
 ---
+### December 19 - War on Wakanda
+
+#### Problem Statement
+- Thanos has declared war in Wakanda. The brave soldiers of Wakanda have been defending their country against attacks for a long time. There is a shortage of food amongst the citizens. The governor of Wakanda has ordered the army to drop food crates via helicopters.
+- Each helipad in Wakanda is located at the nodes of a Generic Tree. Due to constant attacks from Thanos, the dispatched helicopter cannot stay over civilian sky for long or it will be shot down by the enemy. The pilot has decided to cover the entire Helipad Tree with the least number of landings. Each Helipad node can cover the node connected to it by one edge.
+- If the number of landings exceed a certain number, the helicopter will be shot down by Thanos.
+- Since it is a high pressure situation, you have to help the pilot figure out the minimum number of times he needs to land his helicopter in order to cover the entire Helipad Tree without being shot and complete its mission (if possible).
+
+#### Input Format
+- We need to input two things- Tree nodes and maximum allowed landings.
+- The first line of input contains data of the nodes of the tree in level order form. The order is: data for root node, number of children to root node, data of each of child nodes and so on and so forth for each node. The data of the nodes of the tree is separated by space.  
+- Since data of each node is irrelevant, it will be taken as 1, representing that the node exists.
+- Second line of each test case will contain an integer K representing the maximum allowed landings.
+
+#### Output Format
+- Print the minimum number of landings, and if the mission was Successful/Unsuccesful
+
+#### Sample Input/Output
+```
+Input:
+1 3 1 1 1 2 1 1 0 0 0 0
+3
+
+Output:
+2 Mission Successful
+```
+#### Explanation
+For the given input the tree formed is given below, which can be covered with minimum 2 landings, which is less than the maximum allowed landings.
+
+<p align="center"><img src="https://i.imgur.com/MDxBcf7.jpg" height=250/></p>
+
+#### Resources
+- [Generic Trees](https://www.geeksforgeeks.org/generic-treesn-array-trees/)
+
+
+### December 20 - Show up people!
+
+#### Problem Statement
+- Given a positive integer `n`, return the number of all possible attendance records with length `n`, which will be regarded as acceptable The answer may be large, return it after `mod 10^9 + 7`.
+- A student attendance record is a string that only contains the following three characters:
+    - `A` : Absent.
+    - `L` : Late.
+    - `P` : Present.
+- A record is regarded as acceptable if it doesn't contain more than one `A` (absent) or more than two continuous `L` (late).
+
+#### Sample Input/Output
+
+```bash
+Input: n = 2
+Output: 8
+```
+
+#### Explanation
+- There are 8 records with length 2 will be regarded as acceptable:
+- `PP` , `AP`, `PA`, `LP`, `PL`, `AL`, `LA`, `LL`
+- Only `AA` won't be regarded as acceptable owing to more than one absent times. 
+
+#### Resources (Spoilers)
+- [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming/)
+
+
+---
+
+### December 21 - Test of Accuracy
+  
+ #### Problem Statement
+- For the final test of accuracy in a shooting range, the players have to hit maximum number of targets using a single bullet. 
+- The targets are placed at random positions with varying lengths. 
+- The input consists of the left most coordinate `(X,Y)` of the target and the length `L` of the target. 
+- Find the maximum number of targets that can be shot by the player from (0,0).
+
+<p align="center"><img src="https://i.imgur.com/LeRRoFv.gif" height=250/></p>
+
+ #### Sample Input And Output
+   ```
+Enter the no. of targets: 5
+30 40 10
+10 20 20
+20 50 30
+40 20 10
+20 30 10
+   ```
+
+   ```
+   Targets shot in a single bullet: 3     
+   ```
+ 
+ #### Explanation
+   - There is a way to shoot in such a way that it hits target number 2,3 and 5, hitting a maximum of 3 targets. 
+
+     <p align="center"><img src="https://i.postimg.cc/Pf216wgv/scatter-plot.jpg" height=250/></p>
+  
+
+
+
+ #### Resources
+ - [Line Sweep Introduction](https://www.topcoder.com/community/competitive-programming/tutorials/line-sweep-algorithms/)
+ - [Line Sweep Algorithms]( https://www.geeksforgeeks.org/given-a-set-of-line-segments-find-if-any-two-segments-intersect/)
+
 
 ## Maintainers
 
