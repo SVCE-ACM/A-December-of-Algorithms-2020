@@ -34,6 +34,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 20 - Show up people!**](#december-20---show-up-people)
   - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy)
   - [**December 22 - Set up Servers**](#december-22---set-up-servers) 
+  - [**December 23 - The Rise of the Knight**](#december-23---the-rise-of-the-knight) 
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -796,6 +797,42 @@ Enter the no. of targets: 5
 - `distances[i][j]` is the distance between city `i` and city `j`.
 - The maximum distance of a city from a cloud server is minimized when the two servers are placed at cities `0` and `2` with the distance being `5` units.
 - The distance of a city from a center is the distance between that city and its closest center.
+
+---
+### December 23 - The Rise of the Knight
+#### Problem Statement
+- The demons had captured the princess (P) and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of M x N rooms laid out in a 2D grid. Our valiant knight (K) was initially positioned in the top-left room and must fight his way through the dungeon to rescue the princess.
+
+- The knight has an initial health point represented by a positive integer. If at any point his health point drops to 0 or below, he dies immediately.
+
+- Some of the rooms are guarded by demons, so the knight loses health (negative integers) upon entering these rooms; other rooms are either empty (0's) or contain magic orbs that increase the knight's health (positive integers). In order to reach the princess as quickly as possible, the knight decides to move only rightward or downward in each step.
+
+- Write a function to determine the knight's minimum initial health so that he is able to rescue the princess.
+
+- Note that the knight's life has no upper bound and any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
+
+
+#### Sample I/O
+```bash
+  Input:
+  			
+	 -2(K)	-3	3
+	 -5	-10	1
+	 10	 30    -5(P)
+
+```
+```bash
+  Output: 7
+```
+
+#### Explanation
+- Input is the dungeon where K represents the Knight and P represents the Princess.
+
+- Output 7 indicates that the initial health of the knight must be at least 7 if he follows the optimal path RIGHT-> RIGHT -> DOWN -> DOWN.
+
+#### Resources
+- https://www.geeksforgeeks.org/searching-algorithms/
+
 
 ---
 
