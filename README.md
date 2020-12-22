@@ -33,7 +33,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 19 - War on Wakanda**](#december-19---war-on-wakanda)
   - [**December 20 - Show up people!**](#december-20---show-up-people)
   - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy)
-  - [**December 22 - Set up Servers**](#december-22---set-up-servers) 
+  - [**December 22 - Closest Servers**](#december-22---closest-servers)
   - [**December 23 - The Rise of the Knight**](#december-23---the-rise-of-the-knight) 
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
@@ -807,6 +807,7 @@ Enter the no. of targets: 5
 - Write a function to determine the knight's minimum initial health so that he can rescue the princess.
 - Note that the knight's life has no upper bound, and any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
 
+     <p align="center"><img src="https://i.imgur.com/6C4rBVj.gif" height=250/></p>
 
 #### Sample I/O
 ```bash
