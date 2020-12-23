@@ -864,6 +864,7 @@ Output: -1
 ```
 ##### Explanation: 
 - It is impossible to distribute the enemies for 3 rounds where no two enemies have equal damage per second in the same round.
+
 ---
 
 ## Maintainers
