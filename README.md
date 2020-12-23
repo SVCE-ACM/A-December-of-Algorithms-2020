@@ -833,44 +833,37 @@ Enter the no. of targets: 5
 - You have k number of rounds and you have to fight with equal number of enemies in each round such that 
   - There are no two enemies with equal damage per second present in the same round.
   - The sum of the difference between the maximum and minimum damage per second caused in each round is minimum.
-- Return the minimum sum, or return -1 if it is not possible. Note that the array length is divisible by k.
+- Return the minimum sum, or return `-1` if it is not possible. Note that the array length is divisible by `k`.
 
 #### Sample Input/Output
 
 ##### Example 1:
 ```
 Input: [1,2,1,4], k = 2
-
 Output: 4
-
-Explanation: 
-
-The optimal distribution of enemies is [1,2] and [1,4].
-The sum is (2-1) + (4-1) = 4.
-Note that [1,1] and [2,4] would result in a smaller sum, but in the first round there are 2 enemies with the same damage per second which is not allowed.
 ```
+
+##### Explanation: 
+- The optimal distribution of enemies is [1,2] and [1,4].
+- The sum is (2-1) + (4-1) = 4.
+- Note that [1,1] and [2,4] would result in a smaller sum, but in the first round there are 2 enemies with the same damage per second which is not allowed.
+
 ##### Example 2:
 ```
 Input: [6,3,8,1,3,1,2,2], k = 4
-
 Output: 6
-
-Explanation: 
-
-The optimal distribution of enemies is [1,2], [2,3], [6,8], and [1,3].
-The sum  is (2-1) + (3-2) + (8-6) + (3-1) = 6.
 ```
+#### Explanation: 
+- The optimal distribution of enemies is [1,2], [2,3], [6,8], and [1,3].
+- The sum  is (2-1) + (3-2) + (8-6) + (3-1) = 6.
+
 ##### Example 3:
 ```
 Input: [5,3,3,6,3,3], k = 3
-
 Output: -1
-
-Explanation: 
-
-It is impossible to distribute the enemies for 3 rounds where no two enemies have equal damage per second in the same round.
 ```
-
+##### Explanation: 
+- It is impossible to distribute the enemies for 3 rounds where no two enemies have equal damage per second in the same round.
 ---
 
 ## Maintainers
