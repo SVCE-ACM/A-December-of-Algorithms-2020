@@ -35,6 +35,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy)
   - [**December 22 - Closest Servers**](#december-22---closest-servers)
   - [**December 23 - The Rise of the Knight**](#december-23---the-rise-of-the-knight) 
+  - [**December 24 - What these stars represent**](#december-24---what-these-stars-represent) 
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -824,6 +825,31 @@ Enter the no. of targets: 5
 - Input is the dungeon where `K` represents the Knight and `P` represents the Princess.
 - Output `7` indicates that the initial health of the knight must be at least `7` if he follows the optimal path `RIGHT-> RIGHT -> DOWN -> DOWN`.
 
+---
+
+### December 24 - What these stars represent
+
+#### Problem Statement
+
+- Bob is sitting on his terrace gazing at the stars appearing as tiny spots of bright white dots in the dark night sky. He noticed that some of the stars were closer together and were forming a group representing a pattern. He was curious to know what pattern they were forming. 
+- You are given an array of points specified by their x and y coordinates, help Bob to find the pattern by returning an array by including only those points that lie on the boundary of the pattern.
+- Also print the type of polygon that the pattern is representing along with its perimeter.
+- Note that your algorithm should have a time complexity less than quadratic.
+
+     <p align="center"><img src="./src/assets/stars.png" height=250/></p>
+
+#### Sample Input/Output
+```
+Input: 
+
+[ (0, 0), (0, 4), (-4, 0), (5, 0), (0, -6), (1, 0) ]
+
+Output: 
+
+[ (-4, 0), (5, 0), (0, -6), (0, 4) ]
+
+The pattern represents a quadrilateral with a perimeter of 32 units.
+```
 
 ---
 
