@@ -868,7 +868,7 @@ Output: -1
 
 ---
 
-### December 24 - Code Apocalypse
+### December 25 - Code Apocalypse
 #### Problem Statement
 - IIT Competitive coding competition is well know for setting hard problems for the contest. 
 - During Code Apocalypse(Name of the programming competition) many teams were not able to solve single problem. 
