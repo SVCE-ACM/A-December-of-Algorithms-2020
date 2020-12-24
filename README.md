@@ -867,6 +867,61 @@ Output: -1
 
 ---
 
+### December 24 - Code Apocalypse
+#### Problem Statement
+- IIT Competitive coding competition is well know for setting hard problems for the contest. 
+- During Code Apocalypse(Name of the programming competition) many teams were not able to solve single problem. 
+- So we decided to do something different for the next contest. We will allow teams to work together but only we can decide which teams will work together. 
+- If we say Team A can work with Team B and Team B can work with Team C then it means that Team A can also work with Team C and vice-versa.
+
+
+- Now we repeatedly announce two type of announcements.
+- First: W 1 3 which means Team 1 can work with Team 3.
+- Second: ? 1 2 were you have to find if Team 1 and Team 2 can work together.
+
+- For every Second type of announcement you will tell yes if the team can work together and no if the teams cannot work together.
+- In the above second case the answer is NO
+
+#### Input Type:
+- First input intakes number of Queries.
+- Second input intakes number of Teams.
+- Then each queries is taken as input
+
+#### Output Type::
+- Number of yes and number of no
+
+#### Sample Input/Output
+
+##### Example 1:
+```
+Input:
+6 
+6
+J 1 3
+? 2 3
+J 3 6
+? 5 1
+J 1 5
+? 1 3
+
+Output: 
+1 
+2
+```
+
+##### Explanation: 
+- There are 6 team in Contest and 6 announcement made by IIT
+- J 1 3 : team 1 and team 3 now working together
+- ? 2 3 : the answer is NO
+- J 3 6 : team 3 and team 6 now working together
+- ? 5 1 :the answer is NO
+- J 1 5 : team 1 and team 5 now working together
+- ? 1 3 :the answer is YES
+
+- So output is 1 2
+
+---
+
 ## Maintainers
 
 <table>
