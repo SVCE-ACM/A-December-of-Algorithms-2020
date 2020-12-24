@@ -36,6 +36,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Closest Servers**](#december-22---closest-servers)
   - [**December 23 - The Rise of the Knight**](#december-23---the-rise-of-the-knight) 
   - [**December 24 - Minify the damage**](#december-24---minify-the-damage) 
+  - [**December 25 - Code Apocalypse**](#december-25--code-apocalypse)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
