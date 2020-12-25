@@ -36,6 +36,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 22 - Closest Servers**](#december-22---closest-servers)
   - [**December 23 - The Rise of the Knight**](#december-23---the-rise-of-the-knight) 
   - [**December 24 - Minify the damage**](#december-24---minify-the-damage) 
+  - [**December 25 - Trapping Rain Water**](#december-25---trapping-rain-water)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -867,6 +868,27 @@ Output: -1
 
 ---
 
+### December 25 - Trapping Rain Water
+#### Problem Statement
+Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
+
+#### Sample Input/Output
+##### Example 1:
+![](https://i.imgur.com/stSuRte.jpg)
+```
+Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
+Output: 6
+```
+**Explanation**: The above elevation map (black section) is represented by array `[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]`. In this case, 6 units of rain water (blue section) are being trapped.
+
+##### Example 2:
+```
+Input: height = [4,2,0,3,2,5]
+Output: 9
+```
+
+---
+
 ## Maintainers
 
 <table>
@@ -874,7 +896,7 @@ Output: -1
         <tr>
             <th><a href="https://github.com/bearlike">Krishnakanth</a></th>
             <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>
-            <th><a href="https://github.com/dhirajv2000">Dhiraj V</a></th>
+            <th><a href="https://github.com/dhirajv2000">Dhiraj</a></th>
             <th><a href="https://github.com/aravindr22">Aravind</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
