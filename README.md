@@ -903,7 +903,7 @@ Output: 9
 
 <p align="center"><img src="https://i.imgur.com/rMLVif3.gif" height=250/></p>
   
-#### Sample Input/Output
+### Sample Input/Output
 
 ### Example 1
 ```
