@@ -942,7 +942,6 @@ Output: $24,000
 - The first line of the input contains `n`, number of households followed by the coordinates `(x,y)` of the houses and its infected status `Y/N`. Display if a lockdown is required or not.
 
 <div class="row">
-   <p align="center">
   <div class="column">
     <img src="https://i.imgur.com/sjaOxcw.png" height=250/>
   </div>
