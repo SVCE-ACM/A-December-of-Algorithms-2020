@@ -940,9 +940,7 @@ Output: $24,000
 - You will be given some coordinates which represents the houses in that area and each of the coordinates will have a status Y and N. Y represents that the house Is infected. N represents that the house is not infected.
 - Your task is to detect whether we have a single source or multiple sources causing this virus. You will find that the coordinates of the inflected house forms a circle. Basically if a circle is formed using  sets of  coordinates having status Y then there is a single source of virus. If a coordinate having status Y goes out of the circle formed by using the Y status coordinates then there are multiple sources of this virus. 
 - Write a program to solve the above problem and print whether we need alert status to report whether we have multiple sources of this virus.
-
-     <p align="center"><img src="https://imgur.com/UMbx1Zy" height=250/></p>
-
+    
 #### Input Format
 The first line of the input contains an integer n(1<=n<=100) that represents the number of houses. The next lines describes the coordinates of the houses and the infected status. First number is the x coordinate(-250<=x<=250). Second number is the y coordinate(-250<=y<=250). Third input is the infected status Y/N.
 
