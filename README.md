@@ -941,14 +941,7 @@ Output: $24,000
 - If the infected circle contains healthy households, we can conlude that the outbreak is from multiple sources and order a lockdown. 
 - The first line of the input contains `n`, number of households followed by the coordinates `(x,y)` of the houses and its infected status `Y/N`. Display if a lockdown is required or not.
 
-<div class="row">
-  <div class="column">
-    <img src="https://i.imgur.com/sjaOxcw.png" height=250/>
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/Jfxa1yZ.png" height=250/>
-  </div>
-</div>
+<img src="https://i.imgur.com/sjaOxcw.png" height=250/><img src="https://i.imgur.com/Jfxa1yZ.png" height=250/>
 
 #### Sample Input/Output
 
