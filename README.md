@@ -37,6 +37,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 23 - The Rise of the Knight**](#december-23---the-rise-of-the-knight) 
   - [**December 24 - Minify the damage**](#december-24---minify-the-damage) 
   - [**December 25 - Trapping Rain Water**](#december-25---trapping-rain-water)
+  - [**December 26 - Lal's Jewels**](#december-26---lals-jewels)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -811,7 +812,7 @@ Enter the no. of targets: 5
 
      <p align="center"><img src="https://i.imgur.com/6C4rBVj.gif" height=250/></p>
 
-#### Sample I/O
+#### Sample Input/Output
 ```bash
   Input:
 	 -2(K)	-3	3
@@ -886,6 +887,49 @@ Output: 6
 Input: height = [4,2,0,3,2,5]
 Output: 9
 ```
+
+---
+
+### December 26 - Lal's Jewels
+#### Problem Statement
+- Lal is a jwellery dealer who buys long chains of Diamonds, Rubies, and Emerlads. He cuts them into small chains and sells them for a profit.
+- He gets very nice bonus if, the chain has a palindromic order of stones.
+- The price is determined as follows:
+	- A single diamond `D` costs `$500`
+	- A single ruby `R` costs `$250`
+	- A single emerald `E` costs `$100`
+	- Price is multiplied `n` times, for palindromic chains, where `n` is the length of the chain.
+- Given the whole chain, find the maximum profit lal can make, cutting out a palindromic chain.
+
+<p align="center"><img src="https://i.imgur.com/rMLVif3.gif" height=250/></p>
+  
+### Sample Input/Output
+
+### Example 1
+```
+Chain: "RDEREDRRRD"
+Output: $7250
+```
+##### Explanation: 
+- The longest palindromic chain is "DERED", the prices are added and 5 is multiplied as a bonus.
+
+### Example 2
+```
+Chain: "DERRREDERREDEREDR"
+Output: $24,000
+```
+##### Explanation: 
+- The longest palindromic chain is "REDERREDER", the prices are added and 10 is multiplied as a bonus.
+
+<details>
+    <summary>
+        <strong>Resources (Spoiler)</strong>
+    </summary>
+    <ul>
+        <li><a href="https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/">Manacher’s Algorithm</a></li>
+        <li><a href="https://cp-algorithms.com/string/manacher.html/">Implementation of Manacher's Algorithm</a></li>
+    </ul>
+</details>
 
 ---
 
