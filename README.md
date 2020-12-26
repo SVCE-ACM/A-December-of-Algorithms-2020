@@ -936,7 +936,7 @@ Output: $24,000
 
 ### December 27 - Covid in Godric's Hollow
 #### Problem Statement
-- There has been a outbreak of covid 19 at Godric's Hallow. Scienctis need to find out if the outbreak is from a single source or a multiple source. If its multiple source, then they have to issue lockdown orders for the village.
+- There has been a outbreak of covid 19 at Godric's Hallow. Scienctis need to find out if the outbreak is from a single source or a multiple sources. If it is from multiple sources, then they have to issue lockdown orders for the village.
 - Coordinates for infected and non infected households are provided. If you can from a circle with only the infected houses and no healthy households, we can conclude that the source is singular.
 - If the infected circle contains healthy households, we can conlude that the outbreak is from multiple sources and order a lockdown. 
 - The first line of the input contains `n`, number of households followed by the coordinates `(x,y)` of the houses and its infected status `Y/N`. Display if a lockdown is required or not.
