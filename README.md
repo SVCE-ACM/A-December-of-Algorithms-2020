@@ -35,6 +35,9 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 21 - Test of Accuracy**](#december-21---test-of-accuracy)
   - [**December 22 - Closest Servers**](#december-22---closest-servers)
   - [**December 23 - The Rise of the Knight**](#december-23---the-rise-of-the-knight) 
+  - [**December 24 - Minify the damage**](#december-24---minify-the-damage) 
+  - [**December 25 - Trapping Rain Water**](#december-25---trapping-rain-water)
+  - [**December 26 - Lal's Jewels**](#december-26---lals-jewels)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -809,7 +812,7 @@ Enter the no. of targets: 5
 
      <p align="center"><img src="https://i.imgur.com/6C4rBVj.gif" height=250/></p>
 
-#### Sample I/O
+#### Sample Input/Output
 ```bash
   Input:
 	 -2(K)	-3	3
@@ -824,6 +827,109 @@ Enter the no. of targets: 5
 - Input is the dungeon where `K` represents the Knight and `P` represents the Princess.
 - Output `7` indicates that the initial health of the knight must be at least `7` if he follows the optimal path `RIGHT-> RIGHT -> DOWN -> DOWN`.
 
+---
+
+### December 24 - Minify the damage
+#### Problem Statement
+- You are in a game where you have to fight some enemies. You are given an array of integers where each index represents an enemy and the value at each index represents the damage per second that the enemy can cause.
+- You have k number of rounds and you have to fight with equal number of enemies in each round such that 
+  - There are no two enemies with equal damage per second present in the same round.
+  - The sum of the difference between the maximum and minimum damage per second caused in each round is minimum.
+- Return the minimum sum, or return `-1` if it is not possible. Note that the array length is divisible by `k`.
+
+#### Sample Input/Output
+
+##### Example 1:
+```
+Input: [1,2,1,4], k = 2
+Output: 4
+```
+
+##### Explanation: 
+- The optimal distribution of enemies is [1,2] and [1,4].
+- The sum is (2-1) + (4-1) = 4.
+- Note that [1,1] and [2,4] would result in a smaller sum, but in the first round there are 2 enemies with the same damage per second which is not allowed.
+
+##### Example 2:
+```
+Input: [6,3,8,1,3,1,2,2], k = 4
+Output: 6
+```
+#### Explanation: 
+- The optimal distribution of enemies is [1,2], [2,3], [6,8], and [1,3].
+- The sum  is (2-1) + (3-2) + (8-6) + (3-1) = 6.
+
+##### Example 3:
+```
+Input: [5,3,3,6,3,3], k = 3
+Output: -1
+```
+##### Explanation: 
+- It is impossible to distribute the enemies for 3 rounds where no two enemies have equal damage per second in the same round.
+
+---
+
+### December 25 - Trapping Rain Water
+#### Problem Statement
+Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
+
+#### Sample Input/Output
+##### Example 1:
+![](https://i.imgur.com/stSuRte.jpg)
+```
+Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
+Output: 6
+```
+**Explanation**: The above elevation map (black section) is represented by array `[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]`. In this case, 6 units of rain water (blue section) are being trapped.
+
+##### Example 2:
+```
+Input: height = [4,2,0,3,2,5]
+Output: 9
+```
+
+---
+
+### December 26 - Lal's Jewels
+#### Problem Statement
+- Lal is a jwellery dealer who buys long chains of Diamonds, Rubies, and Emerlads. He cuts them into small chains and sells them for a profit.
+- He gets very nice bonus if, the chain has a palindromic order of stones.
+- The price is determined as follows:
+	- A single diamond `D` costs `$500`
+	- A single ruby `R` costs `$250`
+	- A single emerald `E` costs `$100`
+	- Price is multiplied `n` times, for palindromic chains, where `n` is the length of the chain.
+- Given the whole chain, find the maximum profit lal can make, cutting out a palindromic chain.
+
+<p align="center"><img src="https://i.imgur.com/rMLVif3.gif" height=250/></p>
+  
+### Sample Input/Output
+
+### Example 1
+```
+Chain: "RDEREDRRRD"
+Output: $7250
+```
+##### Explanation: 
+- The longest palindromic chain is "DERED", the prices are added and 5 is multiplied as a bonus.
+
+### Example 2
+```
+Chain: "DERRREDERREDEREDR"
+Output: $24,000
+```
+##### Explanation: 
+- The longest palindromic chain is "REDERREDER", the prices are added and 10 is multiplied as a bonus.
+
+<details>
+    <summary>
+        <strong>Resources (Spoiler)</strong>
+    </summary>
+    <ul>
+        <li><a href="https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/">Manacher’s Algorithm</a></li>
+        <li><a href="https://cp-algorithms.com/string/manacher.html/">Implementation of Manacher's Algorithm</a></li>
+    </ul>
+</details>
 
 ---
 
@@ -834,7 +940,7 @@ Enter the no. of targets: 5
         <tr>
             <th><a href="https://github.com/bearlike">Krishnakanth</a></th>
             <th><a href="https://github.com/mahavisvanathan">Mahalakshumi</a></th>
-            <th><a href="https://github.com/dhirajv2000">Dhiraj V</a></th>
+            <th><a href="https://github.com/dhirajv2000">Dhiraj</a></th>
             <th><a href="https://github.com/aravindr22">Aravind</a></th>
             <th><a href="https://github.com/Tarun200">Tarun</a></th>
             <th><a href="https://github.com/ASHIK11ab">Ashik</a></th>
