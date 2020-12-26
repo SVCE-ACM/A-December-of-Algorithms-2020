@@ -755,7 +755,7 @@ Output: 8
  #### Sample Input And Output
    ```
 Enter the no. of targets: 5
-30 40 10
+30 10 10
 10 20 20
 20 50 30
 40 20 10
