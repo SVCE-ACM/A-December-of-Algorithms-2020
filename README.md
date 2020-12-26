@@ -38,6 +38,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 24 - Minify the damage**](#december-24---minify-the-damage) 
   - [**December 25 - Trapping Rain Water**](#december-25---trapping-rain-water)
   - [**December 26 - Lal's Jewels**](#december-26---lals-jewels)
+  - [**December 27 - Covid in Godric's Hollow**](#december-27---covid-in-godrics-hollow)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -933,6 +934,63 @@ Output: $24,000
 
 ---
 
+### December 27 - Covid in Godric's Hollow
+#### Problem Statement
+- There has been a outbreak of covid 19 at Godric's Hallow. Scienctis need to find out if the outbreak is from a single source or a multiple sources. If it is from multiple sources, then they have to issue lockdown orders for the village.
+- Coordinates for infected and non infected households are provided. If you can from a circle with only the infected houses and no healthy households, we can conclude that the source is singular.
+- If the infected circle contains healthy households, we can conlude that the outbreak is from multiple sources and order a lockdown. 
+- The first line of the input contains `n`, number of households followed by the coordinates `(x,y)` of the houses and its infected status `Y/N`. Display if a lockdown is required or not.
+
+<img src="https://i.imgur.com/sjaOxcw.png" height=250/><img src="https://i.imgur.com/Jfxa1yZ.png" height=250/>
+
+#### Sample Input/Output
+
+#### Example 1
+```
+Input:
+7
+0  0   Y
+1  0   Y
+0  1   Y
+4  4   N
+4  -4   N
+-4  4   N
+-4  -4  N
+
+```
+```
+Output: No lockdown required
+```
+
+#### Example 2
+```
+Input:
+7
+0  0   Y
+1  1   N
+2  0   Y
+0  2   Y
+4  4   N
+4  -4   N
+-4  4   N
+-4  -4  N
+
+```
+```
+Output: Lockdown required
+```
+
+<details>
+    <summary>
+        <strong>Resources (Spoiler)</strong>
+    </summary>
+    <ul>
+        <li><a href="https://www.geeksforgeeks.org/geometric-algorithms/">Geometric Algorithms</a></li>
+        <li><a href="https://www.geeksforgeeks.org/equation-of-circle-when-three-points-on-the-circle-are-given/">Locating radius and center of a circle</a></li>
+    </ul>
+</details>
+
+---
 ## Maintainers
 
 <table>
