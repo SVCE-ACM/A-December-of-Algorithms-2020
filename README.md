@@ -913,7 +913,7 @@ Chain: "RDEREDRRRD"
 Output: $7250
 ```
 ##### Explanation: 
-- The longest palindromic chain is "DERED", the prices are added and 5 is multiplied as a bonus.
+- The longest palindromic chain is "RDEREDR", the prices are added and 7 is multiplied as a bonus.
 
 ### Example 2
 ```
