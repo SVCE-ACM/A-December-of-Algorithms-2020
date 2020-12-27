@@ -39,6 +39,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 25 - Trapping Rain Water**](#december-25---trapping-rain-water)
   - [**December 26 - Lal's Jewels**](#december-26---lals-jewels)
   - [**December 27 - Covid in Godric's Hollow**](#december-27---covid-in-godrics-hollow)
+  - [**December 28 - Who's the Winner?**](#december-28---whos-the-winner)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -991,6 +992,57 @@ Output: Lockdown required
 </details>
 
 ---
+
+### December 28 - Who's the Winner?
+#### Problem Statement
+- Koushik and Mahesh decided to have a race with each other from point A to point B. The map is an n x m matrix which specifies a path as . and an obstacle as x.
+- Since the race was being conducted in an area which was familiar to Koushik, he knew some k number of secret passages, at some coordinates (x,y). 
+- To make the race fair, Mahesh had a headstart of 3 minutes.
+- To move from one point to another it takes 1 minute for both of them. 
+- Point A is the top left point of the map and Point B is the bottom right point of the map.
+
+#### Input and Output Format
+- The first line of the input must consist of n,m and k.
+- The successive n lines must have the map of the area along with the obstacles.
+- The next k lines must have the coordinates of the secret passage (x,y).
+- The output should be the name of the winner.
+
+#### Sample Input/Output
+
+##### Example 1:
+```
+Input: 5 5 2
+       . x . . .
+       . x . x .
+       . . . x .
+       x . . x . 
+       . . . x .
+       3 0
+       4 3
+Output: Koushik
+
+```
+
+##### Explanation: 
+- Using the secret passage, Koushik takes 8 minutes to reach point B. Even if Mahesh has a headstart of 3 minutes, the total time taken by Koushik is 11 minutes.
+- Koushik takes 12 minutes to reach point B without the help of the secret passages.
+
+##### Example 2:
+```
+Input: 4 4 1
+       . . . x
+       x x . . 
+       . x . x
+       x x . .
+       1 1
+
+Output: Mahesh
+```
+#### Explanation: 
+- Even though the secret passage is used,for the shortest path it takes 6 minutes for both of them to reach Point B from Point A. Since, Mahesh has a headstart, he wins the race.
+
+---
+
 ## Maintainers
 
 <table>
