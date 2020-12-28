@@ -40,7 +40,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 26 - Lal's Jewels**](#december-26---lals-jewels)
   - [**December 27 - Covid in Godric's Hollow**](#december-27---covid-in-godrics-hollow)
   - [**December 28 - Who's the Winner?**](#december-28---whos-the-winner)
-  - [**December 29 - Amusement Park**](#december-29--amusement-park)
+  - [**December 29 - Amusement Park**](#december-29---amusement-park)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
