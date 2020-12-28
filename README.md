@@ -40,6 +40,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 26 - Lal's Jewels**](#december-26---lals-jewels)
   - [**December 27 - Covid in Godric's Hollow**](#december-27---covid-in-godrics-hollow)
   - [**December 28 - Who's the Winner?**](#december-28---whos-the-winner)
+  - [**December 29 - Amusement Park**](#december-29---amusement-park)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -1040,6 +1041,40 @@ Output: Mahesh
 ```
 #### Explanation: 
 - Even though the secret passage is used,for the shortest path it takes 6 minutes for both of them to reach Point B from Point A. Since, Mahesh has a headstart, he wins the race.
+
+---
+
+### December 29 - Amusement Park
+
+#### Problem Statement
+- The Christmas holidays have begun! So Chris and Kate have decided to enjoy their time in an amusement park. 
+- The park is represented as a matrix a with `n` lines and m columns and `a[i][j]` represents the time spent in the ride in ith row and jth column.
+- Chris starts with the ride located at line 1 and column 1 and needs to finish with the ride `a[n][m]`. After finishing ride `a[i][j]`, he can go to ride `a[i + 1][j]` or `a[i][j + 1]`. 
+- Similarly, Kate starts with ride `a[n][1]` and she needs to finish with ride `a[1][m]`. After finishing the ride from cell `a[i][j]`, she goes to either `a[i][j + 1]` or
+`a[i - 1][j]`.
+- There is one additional condition - that is they have to meet in exactly one ride of the park. At that cell, none of them will enjoy the ride but have a quick chat and then both of them will move to the next ride.
+- Plan the ride map for Chris and Kate such that they enjoy maximum time in the amusement park. Note, that each ride has different speeds, so the number of rides that they use to reach the final location may differ.
+
+#### Input Format
+- The first line of the input contains two integers n and m (3 ≤ n, m ≤ 1000). Each of the next n lines contains m integers: j-th number from i-th line denotes element a[i][j] (0 ≤ a[i][j] ≤ 10 ).
+
+#### Output Format
+- The output contains a single number — the maximum time spent.
+
+#### Sample Input/Output
+```
+Input:
+3 3
+100 100 100
+100 1 100
+100 100 100
+
+
+Output: 800
+```
+
+#### Explanation
+- Chris will choose exercises a[1][1] → a[1][2] → a[2][2] → a[3][2] → a[3][3]. Kate will choose exercises a[3][1] → a[2][1] → a[2][2] → a[2][3] → a[1][3].
 
 ---
 
