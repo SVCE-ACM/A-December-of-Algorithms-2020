@@ -1048,10 +1048,10 @@ Output: Mahesh
 
 #### Problem Statement
 - The Christmas holidays have begun! So Chris and Kate have decided to enjoy their time in an amusement park. 
-- The park is represented as a matrix a with n lines and m columns and a[i][j] represents the time spent in the ride in ith row and jth column.
-- Chris starts with the ride located at line 1 and column 1 and needs to finish with the ride a[n][m]. After finishing ride a[i][j], he can go to ride a[i + 1][j] or a[i][j + 1]. 
-- Similarly, Kate starts with ride a[n][1] and she needs to finish with ride a[1][m]. After finishing the ride from cell a[i][j], she goes to either a[i][j + 1] or
-a[i - 1][j].
+- The park is represented as a matrix a with `n` lines and m columns and `a[i][j]` represents the time spent in the ride in ith row and jth column.
+- Chris starts with the ride located at line 1 and column 1 and needs to finish with the ride `a[n][m]`. After finishing ride `a[i][j]`, he can go to ride `a[i + 1][j]` or `a[i][j + 1]`. 
+- Similarly, Kate starts with ride `a[n][1]` and she needs to finish with ride `a[1][m]`. After finishing the ride from cell `a[i][j]`, she goes to either `a[i][j + 1]` or
+`a[i - 1][j]`.
 - There is one additional condition - that is they have to meet in exactly one ride of the park. At that cell, none of them will enjoy the ride but have a quick chat and then both of them will move to the next ride.
 - Plan the ride map for Chris and Kate such that they enjoy maximum time in the amusement park. Note, that each ride has different speeds, so the number of rides that they use to reach the final location may differ.
 
