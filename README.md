@@ -1084,7 +1084,7 @@ Output: 800
 
 - There is a fight between Superman vs Zod. Superman is having a hard time in the fight and is about to die. He somehow manages to contact other Supermans for help.
 - However, the Supermans are spread across several galaxies and therefore have different time availabilities.
-- Help Superman to find the maximum number of Supermans in available at the same hour?
+- Help Superman find the maximum number of Supermans available in the same hour!
 
   <p align="center"><img align="center" src="https://media.giphy.com/media/z0mMFvI7U27V6/giphy.gif" height=250/></p>
 
