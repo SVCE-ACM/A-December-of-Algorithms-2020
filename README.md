@@ -1088,13 +1088,13 @@ Output: 800
 
   <p align="center"><img align="center" src="https://media.giphy.com/media/z0mMFvI7U27V6/giphy.gif" height=250/></p>
 
-##### Input
+#### Input
 
 - The first line contains the integer n, the number of galaxies (1 ≤ n ≤ 105).
 - On each of the next n lines, there will be two space-separated integers, a and b (0 ≤ a<b ≤ 24).
 - This means that the Supermans of this galaxy are available from the beginning of the a-th hour to the beginning of the b-th hour.
 
-##### Output
+#### Output
 - Print the maximum number of Supermans available in any timeslot of one hour.
 
 #### Sample I/O
