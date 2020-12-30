@@ -42,7 +42,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 28 - Who's the Winner?**](#december-28---whos-the-winner)
   - [**December 29 - Amusement Park**](#december-29---amusement-park)
   - [**December 30 - Superman vs Zod**](#december-30---superman-vs-zod)
-  - [**December 31 - Captain Vaxx**](#december-30---captain-vaxx)
+  - [**December 31 - Captain Vaxx**](#december-31---captain-vaxx)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
