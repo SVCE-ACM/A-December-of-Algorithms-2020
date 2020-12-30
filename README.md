@@ -41,6 +41,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 27 - Covid in Godric's Hollow**](#december-27---covid-in-godrics-hollow)
   - [**December 28 - Who's the Winner?**](#december-28---whos-the-winner)
   - [**December 29 - Amusement Park**](#december-29---amusement-park)
+  - [**December 30 - Superman vs Zod**](#december-30---superman-vs-zod)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -1075,6 +1076,47 @@ Output: 800
 
 #### Explanation
 - Chris will choose exercises a[1][1] → a[1][2] → a[2][2] → a[3][2] → a[3][3]. Kate will choose exercises a[3][1] → a[2][1] → a[2][2] → a[2][3] → a[1][3].
+
+---
+
+### December 30 - Superman vs Zod
+#### Problem Statement
+
+- There is a fight between Superman vs Zod. Superman is having a hard time in the fight and is about to die. He somehow manages to contact other Supermans for help.
+- However, the Supermans are spread across several galaxies and therefore have different time availabilities.
+- Help Superman find the maximum number of Supermans available in the same hour!
+
+  <p align="center"><img align="center" src="https://media.giphy.com/media/z0mMFvI7U27V6/giphy.gif" height=250/></p>
+
+#### Input
+
+- The first line contains the integer n, the number of galaxies (1 ≤ n ≤ 105).
+- On each of the next n lines, there will be two space-separated integers, a and b (0 ≤ a<b ≤ 24).
+- This means that the Supermans of this galaxy are available from the beginning of the a-th hour to the beginning of the b-th hour.
+
+#### Output
+- Print the maximum number of Supermans available in any timeslot of one hour.
+
+#### Sample I/O
+```bash
+Input:
+ 7
+ 9 16
+ 16 18
+ 5 12
+ 15 24
+ 9 20
+ 20 22
+ 23 24
+```
+```bash
+Output: 3
+```
+
+#### Explanation
+- The timeslots in which 3 Supermans are available are: 9:00 - 12:00, 15:00 - 16:00, and
+16:00 - 18:00.
+- No one-hour timeslot has more than 3 Supermans available. Therefore, the answer is 3
 
 ---
 
