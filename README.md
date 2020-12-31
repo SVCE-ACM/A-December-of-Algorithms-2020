@@ -42,6 +42,7 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 28 - Who's the Winner?**](#december-28---whos-the-winner)
   - [**December 29 - Amusement Park**](#december-29---amusement-park)
   - [**December 30 - Superman vs Zod**](#december-30---superman-vs-zod)
+  - [**December 31 - Captain Vaxx**](#december-31---captain-vaxx)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -1117,6 +1118,38 @@ Output: 3
 - The timeslots in which 3 Supermans are available are: 9:00 - 12:00, 15:00 - 16:00, and
 16:00 - 18:00.
 - No one-hour timeslot has more than 3 Supermans available. Therefore, the answer is 3
+
+---
+
+### December 31 - Captain Vaxx
+  
+ #### Problem Statement
+- Captain Vaxx is bringing a shipment of vaccines to Westeros by plane. The citizens want to get there vaccinations sorted as soon as possible so that they can back to fighting for the throne and try to make ammends for the season 9 disaster.
+- Problem is Captain Vaxx is lost over Westeros and doesn't know where to land. Help him find the airport by giving him directions over radio to the nearest airport he can safely land.
+- Given the coordinates of his postion and the airports nearby with their runway length, give him directions to safely land at the airport. Note, the only instructions you can give are `Straight`, `Left` and `Right`. With each command he moves unit length in the graph
+- The input is given as follows:
+	- The first line consists of the plane's coordinates followed by its required runway length.
+	- The next line contains the contains the coordinates of the airports and its runway length.
+- Output the directions to the airport.
+
+<p align="center"><img src="https://i.imgur.com/iGZSIjI.png" height=250/></p>
+
+ #### Sample Input And Output
+   ```
+    0 0 1000
+    -2 1 500
+    2 2  1500
+   -5 -5 4000
+   -3 5 2100
+   -4 3 1009
+   ```
+
+   ```
+  Straight Straight Right Straight Straight (Or any other valid permutation)
+   ```
+ 
+ #### Explanation
+   - The airport with the coordinates `-2,1` maybe the closest airport, but `2,2` is the closest airport with the required landing length.
 
 ---
 
