@@ -38,6 +38,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 24 - Minify the damage**](#december-24---minify-the-damage) 
   - [**December 25 - Trapping Rain Water**](#december-25---trapping-rain-water)
   - [**December 26 - Lal's Jewels**](#december-26---lals-jewels)
+  - [**December 27 - Covid in Godric's Hollow**](#december-27---covid-in-godrics-hollow)
+  - [**December 28 - Who's the Winner?**](#december-28---whos-the-winner)
+  - [**December 29 - Amusement Park**](#december-29---amusement-park)
+  - [**December 30 - Superman vs Zod**](#december-30---superman-vs-zod)
+  - [**December 31 - Captain Vaxx**](#december-31---captain-vaxx)
   - [**FAQ**](#faq)
   - [**Maintainers**](#maintainers)
 
@@ -755,7 +760,7 @@ Output: 8
  #### Sample Input And Output
    ```
 Enter the no. of targets: 5
-30 40 10
+30 10 10
 10 20 20
 20 50 30
 40 20 10
@@ -911,7 +916,7 @@ Chain: "RDEREDRRRD"
 Output: $7250
 ```
 ##### Explanation: 
-- The longest palindromic chain is "DERED", the prices are added and 5 is multiplied as a bonus.
+- The longest palindromic chain is "RDEREDR", the prices are added and 7 is multiplied as a bonus.
 
 ### Example 2
 ```
@@ -930,6 +935,221 @@ Output: $24,000
         <li><a href="https://cp-algorithms.com/string/manacher.html/">Implementation of Manacher's Algorithm</a></li>
     </ul>
 </details>
+
+---
+
+### December 27 - Covid in Godric's Hollow
+#### Problem Statement
+- There has been a outbreak of covid 19 at Godric's Hallow. Scienctis need to find out if the outbreak is from a single source or a multiple sources. If it is from multiple sources, then they have to issue lockdown orders for the village.
+- Coordinates for infected and non infected households are provided. If you can from a circle with only the infected houses and no healthy households, we can conclude that the source is singular.
+- If the infected circle contains healthy households, we can conlude that the outbreak is from multiple sources and order a lockdown. 
+- The first line of the input contains `n`, number of households followed by the coordinates `(x,y)` of the houses and its infected status `Y/N`. Display if a lockdown is required or not.
+
+<img src="https://i.imgur.com/sjaOxcw.png" height=250/><img src="https://i.imgur.com/Jfxa1yZ.png" height=250/>
+
+#### Sample Input/Output
+
+#### Example 1
+```
+Input:
+7
+0  0   Y
+1  0   Y
+0  1   Y
+4  4   N
+4  -4   N
+-4  4   N
+-4  -4  N
+
+```
+```
+Output: No lockdown required
+```
+
+#### Example 2
+```
+Input:
+7
+0  0   Y
+1  1   N
+2  0   Y
+0  2   Y
+4  4   N
+4  -4   N
+-4  4   N
+-4  -4  N
+
+```
+```
+Output: Lockdown required
+```
+
+<details>
+    <summary>
+        <strong>Resources (Spoiler)</strong>
+    </summary>
+    <ul>
+        <li><a href="https://www.geeksforgeeks.org/geometric-algorithms/">Geometric Algorithms</a></li>
+        <li><a href="https://www.geeksforgeeks.org/equation-of-circle-when-three-points-on-the-circle-are-given/">Locating radius and center of a circle</a></li>
+    </ul>
+</details>
+
+---
+
+### December 28 - Who's the Winner?
+#### Problem Statement
+- Koushik and Mahesh decided to have a race with each other from point A to point B. The map is an n x m matrix which specifies a path as . and an obstacle as x.
+- Since the race was being conducted in an area which was familiar to Koushik, he knew some k number of secret passages, at some coordinates (x,y). 
+- To make the race fair, Mahesh had a headstart of 3 minutes.
+- To move from one point to another it takes 1 minute for both of them. 
+- Point A is the top left point of the map and Point B is the bottom right point of the map.
+
+#### Input and Output Format
+- The first line of the input must consist of n,m and k.
+- The successive n lines must have the map of the area along with the obstacles.
+- The next k lines must have the coordinates of the secret passage (x,y).
+- The output should be the name of the winner.
+
+#### Sample Input/Output
+
+##### Example 1:
+```
+Input: 5 5 2
+       . x . . .
+       . x . x .
+       . . . x .
+       x . . x . 
+       . . . x .
+       3 0
+       4 3
+Output: Koushik
+
+```
+
+##### Explanation: 
+- Using the secret passage, Koushik takes 8 minutes to reach point B. Even if Mahesh has a headstart of 3 minutes, the total time taken by Koushik is 11 minutes.
+- Koushik takes 12 minutes to reach point B without the help of the secret passages.
+
+##### Example 2:
+```
+Input: 4 4 1
+       . . . x
+       x x . . 
+       . x . x
+       x x . .
+       1 1
+
+Output: Mahesh
+```
+#### Explanation: 
+- Even though the secret passage is used,for the shortest path it takes 6 minutes for both of them to reach Point B from Point A. Since, Mahesh has a headstart, he wins the race.
+
+---
+
+### December 29 - Amusement Park
+
+#### Problem Statement
+- The Christmas holidays have begun! So Chris and Kate have decided to enjoy their time in an amusement park. 
+- The park is represented as a matrix a with `n` lines and m columns and `a[i][j]` represents the time spent in the ride in ith row and jth column.
+- Chris starts with the ride located at line 1 and column 1 and needs to finish with the ride `a[n][m]`. After finishing ride `a[i][j]`, he can go to ride `a[i + 1][j]` or `a[i][j + 1]`. 
+- Similarly, Kate starts with ride `a[n][1]` and she needs to finish with ride `a[1][m]`. After finishing the ride from cell `a[i][j]`, she goes to either `a[i][j + 1]` or
+`a[i - 1][j]`.
+- There is one additional condition - that is they have to meet in exactly one ride of the park. At that cell, none of them will enjoy the ride but have a quick chat and then both of them will move to the next ride.
+- Plan the ride map for Chris and Kate such that they enjoy maximum time in the amusement park. Note, that each ride has different speeds, so the number of rides that they use to reach the final location may differ.
+
+#### Input Format
+- The first line of the input contains two integers n and m (3 ≤ n, m ≤ 1000). Each of the next n lines contains m integers: j-th number from i-th line denotes element a[i][j] (0 ≤ a[i][j] ≤ 10 ).
+
+#### Output Format
+- The output contains a single number — the maximum time spent.
+
+#### Sample Input/Output
+```
+Input:
+3 3
+100 100 100
+100 1 100
+100 100 100
+
+
+Output: 800
+```
+
+#### Explanation
+- Chris will choose exercises a[1][1] → a[1][2] → a[2][2] → a[3][2] → a[3][3]. Kate will choose exercises a[3][1] → a[2][1] → a[2][2] → a[2][3] → a[1][3].
+
+---
+
+### December 30 - Superman vs Zod
+#### Problem Statement
+
+- There is a fight between Superman vs Zod. Superman is having a hard time in the fight and is about to die. He somehow manages to contact other Supermans for help.
+- However, the Supermans are spread across several galaxies and therefore have different time availabilities.
+- Help Superman find the maximum number of Supermans available in the same hour!
+
+  <p align="center"><img align="center" src="https://media.giphy.com/media/z0mMFvI7U27V6/giphy.gif" height=250/></p>
+
+#### Input
+
+- The first line contains the integer n, the number of galaxies (1 ≤ n ≤ 105).
+- On each of the next n lines, there will be two space-separated integers, a and b (0 ≤ a<b ≤ 24).
+- This means that the Supermans of this galaxy are available from the beginning of the a-th hour to the beginning of the b-th hour.
+
+#### Output
+- Print the maximum number of Supermans available in any timeslot of one hour.
+
+#### Sample I/O
+```bash
+Input:
+ 7
+ 9 16
+ 16 18
+ 5 12
+ 15 24
+ 9 20
+ 20 22
+ 23 24
+```
+```bash
+Output: 3
+```
+
+#### Explanation
+- The timeslots in which 3 Supermans are available are: 9:00 - 12:00, 15:00 - 16:00, and
+16:00 - 18:00.
+- No one-hour timeslot has more than 3 Supermans available. Therefore, the answer is 3
+
+---
+
+### December 31 - Captain Vaxx
+  
+ #### Problem Statement
+- Captain Vaxx is bringing a shipment of vaccines to Westeros by plane. The citizens want to get there vaccinations sorted as soon as possible so that they can back to fighting for the throne and try to make ammends for the season 9 disaster.
+- Problem is Captain Vaxx is lost over Westeros and doesn't know where to land. Help him find the airport by giving him directions over radio to the nearest airport he can safely land.
+- Given the coordinates of his postion and the airports nearby with their runway length, give him directions to safely land at the airport. Note, the only instructions you can give are `Straight`, `Left` and `Right`. With each command he moves unit length in the graph
+- The input is given as follows:
+	- The first line consists of the plane's coordinates followed by its required runway length.
+	- The next line contains the contains the coordinates of the airports and its runway length.
+- Output the directions to the airport.
+
+<p align="center"><img src="https://i.imgur.com/iGZSIjI.png" height=250/></p>
+
+ #### Sample Input And Output
+   ```
+    0 0 1000
+    -2 1 500
+    2 2  1500
+   -5 -5 4000
+   -3 5 2100
+   -4 3 1009
+   ```
+
+   ```
+  Straight Straight Right Straight Straight (Or any other valid permutation)
+   ```
+ 
+ #### Explanation
+   - The airport with the coordinates `-2,1` maybe the closest airport, but `2,2` is the closest airport with the required landing length.
 
 ---
 
