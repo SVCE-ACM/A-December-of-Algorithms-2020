@@ -1,3 +1,12 @@
+
+## Certificate Of Completion
+
+<h1>
+    <img alt="header" src="/src/assets/RohithMSRCertificate.png" width="800"></img>
+</h1>
+
+## About The Event
+
 <div align="left">
 <h1>
     <img alt="header" src="/src/assets/Header.png" width="800"></img>
